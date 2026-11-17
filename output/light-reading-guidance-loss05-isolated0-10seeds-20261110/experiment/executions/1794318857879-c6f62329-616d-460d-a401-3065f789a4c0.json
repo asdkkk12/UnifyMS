@@ -1,0 +1,21 @@
+{
+	"command":"select",
+	"profile":"formal",
+	"binding":"2ee2c53faaa88452011fff978c84a821f4d247c221b784da3002682096a8ea14",
+	"systems":[
+		{
+			"system":"LightReading",
+			"status":"success",
+			"elapsedMillis":951.964375
+		}
+	],
+	"events":[
+		{
+			"stage":"select",
+			"system":"LightReading",
+			"status":"success",
+			"elapsedMillis":950.811375
+		}
+	],
+	"endToEndMillis":951.973166
+}

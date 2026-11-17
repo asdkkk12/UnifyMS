@@ -1,0 +1,28 @@
+{
+  "samples": 1,
+  "seeds": [
+    101
+  ],
+  "initialChoice": "C3",
+  "controlMode": "off",
+  "means": {
+    "IFN": 2.5,
+    "CHD": 0.7668,
+    "CMQ": 0.091,
+    "Instability": 0.675,
+    "UCM": 0.3997
+  },
+  "sampleStandardDeviations": {
+    "IFN": null,
+    "CHD": null,
+    "CMQ": null,
+    "Instability": null,
+    "UCM": null
+  },
+  "meanHv": 0.8866373493124144,
+  "meanServiceCount": 4,
+  "meanSearchSeconds": 757.588884334,
+  "runFiles": [
+    "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-static-vs-jev-20261106/experiment/CoCoME/online-off/run-jev-101.json"
+  ]
+}

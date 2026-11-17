@@ -1,0 +1,22 @@
+flowchart LR
+  subgraph MS1["MS1"]
+    U0["用例：processSale<br/>openCashDesk<br/>closeCashDesk<br/>orderProducts<br/>receiveOrderedProduct"]
+    E0["实体：Store<br/>CashDesk<br/>Sale<br/>SalesLineItem<br/>Payment<br/>CashPayment<br/>CardPayment<br/>OrderEntry<br/>OrderProduct"]
+  end
+  subgraph MS2["MS2"]
+    U1["用例：showStockReports<br/>changePrice"]
+    E1["实体：ProductCatalog<br/>Item"]
+  end
+  subgraph MS3["MS3"]
+    U2["用例：listSuppliers"]
+    E2["实体：Supplier"]
+  end
+  subgraph MS4["MS4"]
+    U3["用例：openStore<br/>closeStore"]
+    E3["实体：Cashier"]
+  end
+  U0 -->|"ProductCatalog"| E1
+  U0 -->|"Cashier"| E3
+  U0 -->|"Item"| E1
+  U0 -->|"Supplier"| E2
+  U3 -->|"Store"| E0

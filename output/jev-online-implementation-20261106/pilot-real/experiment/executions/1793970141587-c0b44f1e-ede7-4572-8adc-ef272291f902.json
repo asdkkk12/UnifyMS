@@ -1,0 +1,28 @@
+{
+	"command":"run",
+	"profile":"smoke",
+	"binding":"2dee86651abd7e8ea48f2091080a5c5c3a4abb1adf2ff2bf563af682ea907e53",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":62.371458
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":60.082166
+		},
+		{
+			"stage":"reuse",
+			"system":"CoCoME",
+			"config":"C1",
+			"seed":101,
+			"taskKey":"7007ea7364491f86ace9c468b1b1e2a181c85b704959853550249742cc649617"
+		}
+	],
+	"endToEndMillis":62.389708
+}

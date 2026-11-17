@@ -1,0 +1,21 @@
+{
+	"command":"compare-online",
+	"profile":"formal",
+	"binding":"4178c24627d8be4314ef8131afaf09685937070c5696ac146f80a61f00b3e37e",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":2398731.922
+		}
+	],
+	"events":[
+		{
+			"stage":"compare-online",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":2398729.872333
+		}
+	],
+	"endToEndMillis":2398731.937958
+}

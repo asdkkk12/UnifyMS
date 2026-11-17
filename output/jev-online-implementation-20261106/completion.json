@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "javaTests": 37,
+  "pythonTests": 24,
+  "formalSeeds": [
+    101
+  ],
+  "profile": "formal",
+  "evaluationBudget": 1802000,
+  "rows": [
+    {
+      "mode": "off",
+      "metrics": [
+        2.5,
+        0.7668,
+        0.091,
+        0.675,
+        0.3997
+      ],
+      "hv": 0.8866373493124144,
+      "serviceCount": 4,
+      "control": {
+        "auditMillis": 119.86569599999999,
+        "policyVersion": "online-novelty-gain-history-v1",
+        "requestCount": 0,
+        "finalProbability": 0.5,
+        "auditDirectory": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/experiment/CoCoME/online-off/trials/497876a09bf04e12858a480924f876532b78d9a00b3bf9a69f87d56dc1b7e473/audit",
+        "contextHash": "c6f04d5be6e4393667e90a07ba766438f87170e535b897a0064da0bde7831d5c",
+        "auditIndexSha256": "32a9bca0199704c602ecc6fe807eac130c3c62d86df8c6942f066cbb07ff4743",
+        "decisionCount": 9,
+        "knownTokens": 0,
+        "totalTokens": 0,
+        "fallbackCount": 0,
+        "mode": "off",
+        "observedGenerations": 300,
+        "promptVersion": "novelty-gain-history-choice-v1",
+        "monitoringMillis": 660528.039535,
+        "usageComplete": true,
+        "controlMillis": 0.0,
+        "totalResponseMillis": 0.0,
+        "status": "success"
+      },
+      "searchMillis": 749500.914458,
+      "monitoringMillis": 660528.039535,
+      "searchComputeMillis": 88853.009227,
+      "auditDirectory": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/experiment/CoCoME/online-off/trials/497876a09bf04e12858a480924f876532b78d9a00b3bf9a69f87d56dc1b7e473/audit"
+    },
+    {
+      "mode": "rule",
+      "metrics": [
+        3.0,
+        0.7818,
+        0.0818,
+        0.625,
+        0.5326
+      ],
+      "hv": 0.8831779870554616,
+      "serviceCount": 4,
+      "control": {
+        "auditMillis": 240.2985360000001,
+        "policyVersion": "online-novelty-gain-history-v1",
+        "requestCount": 0,
+        "finalProbability": 0.45,
+        "auditDirectory": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/experiment/CoCoME/online-rule/trials/ac63972a458cd4964483c8a1eb980fc8584874c2a8d4fb4a602ed5a86e095106/audit",
+        "contextHash": "c6f04d5be6e4393667e90a07ba766438f87170e535b897a0064da0bde7831d5c",
+        "auditIndexSha256": "bc737c713e2d807f5497bf4721c62f5a06de9ee10dd83ec79dcf44b47629699a",
+        "decisionCount": 9,
+        "knownTokens": 0,
+        "totalTokens": 0,
+        "fallbackCount": 0,
+        "mode": "rule",
+        "observedGenerations": 300,
+        "promptVersion": "novelty-gain-history-choice-v1",
+        "monitoringMillis": 779891.866165,
+        "usageComplete": true,
+        "controlMillis": 0.0,
+        "totalResponseMillis": 0.0,
+        "status": "success"
+      },
+      "searchMillis": 887191.721125,
+      "monitoringMillis": 779891.866165,
+      "searchComputeMillis": 107059.55642400002,
+      "auditDirectory": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/experiment/CoCoME/online-rule/trials/ac63972a458cd4964483c8a1eb980fc8584874c2a8d4fb4a602ed5a86e095106/audit"
+    },
+    {
+      "mode": "jev",
+      "metrics": [
+        3.0,
+        0.7818,
+        0.0818,
+        0.625,
+        0.5326
+      ],
+      "hv": 0.8831779870554616,
+      "serviceCount": 4,
+      "control": {
+        "auditMillis": 134.001506,
+        "policyVersion": "online-novelty-gain-history-v1",
+        "requestCount": 9,
+        "finalProbability": 0.45,
+        "auditDirectory": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/experiment/CoCoME/online-jev/trials/5bea87221dd3777be453ac2cba29ac2b3a78a8d343d443bc516f8cb3d4897469/audit",
+        "contextHash": "c6f04d5be6e4393667e90a07ba766438f87170e535b897a0064da0bde7831d5c",
+        "auditIndexSha256": "346c0e5051f55b83c43c1cb842c40f8613cbfcc81954350f91d3bcf605bfb293",
+        "decisionCount": 9,
+        "knownTokens": 0,
+        "totalTokens": null,
+        "fallbackCount": 0,
+        "mode": "jev",
+        "observedGenerations": 300,
+        "promptVersion": "novelty-gain-history-choice-v1",
+        "monitoringMillis": 656190.8170840001,
+        "usageComplete": false,
+        "controlMillis": 7978.262290000001,
+        "totalResponseMillis": 7976.126582999999,
+        "status": "success"
+      },
+      "searchMillis": 754622.642541,
+      "monitoringMillis": 656190.8170840001,
+      "searchComputeMillis": 90319.56166099994,
+      "auditDirectory": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/experiment/CoCoME/online-jev/trials/5bea87221dd3777be453ac2cba29ac2b3a78a8d343d443bc516f8cb3d4897469/audit"
+    }
+  ],
+  "staticFullPopulationMatchesHistorical": true,
+  "realPilotReplayMatches": true,
+  "allCaseTenSeedStudyExecuted": false,
+  "formalJevPopulationMatchesRule": true,
+  "implementationValidationRecordedApiRequests": 20
+}

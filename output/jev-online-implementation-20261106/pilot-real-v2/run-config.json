@@ -1,0 +1,80 @@
+{
+  "profile": "smoke",
+  "outputDirectory": "/Users/yuanyaowu/Desktop/\u5b9e\u9a8c\u5ba4\u6750\u6599/UnifyMs/UnifyMS\u4ee3\u7801/output/jev-online-implementation-20261106/pilot-real-v2/experiment",
+  "metricVersion": "legacy-ifn-average-v1",
+  "selector": "jev",
+  "calibrationSeeds": [
+    11
+  ],
+  "validationSeeds": [
+    101
+  ],
+  "evaluationBudget": 5880,
+  "systems": [
+    {
+      "id": "CoCoME",
+      "input": "/Users/yuanyaowu/Desktop/\u5b9e\u9a8c\u5ba4\u6750\u6599/UnifyMs/UnifyMS\u4ee3\u7801/cocome.remodel"
+    }
+  ],
+  "jev": {
+    "endpoint": "https://api.jevgo.cn/v1/systemone",
+    "model": "jev-1.14.0",
+    "timeoutMillis": 60000
+  },
+  "onlineControl": {
+    "mode": "jev",
+    "monitor": false,
+    "intervalGenerations": 30,
+    "historyWindows": 3,
+    "step": 0.05,
+    "minProbability": 0.1,
+    "maxProbability": 0.9,
+    "noveltyThreshold": 0.2,
+    "gainThreshold": 0.0001,
+    "requestTimeoutMillis": 5000
+  },
+  "candidates": [
+    {
+      "id": "C0",
+      "populationSize": 30,
+      "generations": 65,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C1",
+      "populationSize": 15,
+      "generations": 130,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C2",
+      "populationSize": 10,
+      "generations": 196,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C3",
+      "populationSize": 30,
+      "generations": 65,
+      "crossoverProbability": 0.5,
+      "crossP": 0.25
+    },
+    {
+      "id": "C4",
+      "populationSize": 30,
+      "generations": 65,
+      "crossoverProbability": 0.9,
+      "crossP": 0.75
+    },
+    {
+      "id": "C5",
+      "populationSize": 15,
+      "generations": 130,
+      "crossoverProbability": 0.9,
+      "crossP": 0.25
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+	"status":"success",
+	"selector":"mock",
+	"mock":true,
+	"choice":"C0",
+	"totalTokens":0,
+	"totalResponseMillis":0,
+	"evidenceHash":"936000ff1cc778c9341460041098c6c25ad1a86df5dab8207ebda1e615243064",
+	"binding":"363278efd99af1b2c23de3957041772969648ef03c0cf577d349f1095ac68257",
+	"inputHash":"2f46f25515e81daff152fa32ce0f572c6f27f726243e970040236e3d20034b79",
+	"config":{
+		"crossP":0.5,
+		"crossoverProbability":0.7,
+		"evaluationBudget":0,
+		"generations":3,
+		"id":"C0",
+		"populationSize":24,
+		"seed":11
+	},
+	"evaluationBudget":240
+}

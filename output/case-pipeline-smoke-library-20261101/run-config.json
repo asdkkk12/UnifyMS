@@ -1,0 +1,68 @@
+{
+  "profile": "smoke",
+  "selector": "mock",
+  "metricVersion": "legacy-ifn-average-v1",
+  "outputDirectory": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/case-pipeline-smoke-library-20261101/experiment",
+  "calibrationSeeds": [
+    11
+  ],
+  "validationSeeds": [
+    101
+  ],
+  "evaluationBudget": 0,
+  "systems": [
+    {
+      "id": "Library",
+      "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/library.remodel"
+    }
+  ],
+  "jev": {
+    "endpoint": "https://api.jevgo.cn/v1/systemone",
+    "model": "jev-1.14.0",
+    "timeoutMillis": 60000
+  },
+  "candidates": [
+    {
+      "id": "C0",
+      "populationSize": 24,
+      "generations": 3,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C1",
+      "populationSize": 12,
+      "generations": 6,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C2",
+      "populationSize": 6,
+      "generations": 12,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C3",
+      "populationSize": 24,
+      "generations": 3,
+      "crossoverProbability": 0.5,
+      "crossP": 0.25
+    },
+    {
+      "id": "C4",
+      "populationSize": 24,
+      "generations": 3,
+      "crossoverProbability": 0.9,
+      "crossP": 0.75
+    },
+    {
+      "id": "C5",
+      "populationSize": 12,
+      "generations": 6,
+      "crossoverProbability": 0.9,
+      "crossP": 0.25
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+usage: run-case.py [-h] --input INPUT [--case CASE] --output OUTPUT
+                   [--selector {jev,numeric,mock}] [--profile {formal,smoke}]
+                   [--calibration-seeds CALIBRATION_SEEDS]
+                   [--test-seeds TEST_SEEDS] [--compare]
+                   [--control {off,rule,jev,replay}]
+                   [--control-config CONTROL_CONFIG]
+                   [--reuse-run-config REUSE_RUN_CONFIG] [--monitor-control]
+                   [--replay-file REPLAY_FILE] [--compare-online]
+                   [--endpoint ENDPOINT] [--model MODEL]
+                   [--experiment EXPERIMENT] [--snapshot SNAPSHOT]
+                   [--skip-build] [--online-build]
+                   {run,report}
+run-case.py: error: --control replay requires --replay-file or replayFile in config

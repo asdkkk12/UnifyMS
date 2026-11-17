@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "compatible-prompt-change-accepted-before-overlap-check",
+    "unrecorded-code-change-rejected",
+    "wrong-new-file-hash-rejected",
+    "reconstructed-old-tree-mismatch-rejected"
+  ],
+  "apiRequests": 0
+}

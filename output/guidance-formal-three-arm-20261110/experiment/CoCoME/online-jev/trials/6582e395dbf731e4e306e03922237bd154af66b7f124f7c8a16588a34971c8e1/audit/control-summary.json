@@ -1,0 +1,20 @@
+{
+	"mode":"jev",
+	"status":"success",
+	"policyVersion":"online-novelty-gain-history-v1",
+	"promptVersion":"novelty-gain-history-choice-v2",
+	"contextHash":"bdf3250b6e2a7fa72c3f9c68517b2a07fdbefba0f8c9fd99c462c7bd97d6611e",
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-formal-three-arm-20261110/experiment/CoCoME/online-jev/trials/6582e395dbf731e4e306e03922237bd154af66b7f124f7c8a16588a34971c8e1/audit",
+	"observedGenerations":200,
+	"decisionCount":19,
+	"requestCount":19,
+	"fallbackCount":0,
+	"finalProbability":0.7499999999999999,
+	"knownTokens":0,
+	"usageComplete":false,
+	"totalTokens":null,
+	"totalResponseMillis":6051.729501,
+	"monitoringMillis":4160.728533,
+	"controlMillis":6053.367917,
+	"auditMillis":74.67424499999997
+}

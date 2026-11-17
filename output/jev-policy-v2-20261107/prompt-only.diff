@@ -1,0 +1,26 @@
+--- OnlineJevClient-v1.java
++++ OnlineJevClient-v2.java
+@@ -10,14 +10,20 @@
+ 
+ /** One bounded Choice request. No retry and no credentials in the audit record. */
+ public class OnlineJevClient implements OnlineControlSession.DecisionClient {
+-    public static final String PROMPT_VERSION="novelty-gain-history-choice-v1";
++    public static final String PROMPT_VERSION="novelty-gain-history-choice-v2";
+     public static final String INSTRUCTIONS=
+         "Choose INCREASE, KEEP or DECREASE for the next search window. " +
+         "Novelty is the fraction of unique offspring partitions absent from the current parent population. " +
+         "Gain = HV(ND(P union Q)) - HV(ND(P)), before truncation, using frozen normalization. " +
+         "Gain is nonnegative marginal coverage, not a degradation rate or the final retained population HV increase. " +
+-        "Reference heuristic: low novelty and low Gain suggests INCREASE; high novelty and low Gain suggests DECREASE; " +
+-        "positive Gain suggests KEEP. This is guidance, NOT a mandatory mapping. " +
++        "Use state.gainThreshold as the meaningful per-generation window-mean Gain threshold: " +
++        "meanGain <= gainThreshold is low return, even when strictly positive. " +
++        "A positive Gain alone is not sufficient reason to KEEP. A meanGain above the threshold " +
++        "is evidence of meaningful coverage, not proof that the current probability is optimal. " +
++        "Use state.noveltyThreshold to assess novelty. Reference heuristic: low novelty and low return " +
++        "suggests INCREASE; high novelty and low return suggests DECREASE; sustained meaningful return " +
++        "can support KEEP. These are guidance, NOT mandatory mappings; do not change probability merely " +
++        "to avoid KEEP, and do not assume increasing or decreasing probability will improve final HV. " +
+         "Consider the recent windows, previous actions and subsequent observations; distinguish sustained trends " +
+         "from one-window fluctuations. Changes after an action do not establish causality. " +
+         "Only trigger probability changes; internal crossP stays fixed. Do not invent measurements or future outcomes. " +

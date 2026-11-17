@@ -1,0 +1,21 @@
+{
+	"command":"select",
+	"profile":"formal",
+	"binding":"ad3726dd82ab1e943b9a41224e55810c21656f8c9f7f4ba1de2691f047f3ea50",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":893.268375
+		}
+	],
+	"events":[
+		{
+			"stage":"select",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":891.362542
+		}
+	],
+	"endToEndMillis":893.279375
+}

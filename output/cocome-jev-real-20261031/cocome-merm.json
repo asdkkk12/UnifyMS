@@ -1,0 +1,540 @@
+{
+  "kind": "MERM-derived-view",
+  "provenance": "真实 JEV 选择 C5",
+  "seed": 101,
+  "inputHash": "b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+  "metricVersion": "legacy-ifn-average-v1",
+  "services": [
+    {
+      "providedEntityInterfaces": [
+        "Store"
+      ],
+      "useCases": [
+        "processSale",
+        "openCashDesk",
+        "closeCashDesk",
+        "orderProducts",
+        "receiveOrderedProduct"
+      ],
+      "entities": [
+        "Store",
+        "CashDesk",
+        "Sale",
+        "SalesLineItem",
+        "Payment",
+        "CashPayment",
+        "CardPayment",
+        "OrderEntry",
+        "OrderProduct"
+      ],
+      "id": 0,
+      "requiredEntityInterfaces": [
+        "ProductCatalog",
+        "Cashier",
+        "Item",
+        "Supplier"
+      ],
+      "systemOperations": [
+        "chooseSupplier",
+        "closeCashDesk",
+        "endSale",
+        "enterItem",
+        "listAllOutOfStoreProducts",
+        "makeCardPayment",
+        "makeCashPayment",
+        "makeNewOrder",
+        "makeNewSale",
+        "openCashDesk",
+        "orderItem",
+        "placeOrder",
+        "receiveOrderedProduct"
+      ]
+    },
+    {
+      "providedEntityInterfaces": [
+        "ProductCatalog",
+        "Item"
+      ],
+      "useCases": [
+        "showStockReports",
+        "changePrice"
+      ],
+      "entities": [
+        "ProductCatalog",
+        "Item"
+      ],
+      "id": 1,
+      "requiredEntityInterfaces": [],
+      "systemOperations": [
+        "changePrice",
+        "showStockReports"
+      ]
+    },
+    {
+      "providedEntityInterfaces": [
+        "Supplier"
+      ],
+      "useCases": [
+        "listSuppliers"
+      ],
+      "entities": [
+        "Supplier"
+      ],
+      "id": 2,
+      "requiredEntityInterfaces": [],
+      "systemOperations": [
+        "listSuppliers"
+      ]
+    },
+    {
+      "providedEntityInterfaces": [
+        "Cashier"
+      ],
+      "useCases": [
+        "openStore",
+        "closeStore"
+      ],
+      "entities": [
+        "Cashier"
+      ],
+      "id": 3,
+      "requiredEntityInterfaces": [
+        "Store"
+      ],
+      "systemOperations": [
+        "closeStore",
+        "openStore"
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "consumer": 0,
+      "provider": 1,
+      "entity": "ProductCatalog"
+    },
+    {
+      "consumer": 0,
+      "provider": 3,
+      "entity": "Cashier"
+    },
+    {
+      "consumer": 0,
+      "provider": 1,
+      "entity": "Item"
+    },
+    {
+      "consumer": 0,
+      "provider": 2,
+      "entity": "Supplier"
+    },
+    {
+      "consumer": 3,
+      "provider": 0,
+      "entity": "Store"
+    }
+  ],
+  "actors": {
+    "Administrator": [],
+    "Cashier": [
+      "closeCashDesk",
+      "processSale",
+      "openCashDesk"
+    ],
+    "StoreManager": [
+      "listSuppliers",
+      "openStore",
+      "changePrice",
+      "orderProducts",
+      "receiveOrderedProduct",
+      "showStockReports",
+      "closeStore"
+    ]
+  },
+  "useCaseOperations": {
+    "closeCashDesk": [
+      "closeCashDesk"
+    ],
+    "listSuppliers": [
+      "listSuppliers"
+    ],
+    "openStore": [
+      "openStore"
+    ],
+    "processSale": [
+      "endSale",
+      "makeNewSale",
+      "makeCardPayment",
+      "enterItem",
+      "makeCashPayment"
+    ],
+    "changePrice": [
+      "changePrice"
+    ],
+    "orderProducts": [
+      "chooseSupplier",
+      "makeNewOrder",
+      "placeOrder",
+      "orderItem",
+      "listAllOutOfStoreProducts"
+    ],
+    "openCashDesk": [
+      "openCashDesk"
+    ],
+    "receiveOrderedProduct": [
+      "receiveOrderedProduct"
+    ],
+    "showStockReports": [
+      "showStockReports"
+    ],
+    "closeStore": [
+      "closeStore"
+    ]
+  },
+  "operationEntities": {
+    "closeCashDesk": [
+      "CashDesk"
+    ],
+    "modifyItem": [
+      "Item"
+    ],
+    "placeOrder": [
+      "OrderEntry"
+    ],
+    "queryCashDesk": [
+      "CashDesk"
+    ],
+    "queryCashier": [
+      "Cashier"
+    ],
+    "deleteCashier": [
+      "Cashier"
+    ],
+    "modifyCashDesk": [
+      "CashDesk"
+    ],
+    "makeCardPayment": [
+      "CardPayment"
+    ],
+    "modifyStore": [
+      "Store"
+    ],
+    "makeCashPayment": [
+      "CashPayment"
+    ],
+    "deleteStore": [
+      "Store"
+    ],
+    "makeNewOrder": [
+      "OrderProduct"
+    ],
+    "listSuppliers": [
+      "Supplier"
+    ],
+    "createCashier": [
+      "Cashier"
+    ],
+    "enterItem": [
+      "Item",
+      "SalesLineItem"
+    ],
+    "chooseSupplier": [
+      "Supplier"
+    ],
+    "makeNewSale": [
+      "Sale"
+    ],
+    "deleteProductCatalog": [
+      "ProductCatalog"
+    ],
+    "modifySupplier": [
+      "Supplier"
+    ],
+    "orderItem": [
+      "Item",
+      "OrderEntry"
+    ],
+    "queryStore": [
+      "Store"
+    ],
+    "deleteSupplier": [
+      "Supplier"
+    ],
+    "thirdPartyCardPaymentService": [],
+    "modifyCashier": [
+      "Cashier"
+    ],
+    "createCashDesk": [
+      "CashDesk"
+    ],
+    "openCashDesk": [
+      "CashDesk"
+    ],
+    "createStore": [
+      "Store"
+    ],
+    "queryProductCatalog": [
+      "ProductCatalog"
+    ],
+    "endSale": [
+      "SalesLineItem"
+    ],
+    "createProductCatalog": [
+      "ProductCatalog"
+    ],
+    "querySupplier": [
+      "Supplier"
+    ],
+    "createSupplier": [
+      "Supplier"
+    ],
+    "queryItem": [
+      "Item"
+    ],
+    "openStore": [
+      "Store"
+    ],
+    "modifyProductCatalog": [
+      "ProductCatalog"
+    ],
+    "deleteItem": [
+      "Item"
+    ],
+    "listAllOutOfStoreProducts": [
+      "Item"
+    ],
+    "changePrice": [
+      "Item"
+    ],
+    "createItem": [
+      "Item"
+    ],
+    "deleteCashDesk": [
+      "CashDesk"
+    ],
+    "receiveOrderedProduct": [
+      "Item",
+      "OrderEntry",
+      "OrderProduct"
+    ],
+    "closeStore": [
+      "Store"
+    ],
+    "showStockReports": [
+      "Item"
+    ]
+  },
+  "entityNames": {
+    "0": "Store",
+    "1": "ProductCatalog",
+    "10": "OrderEntry",
+    "11": "Supplier",
+    "12": "OrderProduct",
+    "2": "CashDesk",
+    "3": "Sale",
+    "4": "Cashier",
+    "5": "SalesLineItem",
+    "6": "Item",
+    "7": "Payment",
+    "8": "CashPayment",
+    "9": "CardPayment"
+  },
+  "entityRelationMatrix": [
+    [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "note": "Derived from the selected chromosome and current parser. JSON/SVG/HTML are visualization artifacts, not an EMF .req serialization."
+}

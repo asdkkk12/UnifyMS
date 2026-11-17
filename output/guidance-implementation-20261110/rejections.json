@@ -1,0 +1,16 @@
+{
+  "numeric": {
+    "Service count changed/empty service": 28,
+    "Duplicate/base partition": 18,
+    "TARGET_NOT_STRICTLY_IMPROVED_AT_STORED_PRECISION": 48,
+    "Invalid service assignment": 45,
+    "OTHER_METRIC_TOLERANCE_IFN": 5
+  },
+  "jev": {
+    "Invalid service assignment": 49,
+    "Duplicate/base partition": 23,
+    "OTHER_METRIC_TOLERANCE_IFN": 12,
+    "TARGET_NOT_STRICTLY_IMPROVED_AT_STORED_PRECISION": 40,
+    "Service count changed/empty service": 20
+  }
+}

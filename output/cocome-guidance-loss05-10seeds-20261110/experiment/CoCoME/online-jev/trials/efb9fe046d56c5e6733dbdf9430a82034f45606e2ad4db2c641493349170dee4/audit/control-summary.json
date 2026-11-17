@@ -1,0 +1,20 @@
+{
+	"mode":"jev",
+	"status":"success",
+	"policyVersion":"online-novelty-gain-history-v1",
+	"promptVersion":"novelty-gain-history-choice-v2",
+	"contextHash":"a56795a9903a56473121bc562fc0519cc45f97df28b55afaacfbf166d47c95dc",
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-guidance-loss05-10seeds-20261110/experiment/CoCoME/online-jev/trials/efb9fe046d56c5e6733dbdf9430a82034f45606e2ad4db2c641493349170dee4/audit",
+	"observedGenerations":200,
+	"decisionCount":19,
+	"requestCount":19,
+	"fallbackCount":0,
+	"finalProbability":0.9,
+	"knownTokens":0,
+	"usageComplete":false,
+	"totalTokens":null,
+	"totalResponseMillis":8823.33146,
+	"monitoringMillis":4793.8668309999985,
+	"controlMillis":8826.785456999998,
+	"auditMillis":61.40015999999999
+}

@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"formal",
+	"binding":"36674e91086d6e10de8742497664cfed572ab932f62a58b8e97ffce7a72722cb",
+	"systems":[
+		{
+			"system":"ATM",
+			"status":"success",
+			"elapsedMillis":163083.925083
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"ATM",
+			"status":"success",
+			"elapsedMillis":163082.408208
+		}
+	],
+	"endToEndMillis":163083.935167
+}

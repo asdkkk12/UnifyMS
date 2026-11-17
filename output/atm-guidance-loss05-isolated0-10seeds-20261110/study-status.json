@@ -1,0 +1,273 @@
+{
+  "status": "success",
+  "started": "2026-11-10T17:11:49.089651+08:00",
+  "seeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149
+  ],
+  "arms": [
+    "jev"
+  ],
+  "lossTolerance": 0.5,
+  "workers": 4,
+  "stages": [
+    {
+      "name": "build",
+      "status": "success",
+      "seconds": 1.386052750000001,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/build.log"
+    },
+    {
+      "name": "snapshot",
+      "status": "success",
+      "seconds": 0.3161582079999974,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/snapshot.log"
+    },
+    {
+      "name": "calibrate",
+      "status": "success",
+      "seconds": 4.974538750000001,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/calibrate.log"
+    },
+    {
+      "name": "select",
+      "status": "success",
+      "seconds": 1.19549125,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/select.log"
+    },
+    {
+      "name": "run-101-jev",
+      "status": "success",
+      "seconds": 156.07697066600002,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-101-jev.log"
+    },
+    {
+      "name": "run-107-jev",
+      "status": "success",
+      "seconds": 160.042233708,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-107-jev.log"
+    },
+    {
+      "name": "run-109-jev",
+      "status": "success",
+      "seconds": 161.08066787500002,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-109-jev.log"
+    },
+    {
+      "name": "run-103-jev",
+      "status": "success",
+      "seconds": 163.402632708,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-103-jev.log"
+    },
+    {
+      "name": "run-113-jev",
+      "status": "success",
+      "seconds": 162.28689525,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-113-jev.log"
+    },
+    {
+      "name": "run-127-jev",
+      "status": "success",
+      "seconds": 161.165682375,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-127-jev.log"
+    },
+    {
+      "name": "run-137-jev",
+      "status": "success",
+      "seconds": 170.902237208,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-137-jev.log"
+    },
+    {
+      "name": "run-131-jev",
+      "status": "success",
+      "seconds": 181.925350375,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-131-jev.log"
+    },
+    {
+      "name": "run-139-jev",
+      "status": "success",
+      "seconds": 157.26745499999998,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-139-jev.log"
+    },
+    {
+      "name": "run-149-jev",
+      "status": "success",
+      "seconds": 191.20216879199995,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/run-149-jev.log"
+    },
+    {
+      "name": "report",
+      "status": "success",
+      "seconds": 0.1290761669999938,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/report.log"
+    },
+    {
+      "name": "ten-run-summary",
+      "status": "success",
+      "seconds": 0.15796404100001382,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/logs/ten-run-summary.log"
+    }
+  ],
+  "runs": [
+    {
+      "seed": 101,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-101.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60211,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 107,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-107.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60212,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 109,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-109.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60211,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 103,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-103.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60213,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 113,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-113.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60209,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 127,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-127.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60212,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 137,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-137.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60209,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 131,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-131.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60210,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 139,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-139.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60210,
+      "completedGenerations": 100
+    },
+    {
+      "seed": 149,
+      "arm": "jev",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/run-jev-149.json",
+      "hv": 0.24125731312371923,
+      "metrics": [
+        0.6667,
+        0.553,
+        0.0,
+        0.3333,
+        0.5111
+      ],
+      "evaluations": 60211,
+      "completedGenerations": 100
+    }
+  ],
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/report/analysis.md",
+  "finished": "2026-11-10T17:20:29.667537+08:00"
+}

@@ -1,0 +1,1860 @@
+{
+  "source": "/Users/yuanyaowu/Desktop/输出/汇总Case.md.md",
+  "sourceSha256": "71bdafca419dc75839883e0dc10e09e7d6eb3e5a360715563df6629968372f7a",
+  "date": "2026-11-13",
+  "normalization": "Per-case per-metric Min-Max over four current Markdown rows; IFN minimized, other four follow UnifyMS maximization direction; display score difference in percentage points, not relative percent.",
+  "comparability": "Descriptive numerical differences only. Metric formulas differ; Instability baseline direction differs. No unified-evaluator performance claim.",
+  "caseCount": 8,
+  "baselineComparisons": 24,
+  "metricCells": 120,
+  "records": [
+    {
+      "caseNumber": "01",
+      "caseTitle": "ATM — 20261110 新版 LLM 生成＋JEV 优选十次重跑（ATN）",
+      "baseline": "MicroMiner Remodel 适配版",
+      "unifymsValues": {
+        "IFN": "0.666700",
+        "CHD": "0.553000",
+        "Instability": "0.533330",
+        "UCM": "0.511100",
+        "CMQ": "0.000000"
+      },
+      "baselineValues": {
+        "IFN": "3.200000",
+        "CHD": "0.611111",
+        "Instability": "0.418182",
+        "UCM": "0.050000",
+        "CMQ": "-0.319801"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "0.666700",
+          "max": "4.000000"
+        },
+        "CHD": {
+          "min": "0.316897",
+          "max": "0.611111"
+        },
+        "Instability": {
+          "min": "0.418182",
+          "max": "0.533330"
+        },
+        "UCM": {
+          "min": "-0.016667",
+          "max": "0.511100"
+        },
+        "CMQ": {
+          "min": "-0.319801",
+          "max": "0.319801"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.2400024000240002400024000240"
+        },
+        "CHD": {
+          "unifyms": "0.8024873051588299673027116317",
+          "baseline": "1"
+        },
+        "Instability": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0.1263190006195916000810963929"
+        },
+        "CMQ": {
+          "unifyms": "0.5",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.7599975999759997599975999760",
+        "CHD": "-0.1975126948411700326972883683",
+        "Instability": "1",
+        "UCM": "0.8736809993804083999189036071",
+        "CMQ": "0.5"
+      },
+      "display": {
+        "IFN": "+76.00 pp",
+        "CHD": "-19.75 pp",
+        "Instability": "+100.00 pp",
+        "UCM": "+87.37 pp",
+        "CMQ": "+50.00 pp"
+      }
+    },
+    {
+      "caseNumber": "01",
+      "caseTitle": "ATM — 20261110 新版 LLM 生成＋JEV 优选十次重跑（ATN）",
+      "baseline": "MonoEmbed 百炼 API 变体",
+      "unifymsValues": {
+        "IFN": "0.666700",
+        "CHD": "0.553000",
+        "Instability": "0.533330",
+        "UCM": "0.511100",
+        "CMQ": "0.000000"
+      },
+      "baselineValues": {
+        "IFN": "4.000000",
+        "CHD": "0.547325",
+        "Instability": "0.491288",
+        "UCM": "0.111364",
+        "CMQ": "0.319801"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "0.666700",
+          "max": "4.000000"
+        },
+        "CHD": {
+          "min": "0.316897",
+          "max": "0.611111"
+        },
+        "Instability": {
+          "min": "0.418182",
+          "max": "0.533330"
+        },
+        "UCM": {
+          "min": "-0.016667",
+          "max": "0.511100"
+        },
+        "CMQ": {
+          "min": "-0.319801",
+          "max": "0.319801"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "0.8024873051588299673027116317",
+          "baseline": "0.7831986241307347712889257479"
+        },
+        "Instability": {
+          "unifyms": "1",
+          "baseline": "0.6348872755063049293083683607"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0.2425900065748711078942033132"
+        },
+        "CMQ": {
+          "unifyms": "0.5",
+          "baseline": "1"
+        }
+      },
+      "deltaScore": {
+        "IFN": "1",
+        "CHD": "0.01928868102809519601378588374",
+        "Instability": "0.3651127244936950706916316393",
+        "UCM": "0.7574099934251288921057966868",
+        "CMQ": "-0.5"
+      },
+      "display": {
+        "IFN": "+100.00 pp",
+        "CHD": "+1.93 pp",
+        "Instability": "+36.51 pp",
+        "UCM": "+75.74 pp",
+        "CMQ": "-50.00 pp"
+      }
+    },
+    {
+      "caseNumber": "01",
+      "caseTitle": "ATM — 20261110 新版 LLM 生成＋JEV 优选十次重跑（ATN）",
+      "baseline": "Service Cutter Engine + 结果适配",
+      "unifymsValues": {
+        "IFN": "0.666700",
+        "CHD": "0.553000",
+        "Instability": "0.533330",
+        "UCM": "0.511100",
+        "CMQ": "0.000000"
+      },
+      "baselineValues": {
+        "IFN": "0.941176",
+        "CHD": "0.316897",
+        "Instability": "0.459259",
+        "UCM": "-0.016667",
+        "CMQ": "-0.319801"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "0.666700",
+          "max": "4.000000"
+        },
+        "CHD": {
+          "min": "0.316897",
+          "max": "0.611111"
+        },
+        "Instability": {
+          "min": "0.418182",
+          "max": "0.533330"
+        },
+        "UCM": {
+          "min": "-0.016667",
+          "max": "0.511100"
+        },
+        "CMQ": {
+          "min": "-0.319801",
+          "max": "0.319801"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.9176563765637656376563765638"
+        },
+        "CHD": {
+          "unifyms": "0.8024873051588299673027116317",
+          "baseline": "0"
+        },
+        "Instability": {
+          "unifyms": "1",
+          "baseline": "0.3567322055094313405356584569"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "0.5",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.08234362343623436234362343623",
+        "CHD": "0.8024873051588299673027116317",
+        "Instability": "0.6432677944905686594643415431",
+        "UCM": "1",
+        "CMQ": "0.5"
+      },
+      "display": {
+        "IFN": "+8.23 pp",
+        "CHD": "+80.25 pp",
+        "Instability": "+64.33 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+50.00 pp"
+      }
+    },
+    {
+      "caseNumber": "03",
+      "caseTitle": "COCOME — 20261110 LLM 生成＋JEV 优选十次实验",
+      "baseline": "MicroMiner Remodel 适配版",
+      "unifymsValues": {
+        "IFN": "4.093570",
+        "CHD": "0.712100",
+        "Instability": "0.416830",
+        "UCM": "0.352410",
+        "CMQ": "0.280980"
+      },
+      "baselineValues": {
+        "IFN": "3.909091",
+        "CHD": "0.675958",
+        "Instability": "0.563198",
+        "UCM": "-0.015707",
+        "CMQ": "0.015200"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.909091",
+          "max": "8.600000"
+        },
+        "CHD": {
+          "min": "0.120335",
+          "max": "0.712100"
+        },
+        "Instability": {
+          "min": "0.416830",
+          "max": "0.616071"
+        },
+        "UCM": {
+          "min": "-0.015707",
+          "max": "0.352410"
+        },
+        "CMQ": {
+          "min": "0.015200",
+          "max": "0.280980"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0.9606730806331992370775045945",
+          "baseline": "1"
+        },
+        "CHD": {
+          "unifyms": "1",
+          "baseline": "0.9389250800571172678343599233"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.7346279129295677094573907981"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "-0.03932691936680076292249540547",
+        "CHD": "0.06107491994288273216564007672",
+        "Instability": "-0.7346279129295677094573907981",
+        "UCM": "1",
+        "CMQ": "1"
+      },
+      "display": {
+        "IFN": "-3.93 pp",
+        "CHD": "+6.11 pp",
+        "Instability": "-73.46 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+100.00 pp"
+      }
+    },
+    {
+      "caseNumber": "03",
+      "caseTitle": "COCOME — 20261110 LLM 生成＋JEV 优选十次实验",
+      "baseline": "MonoEmbed 百炼 API 变体",
+      "unifymsValues": {
+        "IFN": "4.093570",
+        "CHD": "0.712100",
+        "Instability": "0.416830",
+        "UCM": "0.352410",
+        "CMQ": "0.280980"
+      },
+      "baselineValues": {
+        "IFN": "8.600000",
+        "CHD": "0.377250",
+        "Instability": "0.608733",
+        "UCM": "-0.015707",
+        "CMQ": "0.159029"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.909091",
+          "max": "8.600000"
+        },
+        "CHD": {
+          "min": "0.120335",
+          "max": "0.712100"
+        },
+        "Instability": {
+          "min": "0.416830",
+          "max": "0.616071"
+        },
+        "UCM": {
+          "min": "-0.015707",
+          "max": "0.352410"
+        },
+        "CMQ": {
+          "min": "0.015200",
+          "max": "0.280980"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0.9606730806331992370775045945",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "1",
+          "baseline": "0.4341503806409638961412047012"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.9631702310267465029788045633"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.5411581006847768831364286252"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.9606730806331992370775045945",
+        "CHD": "0.5658496193590361038587952988",
+        "Instability": "-0.9631702310267465029788045633",
+        "UCM": "1",
+        "CMQ": "0.4588418993152231168635713748"
+      },
+      "display": {
+        "IFN": "+96.07 pp",
+        "CHD": "+56.58 pp",
+        "Instability": "-96.32 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+45.88 pp"
+      }
+    },
+    {
+      "caseNumber": "03",
+      "caseTitle": "COCOME — 20261110 LLM 生成＋JEV 优选十次实验",
+      "baseline": "Service Cutter Engine + 结果适配",
+      "unifymsValues": {
+        "IFN": "4.093570",
+        "CHD": "0.712100",
+        "Instability": "0.416830",
+        "UCM": "0.352410",
+        "CMQ": "0.280980"
+      },
+      "baselineValues": {
+        "IFN": "8.600000",
+        "CHD": "0.120335",
+        "Instability": "0.616071",
+        "UCM": "0.194411",
+        "CMQ": "0.096782"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.909091",
+          "max": "8.600000"
+        },
+        "CHD": {
+          "min": "0.120335",
+          "max": "0.712100"
+        },
+        "Instability": {
+          "min": "0.416830",
+          "max": "0.616071"
+        },
+        "UCM": {
+          "min": "-0.015707",
+          "max": "0.352410"
+        },
+        "CMQ": {
+          "min": "0.015200",
+          "max": "0.280980"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0.9606730806331992370775045945",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0.5707913516626507333266325652"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.3069531191210775829633531492"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.9606730806331992370775045945",
+        "CHD": "1",
+        "Instability": "-1",
+        "UCM": "0.4292086483373492666733674348",
+        "CMQ": "0.6930468808789224170366468508"
+      },
+      "display": {
+        "IFN": "+96.07 pp",
+        "CHD": "+100.00 pp",
+        "Instability": "-100.00 pp",
+        "UCM": "+42.92 pp",
+        "CMQ": "+69.30 pp"
+      }
+    },
+    {
+      "caseNumber": "06",
+      "caseTitle": "Library — 20261110 LLM 生成＋JEV 优选十次实验",
+      "baseline": "MicroMiner Remodel 适配版",
+      "unifymsValues": {
+        "IFN": "3.683330",
+        "CHD": "0.380270",
+        "Instability": "0.503060",
+        "UCM": "0.155150",
+        "CMQ": "0.158600"
+      },
+      "baselineValues": {
+        "IFN": "5.333333",
+        "CHD": "0.659413",
+        "Instability": "0.591726",
+        "UCM": "0.168317",
+        "CMQ": "0.082640"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.683330",
+          "max": "12.000000"
+        },
+        "CHD": {
+          "min": "0.075421",
+          "max": "0.659413"
+        },
+        "Instability": {
+          "min": "0.347403",
+          "max": "0.591726"
+        },
+        "UCM": {
+          "min": "0.155150",
+          "max": "0.168317"
+        },
+        "CMQ": {
+          "min": "0.056253",
+          "max": "0.158600"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.8016029252092484131268885263"
+        },
+        "CHD": {
+          "unifyms": "0.5220088631351114398827381197",
+          "baseline": "1"
+        },
+        "Instability": {
+          "unifyms": "0.6370951568210933886699164630",
+          "baseline": "1"
+        },
+        "UCM": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.2578189883435762650590637732"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.1983970747907515868731114737",
+        "CHD": "-0.4779911368648885601172618803",
+        "Instability": "-0.3629048431789066113300835370",
+        "UCM": "-1",
+        "CMQ": "0.7421810116564237349409362268"
+      },
+      "display": {
+        "IFN": "+19.84 pp",
+        "CHD": "-47.80 pp",
+        "Instability": "-36.29 pp",
+        "UCM": "-100.00 pp",
+        "CMQ": "+74.22 pp"
+      }
+    },
+    {
+      "caseNumber": "06",
+      "caseTitle": "Library — 20261110 LLM 生成＋JEV 优选十次实验",
+      "baseline": "MonoEmbed 百炼 API 变体",
+      "unifymsValues": {
+        "IFN": "3.683330",
+        "CHD": "0.380270",
+        "Instability": "0.503060",
+        "UCM": "0.155150",
+        "CMQ": "0.158600"
+      },
+      "baselineValues": {
+        "IFN": "12.000000",
+        "CHD": "0.417847",
+        "Instability": "0.500957",
+        "UCM": "0.158317",
+        "CMQ": "0.078076"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.683330",
+          "max": "12.000000"
+        },
+        "CHD": {
+          "min": "0.075421",
+          "max": "0.659413"
+        },
+        "Instability": {
+          "min": "0.347403",
+          "max": "0.591726"
+        },
+        "UCM": {
+          "min": "0.155150",
+          "max": "0.168317"
+        },
+        "CMQ": {
+          "min": "0.056253",
+          "max": "0.158600"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "0.5220088631351114398827381197",
+          "baseline": "0.5863539226564747462294004027"
+        },
+        "Instability": {
+          "unifyms": "0.6370951568210933886699164630",
+          "baseline": "0.6284876986611984954343225975"
+        },
+        "UCM": {
+          "unifyms": "0",
+          "baseline": "0.2405255563150299992405255563"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.2132255952788064134757247403"
+        }
+      },
+      "deltaScore": {
+        "IFN": "1",
+        "CHD": "-0.06434505952136330634666228304",
+        "Instability": "0.008607458159894893235593865498",
+        "UCM": "-0.2405255563150299992405255563",
+        "CMQ": "0.7867744047211935865242752597"
+      },
+      "display": {
+        "IFN": "+100.00 pp",
+        "CHD": "-6.43 pp",
+        "Instability": "+0.86 pp",
+        "UCM": "-24.05 pp",
+        "CMQ": "+78.68 pp"
+      }
+    },
+    {
+      "caseNumber": "06",
+      "caseTitle": "Library — 20261110 LLM 生成＋JEV 优选十次实验",
+      "baseline": "Service Cutter Engine + 结果适配",
+      "unifymsValues": {
+        "IFN": "3.683330",
+        "CHD": "0.380270",
+        "Instability": "0.503060",
+        "UCM": "0.155150",
+        "CMQ": "0.158600"
+      },
+      "baselineValues": {
+        "IFN": "9.600000",
+        "CHD": "0.075421",
+        "Instability": "0.347403",
+        "UCM": "0.158317",
+        "CMQ": "0.056253"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.683330",
+          "max": "12.000000"
+        },
+        "CHD": {
+          "min": "0.075421",
+          "max": "0.659413"
+        },
+        "Instability": {
+          "min": "0.347403",
+          "max": "0.591726"
+        },
+        "UCM": {
+          "min": "0.155150",
+          "max": "0.168317"
+        },
+        "CMQ": {
+          "min": "0.056253",
+          "max": "0.158600"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.2885770386464774964018050494"
+        },
+        "CHD": {
+          "unifyms": "0.5220088631351114398827381197",
+          "baseline": "0"
+        },
+        "Instability": {
+          "unifyms": "0.6370951568210933886699164630",
+          "baseline": "0"
+        },
+        "UCM": {
+          "unifyms": "0",
+          "baseline": "0.2405255563150299992405255563"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.7114229613535225035981949506",
+        "CHD": "0.5220088631351114398827381197",
+        "Instability": "0.6370951568210933886699164630",
+        "UCM": "-0.2405255563150299992405255563",
+        "CMQ": "1"
+      },
+      "display": {
+        "IFN": "+71.14 pp",
+        "CHD": "+52.20 pp",
+        "Instability": "+63.71 pp",
+        "UCM": "-24.05 pp",
+        "CMQ": "+100.00 pp"
+      }
+    },
+    {
+      "caseNumber": "07",
+      "caseTitle": "Loan — 20261110 新版 LLM 生成＋JEV 优选十次重跑（Loan）",
+      "baseline": "MicroMiner Remodel 适配版",
+      "unifymsValues": {
+        "IFN": "3.741780",
+        "CHD": "0.544620",
+        "Instability": "0.422280",
+        "UCM": "0.406660",
+        "CMQ": "0.811730"
+      },
+      "baselineValues": {
+        "IFN": "5.000000",
+        "CHD": "0.639967",
+        "Instability": "0.521104",
+        "UCM": "0.366351",
+        "CMQ": "0.154663"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.741780",
+          "max": "11.666667"
+        },
+        "CHD": {
+          "min": "0.242177",
+          "max": "0.639967"
+        },
+        "Instability": {
+          "min": "0.422280",
+          "max": "0.573171"
+        },
+        "UCM": {
+          "min": "0.210530",
+          "max": "0.406660"
+        },
+        "CMQ": {
+          "min": "0.019729",
+          "max": "0.811730"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.8412318055765337726582095114"
+        },
+        "CHD": {
+          "unifyms": "0.7603082028205837250810729279",
+          "baseline": "1"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.6549363447786812997461743908"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0.7944781522459593127007597002"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.1703709970063169112160211919"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.1587681944234662273417904886",
+        "CHD": "-0.2396917971794162749189270721",
+        "Instability": "-0.6549363447786812997461743908",
+        "UCM": "0.2055218477540406872992402998",
+        "CMQ": "0.8296290029936830887839788081"
+      },
+      "display": {
+        "IFN": "+15.88 pp",
+        "CHD": "-23.97 pp",
+        "Instability": "-65.49 pp",
+        "UCM": "+20.55 pp",
+        "CMQ": "+82.96 pp"
+      }
+    },
+    {
+      "caseNumber": "07",
+      "caseTitle": "Loan — 20261110 新版 LLM 生成＋JEV 优选十次重跑（Loan）",
+      "baseline": "MonoEmbed 百炼 API 变体",
+      "unifymsValues": {
+        "IFN": "3.741780",
+        "CHD": "0.544620",
+        "Instability": "0.422280",
+        "UCM": "0.406660",
+        "CMQ": "0.811730"
+      },
+      "baselineValues": {
+        "IFN": "11.666667",
+        "CHD": "0.591231",
+        "Instability": "0.567718",
+        "UCM": "0.291305",
+        "CMQ": "0.308886"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.741780",
+          "max": "11.666667"
+        },
+        "CHD": {
+          "min": "0.242177",
+          "max": "0.639967"
+        },
+        "Instability": {
+          "min": "0.422280",
+          "max": "0.573171"
+        },
+        "UCM": {
+          "min": "0.210530",
+          "max": "0.406660"
+        },
+        "CMQ": {
+          "min": "0.019729",
+          "max": "0.811730"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "0.7603082028205837250810729279",
+          "baseline": "0.8774830940948741798436360894"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.9638613303643027085777150393"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0.4118441849793504308366899505"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.3650967612414630789607588879"
+        }
+      },
+      "deltaScore": {
+        "IFN": "1",
+        "CHD": "-0.1171748912742904547625631615",
+        "Instability": "-0.9638613303643027085777150393",
+        "UCM": "0.5881558150206495691633100495",
+        "CMQ": "0.6349032387585369210392411121"
+      },
+      "display": {
+        "IFN": "+100.00 pp",
+        "CHD": "-11.72 pp",
+        "Instability": "-96.39 pp",
+        "UCM": "+58.82 pp",
+        "CMQ": "+63.49 pp"
+      }
+    },
+    {
+      "caseNumber": "07",
+      "caseTitle": "Loan — 20261110 新版 LLM 生成＋JEV 优选十次重跑（Loan）",
+      "baseline": "Service Cutter Engine + 结果适配",
+      "unifymsValues": {
+        "IFN": "3.741780",
+        "CHD": "0.544620",
+        "Instability": "0.422280",
+        "UCM": "0.406660",
+        "CMQ": "0.811730"
+      },
+      "baselineValues": {
+        "IFN": "7.000000",
+        "CHD": "0.242177",
+        "Instability": "0.573171",
+        "UCM": "0.210530",
+        "CMQ": "0.019729"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "3.741780",
+          "max": "11.666667"
+        },
+        "CHD": {
+          "min": "0.242177",
+          "max": "0.639967"
+        },
+        "Instability": {
+          "min": "0.422280",
+          "max": "0.573171"
+        },
+        "UCM": {
+          "min": "0.210530",
+          "max": "0.406660"
+        },
+        "CMQ": {
+          "min": "0.019729",
+          "max": "0.811730"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.5888622765220500935849306116"
+        },
+        "CHD": {
+          "unifyms": "0.7603082028205837250810729279",
+          "baseline": "0"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.4111377234779499064150693884",
+        "CHD": "0.7603082028205837250810729279",
+        "Instability": "-1",
+        "UCM": "1",
+        "CMQ": "1"
+      },
+      "display": {
+        "IFN": "+41.11 pp",
+        "CHD": "+76.03 pp",
+        "Instability": "-100.00 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+100.00 pp"
+      }
+    },
+    {
+      "caseNumber": "08",
+      "caseTitle": "PiggyMetrics — 20261110 新版 LLM 生成＋JEV 优选十次重跑（PiggyMetrics）",
+      "baseline": "MicroMiner Java AST 信号适配版",
+      "unifymsValues": {
+        "IFN": "3.575000",
+        "CHD": "0.381400",
+        "Instability": "0.832210",
+        "UCM": "0.336120",
+        "CMQ": "0.199760"
+      },
+      "baselineValues": {
+        "IFN": "2.333333",
+        "CHD": "0.782704",
+        "Instability": "0.689438",
+        "UCM": "0.053333",
+        "CMQ": "0.023094"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "2.333333",
+          "max": "3.575000"
+        },
+        "CHD": {
+          "min": "0.381400",
+          "max": "0.782704"
+        },
+        "Instability": {
+          "min": "0.689286",
+          "max": "0.832210"
+        },
+        "UCM": {
+          "min": "0.053333",
+          "max": "0.336120"
+        },
+        "CMQ": {
+          "min": "-0.001475",
+          "max": "0.199760"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "Instability": {
+          "unifyms": "1",
+          "baseline": "0.001063502280932523578965044359"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.1220910875344746192262777350"
+        }
+      },
+      "deltaScore": {
+        "IFN": "-1",
+        "CHD": "-1",
+        "Instability": "0.9989364977190674764210349556",
+        "UCM": "1",
+        "CMQ": "0.8779089124655253807737222650"
+      },
+      "display": {
+        "IFN": "-100.00 pp",
+        "CHD": "-100.00 pp",
+        "Instability": "+99.89 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+87.79 pp"
+      }
+    },
+    {
+      "caseNumber": "08",
+      "caseTitle": "PiggyMetrics — 20261110 新版 LLM 生成＋JEV 优选十次重跑（PiggyMetrics）",
+      "baseline": "MonoEmbed 真实 Java 源码 API 变体",
+      "unifymsValues": {
+        "IFN": "3.575000",
+        "CHD": "0.381400",
+        "Instability": "0.832210",
+        "UCM": "0.336120",
+        "CMQ": "0.199760"
+      },
+      "baselineValues": {
+        "IFN": "3.500000",
+        "CHD": "0.485440",
+        "Instability": "0.765385",
+        "UCM": "0.053333",
+        "CMQ": "0.182770"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "2.333333",
+          "max": "3.575000"
+        },
+        "CHD": {
+          "min": "0.381400",
+          "max": "0.782704"
+        },
+        "Instability": {
+          "min": "0.689286",
+          "max": "0.832210"
+        },
+        "UCM": {
+          "min": "0.053333",
+          "max": "0.336120"
+        },
+        "CMQ": {
+          "min": "-0.001475",
+          "max": "0.199760"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0",
+          "baseline": "0.06040266834827695348269705162"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "0.2592548292566234076909275761"
+        },
+        "Instability": {
+          "unifyms": "1",
+          "baseline": "0.5324438162939744199714533598"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.9155713469326906353268566601"
+        }
+      },
+      "deltaScore": {
+        "IFN": "-0.06040266834827695348269705162",
+        "CHD": "-0.2592548292566234076909275761",
+        "Instability": "0.4675561837060255800285466402",
+        "UCM": "1",
+        "CMQ": "0.08442865306730936467314333988"
+      },
+      "display": {
+        "IFN": "-6.04 pp",
+        "CHD": "-25.93 pp",
+        "Instability": "+46.76 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+8.44 pp"
+      }
+    },
+    {
+      "caseNumber": "08",
+      "caseTitle": "PiggyMetrics — 20261110 新版 LLM 生成＋JEV 优选十次重跑（PiggyMetrics）",
+      "baseline": "Service Cutter Engine + 结果适配",
+      "unifymsValues": {
+        "IFN": "3.575000",
+        "CHD": "0.381400",
+        "Instability": "0.832210",
+        "UCM": "0.336120",
+        "CMQ": "0.199760"
+      },
+      "baselineValues": {
+        "IFN": "3.500000",
+        "CHD": "0.715084",
+        "Instability": "0.689286",
+        "UCM": "0.053333",
+        "CMQ": "-0.001475"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "2.333333",
+          "max": "3.575000"
+        },
+        "CHD": {
+          "min": "0.381400",
+          "max": "0.782704"
+        },
+        "Instability": {
+          "min": "0.689286",
+          "max": "0.832210"
+        },
+        "UCM": {
+          "min": "0.053333",
+          "max": "0.336120"
+        },
+        "CMQ": {
+          "min": "-0.001475",
+          "max": "0.199760"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0",
+          "baseline": "0.06040266834827695348269705162"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "0.8314993122420907840440165062"
+        },
+        "Instability": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "-0.06040266834827695348269705162",
+        "CHD": "-0.8314993122420907840440165062",
+        "Instability": "1",
+        "UCM": "1",
+        "CMQ": "1"
+      },
+      "display": {
+        "IFN": "-6.04 pp",
+        "CHD": "-83.15 pp",
+        "Instability": "+100.00 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+100.00 pp"
+      }
+    },
+    {
+      "caseNumber": "10",
+      "caseTitle": "Spring — 20261111 紧凑请求修复版 LLM 生成＋JEV 优选十次重跑（Spring）",
+      "baseline": "MicroMiner Java AST 信号适配版",
+      "unifymsValues": {
+        "IFN": "4.198940",
+        "CHD": "0.346360",
+        "Instability": "0.390290",
+        "UCM": "0.076130",
+        "CMQ": "0.048990"
+      },
+      "baselineValues": {
+        "IFN": "5.439394",
+        "CHD": "0.623063",
+        "Instability": "0.455709",
+        "UCM": "0.224123",
+        "CMQ": "0.028577"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "4.198940",
+          "max": "17.095238"
+        },
+        "CHD": {
+          "min": "0.282560",
+          "max": "0.716954"
+        },
+        "Instability": {
+          "min": "0.390290",
+          "max": "0.525161"
+        },
+        "UCM": {
+          "min": "0.020886",
+          "max": "0.224123"
+        },
+        "CMQ": {
+          "min": "0.028577",
+          "max": "0.075054"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.9038131718110111909634842495"
+        },
+        "CHD": {
+          "unifyms": "0.1468712735442938898787736479",
+          "baseline": "0.7838575118440862442851420600"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.4850486761423879114116452017"
+        },
+        "UCM": {
+          "unifyms": "0.2718205838503815742212294021",
+          "baseline": "1"
+        },
+        "CMQ": {
+          "unifyms": "0.4392064892312326527099425522",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.09618682818898880903651575049",
+        "CHD": "-0.6369862382997923544063684121",
+        "Instability": "-0.4850486761423879114116452017",
+        "UCM": "-0.7281794161496184257787705979",
+        "CMQ": "0.4392064892312326527099425522"
+      },
+      "display": {
+        "IFN": "+9.62 pp",
+        "CHD": "-63.70 pp",
+        "Instability": "-48.50 pp",
+        "UCM": "-72.82 pp",
+        "CMQ": "+43.92 pp"
+      }
+    },
+    {
+      "caseNumber": "10",
+      "caseTitle": "Spring — 20261111 紧凑请求修复版 LLM 生成＋JEV 优选十次重跑（Spring）",
+      "baseline": "MonoEmbed 百炼 API 真实源码变体",
+      "unifymsValues": {
+        "IFN": "4.198940",
+        "CHD": "0.346360",
+        "Instability": "0.390290",
+        "UCM": "0.076130",
+        "CMQ": "0.048990"
+      },
+      "baselineValues": {
+        "IFN": "17.095238",
+        "CHD": "0.282560",
+        "Instability": "0.418912",
+        "UCM": "0.020886",
+        "CMQ": "0.075054"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "4.198940",
+          "max": "17.095238"
+        },
+        "CHD": {
+          "min": "0.282560",
+          "max": "0.716954"
+        },
+        "Instability": {
+          "min": "0.390290",
+          "max": "0.525161"
+        },
+        "UCM": {
+          "min": "0.020886",
+          "max": "0.224123"
+        },
+        "CMQ": {
+          "min": "0.028577",
+          "max": "0.075054"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "0.1468712735442938898787736479",
+          "baseline": "0"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.2122176005219802626213196314"
+        },
+        "UCM": {
+          "unifyms": "0.2718205838503815742212294021",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "0.4392064892312326527099425522",
+          "baseline": "1"
+        }
+      },
+      "deltaScore": {
+        "IFN": "1",
+        "CHD": "0.1468712735442938898787736479",
+        "Instability": "-0.2122176005219802626213196314",
+        "UCM": "0.2718205838503815742212294021",
+        "CMQ": "-0.5607935107687673472900574478"
+      },
+      "display": {
+        "IFN": "+100.00 pp",
+        "CHD": "+14.69 pp",
+        "Instability": "-21.22 pp",
+        "UCM": "+27.18 pp",
+        "CMQ": "-56.08 pp"
+      }
+    },
+    {
+      "caseNumber": "10",
+      "caseTitle": "Spring — 20261111 紧凑请求修复版 LLM 生成＋JEV 优选十次重跑（Spring）",
+      "baseline": "Service Cutter Engine + Java 结果适配",
+      "unifymsValues": {
+        "IFN": "4.198940",
+        "CHD": "0.346360",
+        "Instability": "0.390290",
+        "UCM": "0.076130",
+        "CMQ": "0.048990"
+      },
+      "baselineValues": {
+        "IFN": "8.348837",
+        "CHD": "0.716954",
+        "Instability": "0.525161",
+        "UCM": "0.020886",
+        "CMQ": "0.032440"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "4.198940",
+          "max": "17.095238"
+        },
+        "CHD": {
+          "min": "0.282560",
+          "max": "0.716954"
+        },
+        "Instability": {
+          "min": "0.390290",
+          "max": "0.525161"
+        },
+        "UCM": {
+          "min": "0.020886",
+          "max": "0.224123"
+        },
+        "CMQ": {
+          "min": "0.028577",
+          "max": "0.075054"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.6782102119538490813410173989"
+        },
+        "CHD": {
+          "unifyms": "0.1468712735442938898787736479",
+          "baseline": "1"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "UCM": {
+          "unifyms": "0.2718205838503815742212294021",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "0.4392064892312326527099425522",
+          "baseline": "0.08311638014501796587559438002"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.3217897880461509186589826011",
+        "CHD": "-0.8531287264557061101212263521",
+        "Instability": "-1",
+        "UCM": "0.2718205838503815742212294021",
+        "CMQ": "0.3560901090862146868343481722"
+      },
+      "display": {
+        "IFN": "+32.18 pp",
+        "CHD": "-85.31 pp",
+        "Instability": "-100.00 pp",
+        "UCM": "+27.18 pp",
+        "CMQ": "+35.61 pp"
+      }
+    },
+    {
+      "caseNumber": "11",
+      "caseTitle": "java-online-taxi — 20261110 新版 LLM 生成＋JEV 优选十次重跑（java-online-taxi）",
+      "baseline": "MicroMiner Java AST 信号适配版",
+      "unifymsValues": {
+        "IFN": "1.315600",
+        "CHD": "0.217810",
+        "Instability": "0.303040",
+        "UCM": "0.191040",
+        "CMQ": "0.191720"
+      },
+      "baselineValues": {
+        "IFN": "1.580645",
+        "CHD": "0.500224",
+        "Instability": "0.434127",
+        "UCM": "0.121256",
+        "CMQ": "-0.229148"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "1.315600",
+          "max": "7.000000"
+        },
+        "CHD": {
+          "min": "0.217810",
+          "max": "0.663646"
+        },
+        "Instability": {
+          "min": "0.303040",
+          "max": "0.562265"
+        },
+        "UCM": {
+          "min": "0.037849",
+          "max": "0.191040"
+        },
+        "CMQ": {
+          "min": "-0.229148",
+          "max": "0.191720"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0.9533732671873900499612975864"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "0.6334481737679326030199445536"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.5056881087858038383643552898"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0.5444641003714317420736205130"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.04662673281260995003870241362",
+        "CHD": "-0.6334481737679326030199445536",
+        "Instability": "-0.5056881087858038383643552898",
+        "UCM": "0.4555358996285682579263794870",
+        "CMQ": "1"
+      },
+      "display": {
+        "IFN": "+4.66 pp",
+        "CHD": "-63.34 pp",
+        "Instability": "-50.57 pp",
+        "UCM": "+45.55 pp",
+        "CMQ": "+100.00 pp"
+      }
+    },
+    {
+      "caseNumber": "11",
+      "caseTitle": "java-online-taxi — 20261110 新版 LLM 生成＋JEV 优选十次重跑（java-online-taxi）",
+      "baseline": "MonoEmbed 真实 Java 源码 API 变体",
+      "unifymsValues": {
+        "IFN": "1.315600",
+        "CHD": "0.217810",
+        "Instability": "0.303040",
+        "UCM": "0.191040",
+        "CMQ": "0.191720"
+      },
+      "baselineValues": {
+        "IFN": "7.000000",
+        "CHD": "0.441927",
+        "Instability": "0.484532",
+        "UCM": "0.037849",
+        "CMQ": "0.057460"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "1.315600",
+          "max": "7.000000"
+        },
+        "CHD": {
+          "min": "0.217810",
+          "max": "0.663646"
+        },
+        "Instability": {
+          "min": "0.303040",
+          "max": "0.562265"
+        },
+        "UCM": {
+          "min": "0.037849",
+          "max": "0.191040"
+        },
+        "CMQ": {
+          "min": "-0.229148",
+          "max": "0.191720"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "0.5026893297086821162938838497"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.7001330890153341691580673160"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.6809926152617922959217616925"
+        }
+      },
+      "deltaScore": {
+        "IFN": "1",
+        "CHD": "-0.5026893297086821162938838497",
+        "Instability": "-0.7001330890153341691580673160",
+        "UCM": "1",
+        "CMQ": "0.3190073847382077040782383075"
+      },
+      "display": {
+        "IFN": "+100.00 pp",
+        "CHD": "-50.27 pp",
+        "Instability": "-70.01 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+31.90 pp"
+      }
+    },
+    {
+      "caseNumber": "11",
+      "caseTitle": "java-online-taxi — 20261110 新版 LLM 生成＋JEV 优选十次重跑（java-online-taxi）",
+      "baseline": "Service Cutter Engine + 结果适配",
+      "unifymsValues": {
+        "IFN": "1.315600",
+        "CHD": "0.217810",
+        "Instability": "0.303040",
+        "UCM": "0.191040",
+        "CMQ": "0.191720"
+      },
+      "baselineValues": {
+        "IFN": "7.000000",
+        "CHD": "0.663646",
+        "Instability": "0.562265",
+        "UCM": "0.037849",
+        "CMQ": "0.091625"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "1.315600",
+          "max": "7.000000"
+        },
+        "CHD": {
+          "min": "0.217810",
+          "max": "0.663646"
+        },
+        "Instability": {
+          "min": "0.303040",
+          "max": "0.562265"
+        },
+        "UCM": {
+          "min": "0.037849",
+          "max": "0.191040"
+        },
+        "CMQ": {
+          "min": "-0.229148",
+          "max": "0.191720"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.7621700865829666308676354581"
+        }
+      },
+      "deltaScore": {
+        "IFN": "1",
+        "CHD": "-1",
+        "Instability": "-1",
+        "UCM": "1",
+        "CMQ": "0.2378299134170333691323645419"
+      },
+      "display": {
+        "IFN": "+100.00 pp",
+        "CHD": "-100.00 pp",
+        "Instability": "-100.00 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+23.78 pp"
+      }
+    },
+    {
+      "caseNumber": "12",
+      "caseTitle": "light-reading — 20261110 新版 LLM 生成＋JEV 优选十次重跑（light-reading）",
+      "baseline": "MicroMiner Java AST 信号适配版",
+      "unifymsValues": {
+        "IFN": "2.904170",
+        "CHD": "0.270480",
+        "Instability": "0.473200",
+        "UCM": "0.269950",
+        "CMQ": "0.209450"
+      },
+      "baselineValues": {
+        "IFN": "2.500000",
+        "CHD": "0.740667",
+        "Instability": "0.583514",
+        "UCM": "0.163636",
+        "CMQ": "0.034210"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "2.500000",
+          "max": "6.000000"
+        },
+        "CHD": {
+          "min": "0.270480",
+          "max": "0.740667"
+        },
+        "Instability": {
+          "min": "0.473200",
+          "max": "0.649554"
+        },
+        "UCM": {
+          "min": "0.163636",
+          "max": "0.269950"
+        },
+        "CMQ": {
+          "min": "0.034210",
+          "max": "0.209450"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0.8845228571428571428571428571",
+          "baseline": "1"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.6255259307982807308028170611"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0"
+        }
+      },
+      "deltaScore": {
+        "IFN": "-0.1154771428571428571428571429",
+        "CHD": "-1",
+        "Instability": "-0.6255259307982807308028170611",
+        "UCM": "1",
+        "CMQ": "1"
+      },
+      "display": {
+        "IFN": "-11.55 pp",
+        "CHD": "-100.00 pp",
+        "Instability": "-62.55 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+100.00 pp"
+      }
+    },
+    {
+      "caseNumber": "12",
+      "caseTitle": "light-reading — 20261110 新版 LLM 生成＋JEV 优选十次重跑（light-reading）",
+      "baseline": "MonoEmbed 真实 Java 源码 API 变体",
+      "unifymsValues": {
+        "IFN": "2.904170",
+        "CHD": "0.270480",
+        "Instability": "0.473200",
+        "UCM": "0.269950",
+        "CMQ": "0.209450"
+      },
+      "baselineValues": {
+        "IFN": "6.000000",
+        "CHD": "0.580182",
+        "Instability": "0.649554",
+        "UCM": "0.163636",
+        "CMQ": "0.067141"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "2.500000",
+          "max": "6.000000"
+        },
+        "CHD": {
+          "min": "0.270480",
+          "max": "0.740667"
+        },
+        "Instability": {
+          "min": "0.473200",
+          "max": "0.649554"
+        },
+        "UCM": {
+          "min": "0.163636",
+          "max": "0.269950"
+        },
+        "CMQ": {
+          "min": "0.034210",
+          "max": "0.209450"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0.8845228571428571428571428571",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "0.6586783556329715623783728602"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "1"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.1879194247888609906414060717"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.8845228571428571428571428571",
+        "CHD": "-0.6586783556329715623783728602",
+        "Instability": "-1",
+        "UCM": "1",
+        "CMQ": "0.8120805752111390093585939283"
+      },
+      "display": {
+        "IFN": "+88.45 pp",
+        "CHD": "-65.87 pp",
+        "Instability": "-100.00 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+81.21 pp"
+      }
+    },
+    {
+      "caseNumber": "12",
+      "caseTitle": "light-reading — 20261110 新版 LLM 生成＋JEV 优选十次重跑（light-reading）",
+      "baseline": "Service Cutter Engine + 结果适配",
+      "unifymsValues": {
+        "IFN": "2.904170",
+        "CHD": "0.270480",
+        "Instability": "0.473200",
+        "UCM": "0.269950",
+        "CMQ": "0.209450"
+      },
+      "baselineValues": {
+        "IFN": "6.000000",
+        "CHD": "0.465646",
+        "Instability": "0.497677",
+        "UCM": "0.163636",
+        "CMQ": "0.059548"
+      },
+      "bounds": {
+        "IFN": {
+          "min": "2.500000",
+          "max": "6.000000"
+        },
+        "CHD": {
+          "min": "0.270480",
+          "max": "0.740667"
+        },
+        "Instability": {
+          "min": "0.473200",
+          "max": "0.649554"
+        },
+        "UCM": {
+          "min": "0.163636",
+          "max": "0.269950"
+        },
+        "CMQ": {
+          "min": "0.034210",
+          "max": "0.209450"
+        }
+      },
+      "normalizedScore": {
+        "IFN": {
+          "unifyms": "0.8845228571428571428571428571",
+          "baseline": "0"
+        },
+        "CHD": {
+          "unifyms": "0",
+          "baseline": "0.4150816589995044524837989991"
+        },
+        "Instability": {
+          "unifyms": "0",
+          "baseline": "0.1387946970298377127822448031"
+        },
+        "UCM": {
+          "unifyms": "1",
+          "baseline": "0"
+        },
+        "CMQ": {
+          "unifyms": "1",
+          "baseline": "0.1445902761926500798904359735"
+        }
+      },
+      "deltaScore": {
+        "IFN": "0.8845228571428571428571428571",
+        "CHD": "-0.4150816589995044524837989991",
+        "Instability": "-0.1387946970298377127822448031",
+        "UCM": "1",
+        "CMQ": "0.8554097238073499201095640265"
+      },
+      "display": {
+        "IFN": "+88.45 pp",
+        "CHD": "-41.51 pp",
+        "Instability": "-13.88 pp",
+        "UCM": "+100.00 pp",
+        "CMQ": "+85.54 pp"
+      }
+    }
+  ]
+}

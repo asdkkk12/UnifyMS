@@ -1,0 +1,20 @@
+{
+	"mode":"jev",
+	"status":"success",
+	"policyVersion":"online-novelty-gain-history-v1",
+	"promptVersion":"novelty-gain-history-choice-v2",
+	"contextHash":"53a81b9495e858a475f3b36e9380cc84367bc82b868ec74f9da1c366156da852",
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-101/audit",
+	"observedGenerations":100,
+	"decisionCount":9,
+	"requestCount":9,
+	"fallbackCount":0,
+	"finalProbability":0.2999999999999999,
+	"knownTokens":0,
+	"usageComplete":false,
+	"totalTokens":null,
+	"totalResponseMillis":6285.151041,
+	"monitoringMillis":45.106423000000014,
+	"controlMillis":6286.102416000001,
+	"auditMillis":42.660336
+}

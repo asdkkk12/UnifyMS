@@ -1,0 +1,32 @@
+{
+  "endpoint": "https://api.jevgo.cn/v1/systemone",
+  "request": {
+    "model": "jev-latest",
+    "state": "Version resolution probe. The label is alpha.",
+    "questions": {
+      "label": {
+        "type": "choice",
+        "instructions": "Which label is explicitly present?",
+        "criteria": {
+          "alpha": "alpha is present",
+          "beta": "beta is present"
+        }
+      }
+    }
+  },
+  "response": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "label": {
+        "type": "choice",
+        "choice": "alpha",
+        "confidence": 1.0,
+        "probabilities": {
+          "alpha": 1.0,
+          "beta": 0.0
+        }
+      }
+    }
+  },
+  "responseMillis": 390.1167090000008
+}

@@ -1,0 +1,28 @@
+{
+	"command":"calibrate",
+	"profile":"smoke",
+	"binding":"2673f39eadf0885047fc24544a4439b4381f38c77ed4149a56c7dab62888e3f3",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":1728.50275
+		}
+	],
+	"events":[
+		{
+			"stage":"calibrate",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":1725.477709
+		},
+		{
+			"stage":"reuse",
+			"system":"CoCoME",
+			"config":"C2",
+			"seed":11,
+			"taskKey":"e2a00f66488296ca800c7b80347991ab3af453957d1f74cd8ea7e85f09a4b5e7"
+		}
+	],
+	"endToEndMillis":1728.51575
+}

@@ -1,0 +1,221 @@
+{
+  "case": "CoCoME",
+  "seeds": [
+    107
+  ],
+  "initialChoice": "C3",
+  "groups": {
+    "A": {
+      "IFN": {
+        "samples": 1,
+        "mean": 3.3333,
+        "sampleStandardDeviation": null
+      },
+      "CHD": {
+        "samples": 1,
+        "mean": 0.7067,
+        "sampleStandardDeviation": null
+      },
+      "Instability": {
+        "samples": 1,
+        "mean": 0.5222,
+        "sampleStandardDeviation": null
+      },
+      "UCM": {
+        "samples": 1,
+        "mean": 0.5897,
+        "sampleStandardDeviation": null
+      },
+      "CMQ": {
+        "samples": 1,
+        "mean": 0.1,
+        "sampleStandardDeviation": null
+      },
+      "HV": {
+        "samples": 1,
+        "mean": 0.7957549438127433,
+        "sampleStandardDeviation": null
+      }
+    },
+    "B": {
+      "IFN": {
+        "samples": 1,
+        "mean": 3.5,
+        "sampleStandardDeviation": null
+      },
+      "CHD": {
+        "samples": 1,
+        "mean": 0.7668,
+        "sampleStandardDeviation": null
+      },
+      "Instability": {
+        "samples": 1,
+        "mean": 0.6964,
+        "sampleStandardDeviation": null
+      },
+      "UCM": {
+        "samples": 1,
+        "mean": 0.4564,
+        "sampleStandardDeviation": null
+      },
+      "CMQ": {
+        "samples": 1,
+        "mean": 0.0768,
+        "sampleStandardDeviation": null
+      },
+      "HV": {
+        "samples": 1,
+        "mean": 0.8851809607830359,
+        "sampleStandardDeviation": null
+      }
+    },
+    "C": {
+      "IFN": {
+        "samples": 1,
+        "mean": 2.6667,
+        "sampleStandardDeviation": null
+      },
+      "CHD": {
+        "samples": 1,
+        "mean": 0.7013,
+        "sampleStandardDeviation": null
+      },
+      "Instability": {
+        "samples": 1,
+        "mean": 0.6389,
+        "sampleStandardDeviation": null
+      },
+      "UCM": {
+        "samples": 1,
+        "mean": 0.4609,
+        "sampleStandardDeviation": null
+      },
+      "CMQ": {
+        "samples": 1,
+        "mean": 0.1333,
+        "sampleStandardDeviation": null
+      },
+      "HV": {
+        "samples": 1,
+        "mean": 0.8787909224624973,
+        "sampleStandardDeviation": null
+      }
+    }
+  },
+  "comparisons": {
+    "B-A": {
+      "IFN": {
+        "pairedDifferences": [
+          0.16670000000000007
+        ],
+        "meanDifference": 0.16670000000000007
+      },
+      "CHD": {
+        "pairedDifferences": [
+          0.06010000000000004
+        ],
+        "meanDifference": 0.06010000000000004
+      },
+      "Instability": {
+        "pairedDifferences": [
+          0.17420000000000002
+        ],
+        "meanDifference": 0.17420000000000002
+      },
+      "UCM": {
+        "pairedDifferences": [
+          -0.13330000000000003
+        ],
+        "meanDifference": -0.13330000000000003
+      },
+      "CMQ": {
+        "pairedDifferences": [
+          -0.023200000000000012
+        ],
+        "meanDifference": -0.023200000000000012
+      },
+      "HV": {
+        "pairedDifferences": [
+          0.08942601697029262
+        ],
+        "meanDifference": 0.08942601697029262
+      }
+    },
+    "C-B": {
+      "IFN": {
+        "pairedDifferences": [
+          -0.8332999999999999
+        ],
+        "meanDifference": -0.8332999999999999
+      },
+      "CHD": {
+        "pairedDifferences": [
+          -0.0655
+        ],
+        "meanDifference": -0.0655
+      },
+      "Instability": {
+        "pairedDifferences": [
+          -0.057499999999999996
+        ],
+        "meanDifference": -0.057499999999999996
+      },
+      "UCM": {
+        "pairedDifferences": [
+          0.004500000000000004
+        ],
+        "meanDifference": 0.004500000000000004
+      },
+      "CMQ": {
+        "pairedDifferences": [
+          0.05650000000000001
+        ],
+        "meanDifference": 0.05650000000000001
+      },
+      "HV": {
+        "pairedDifferences": [
+          -0.006390038320538527
+        ],
+        "meanDifference": -0.006390038320538527
+      }
+    },
+    "C-A": {
+      "IFN": {
+        "pairedDifferences": [
+          -0.6665999999999999
+        ],
+        "meanDifference": -0.6665999999999999
+      },
+      "CHD": {
+        "pairedDifferences": [
+          -0.00539999999999996
+        ],
+        "meanDifference": -0.00539999999999996
+      },
+      "Instability": {
+        "pairedDifferences": [
+          0.11670000000000003
+        ],
+        "meanDifference": 0.11670000000000003
+      },
+      "UCM": {
+        "pairedDifferences": [
+          -0.12880000000000003
+        ],
+        "meanDifference": -0.12880000000000003
+      },
+      "CMQ": {
+        "pairedDifferences": [
+          0.033299999999999996
+        ],
+        "meanDifference": 0.033299999999999996
+      },
+      "HV": {
+        "pairedDifferences": [
+          0.0830359786497541
+        ],
+        "meanDifference": 0.0830359786497541
+      }
+    }
+  }
+}

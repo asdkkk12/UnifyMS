@@ -1,0 +1,21 @@
+{
+	"command":"calibrate",
+	"profile":"formal",
+	"binding":"3502f0f687b627745b10fe064a70a7c2745876a2ed70347a30c2409b2202255a",
+	"systems":[
+		{
+			"system":"Spring",
+			"status":"success",
+			"elapsedMillis":33747.236791
+		}
+	],
+	"events":[
+		{
+			"stage":"calibrate",
+			"system":"Spring",
+			"status":"success",
+			"elapsedMillis":33743.833916
+		}
+	],
+	"endToEndMillis":33747.24725
+}

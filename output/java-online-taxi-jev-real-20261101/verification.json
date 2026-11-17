@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "pythonTests": 24,
+  "javaTests": 26,
+  "offlineViewerController": "passed",
+  "svgRasterization": "passed",
+  "inputJavaUnchanged": true,
+  "mainJavaVersionMatchesManifest": true,
+  "calibrationUnchangedAfterNetworkRetry": true,
+  "browserManualAcceptance": false
+}

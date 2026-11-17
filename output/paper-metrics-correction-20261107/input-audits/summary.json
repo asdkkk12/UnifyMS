@@ -1,0 +1,182 @@
+[
+  {
+    "input": "atm.remodel",
+    "status": "failed",
+    "expectedRejection": true,
+    "reason": "Legacy parser includes commented-out Transcation, which has no active source declaration; do not fabricate attributes"
+  },
+  {
+    "input": "cocome.remodel",
+    "status": "success",
+    "structure": {
+      "useCases": 10,
+      "entities": 13,
+      "actors": 3,
+      "operations": 43,
+      "useCaseNames": [
+        "processSale",
+        "openCashDesk",
+        "closeCashDesk",
+        "orderProducts",
+        "receiveOrderedProduct",
+        "showStockReports",
+        "changePrice",
+        "listSuppliers",
+        "openStore",
+        "closeStore"
+      ],
+      "entityNames": [
+        "Store",
+        "ProductCatalog",
+        "CashDesk",
+        "Sale",
+        "Cashier",
+        "SalesLineItem",
+        "Item",
+        "Payment",
+        "CashPayment",
+        "CardPayment",
+        "OrderEntry",
+        "Supplier",
+        "OrderProduct"
+      ]
+    },
+    "attributeSets": 13,
+    "scenarioPairs": 0
+  },
+  {
+    "input": "library.remodel",
+    "status": "success",
+    "structure": {
+      "useCases": 14,
+      "entities": 11,
+      "actors": 7,
+      "operations": 45,
+      "useCaseNames": [
+        "searchBook",
+        "listBookHistory",
+        "makeReservation",
+        "recommendBook",
+        "cancelReservation",
+        "listRecommendBook",
+        "borrowBook",
+        "renewBook",
+        "payOverDueFee",
+        "returnBook",
+        "checkOverDueandComputeOverDueFee",
+        "dueSoonNotification",
+        "countDownSuspensionDay",
+        "sendNotificationEmail"
+      ],
+      "entityNames": [
+        "User",
+        "Student",
+        "Faculty",
+        "Book",
+        "Subject",
+        "BookCopy",
+        "Loan",
+        "Reserve",
+        "RecommendBook",
+        "Administrator",
+        "Librarian"
+      ]
+    },
+    "attributeSets": 11,
+    "scenarioPairs": 0
+  },
+  {
+    "input": "loan.remodel",
+    "status": "success",
+    "structure": {
+      "useCases": 10,
+      "entities": 8,
+      "actors": 5,
+      "operations": 35,
+      "useCaseNames": [
+        "evaluateLoanRequest",
+        "manageLoanTerm",
+        "enterValidatedCreditReferences",
+        "generateLoanLetterAndAgreement",
+        "bookNewLoan",
+        "loanPayment",
+        "closeOutLoan",
+        "generateStandardPaymentNotice",
+        "generateLateNotice",
+        "submitLoanRequest"
+      ],
+      "entityNames": [
+        "LoanRequest",
+        "Loan",
+        "LoanTerm",
+        "CheckingAccount",
+        "CreditHistory",
+        "LoanAccount",
+        "ApprovalLetter",
+        "LoanAgreement"
+      ]
+    },
+    "attributeSets": 8,
+    "scenarioPairs": 0
+  },
+  {
+    "input": "java-online-taxi",
+    "status": "success",
+    "structure": {
+      "useCases": 29,
+      "entities": 15,
+      "actors": 17,
+      "operations": 34,
+      "useCaseNames": [
+        "addCar",
+        "bind",
+        "unbind",
+        "updateDriverUser",
+        "addDriverUser",
+        "upload",
+        "testAuth",
+        "testNoAuth",
+        "updateUser",
+        "verifyCode",
+        "verifyCodeCheck",
+        "forecastPrice",
+        "add",
+        "noauthTest",
+        "test",
+        "authTest",
+        "refreshToken",
+        "getUser",
+        "verifyCodeGet",
+        "getCarById",
+        "changeWorkStatus",
+        "testGetUser",
+        "addUser",
+        "DriverUserExistsResponse",
+        "initDicDistrict",
+        "driving",
+        "aroundsearch",
+        "trsearch",
+        "loginOrRegisterUser"
+      ],
+      "entityNames": [
+        "Car",
+        "ResponseResult",
+        "DriverUser",
+        "ApiDriverPointRequest",
+        "PointRequest",
+        "DriverUserExistsResponse",
+        "NumberCodeResponse",
+        "TokenResponse",
+        "ForecastPriceDTO",
+        "ForecastPriceResponse",
+        "TokenResult",
+        "DriverUserWorkStatus",
+        "DicDistrict",
+        "DirectionResponse",
+        "OrderInfo"
+      ]
+    },
+    "attributeSets": 15,
+    "scenarioPairs": 0
+  }
+]

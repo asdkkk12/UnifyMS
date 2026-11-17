@@ -1,0 +1,9 @@
+{
+  "case": "CoCoME",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/cocome.remodel",
+  "mode": "report",
+  "stages": [],
+  "status": "success",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-oneclick-summary-20261101/analysis.md",
+  "elapsedSeconds": 0.13235891700000002
+}

@@ -1,0 +1,15 @@
+{
+  "case": "CoCoME",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/cocome.remodel",
+  "mode": "report",
+  "stages": [
+    {
+      "stage": "export-visualize-report",
+      "status": "success",
+      "seconds": 0.016274917
+    }
+  ],
+  "status": "success",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/pilot-real-v2/report-off/analysis.md",
+  "elapsedSeconds": 0.016356875
+}

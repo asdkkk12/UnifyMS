@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"formal",
+	"binding":"f9b5caddb09f41ebf93e6eda902c7ee4463b7925989c37be7a3d443d80cd3cef",
+	"systems":[
+		{
+			"system":"Loan",
+			"status":"success",
+			"elapsedMillis":460153.072833
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"Loan",
+			"status":"success",
+			"elapsedMillis":460151.123334
+		}
+	],
+	"endToEndMillis":460153.083792
+}

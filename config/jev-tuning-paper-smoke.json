@@ -1,0 +1,69 @@
+{
+  "profile": "smoke",
+  "outputDirectory": "../output/paper-metrics-correction-20261107/cli-smoke",
+  "metricVersion": "paper-ieee-eq5-21-v2-isolated-zero",
+  "selector": "numeric",
+  "calibrationSeeds": [
+    11
+  ],
+  "validationSeeds": [
+    101,
+    103
+  ],
+  "evaluationBudget": 0,
+  "systems": [
+    {
+      "id": "CoCoME",
+      "input": "../cocome.remodel"
+    }
+  ],
+  "jev": {
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "model": null,
+    "timeoutMillis": 60000
+  },
+  "candidates": [
+    {
+      "id": "C0",
+      "populationSize": 24,
+      "generations": 3,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C1",
+      "populationSize": 12,
+      "generations": 6,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C2",
+      "populationSize": 6,
+      "generations": 12,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C3",
+      "populationSize": 24,
+      "generations": 3,
+      "crossoverProbability": 0.5,
+      "crossP": 0.25
+    },
+    {
+      "id": "C4",
+      "populationSize": 24,
+      "generations": 3,
+      "crossoverProbability": 0.9,
+      "crossP": 0.75
+    },
+    {
+      "id": "C5",
+      "populationSize": 12,
+      "generations": 6,
+      "crossoverProbability": 0.9,
+      "crossP": 0.25
+    }
+  ]
+}

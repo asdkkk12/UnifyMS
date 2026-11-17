@@ -1,0 +1,28 @@
+{
+	"version":"nominal-10gen-llm-consistency-batch-v1",
+	"mode":"jev",
+	"contextHash":"8be3efbcb50367059c915d7001d0ff1ca858b62b036c7b8c0fcc833866711a4c",
+	"windowCount":9,
+	"candidateEvaluations":0,
+	"guidanceMillis":99.96404099999998,
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/library-guidance-loss05-10seeds-20261110/experiment/Library/online-jev/guidance-jev/trials/7651612a42f0f024132afb1e729ab59eb938038f8c7a19dbe6f7923befcd8269/guidance",
+	"llm":{
+		"requestCount":0,
+		"failureCount":0,
+		"knownTokens":0,
+		"usageComplete":true,
+		"responseMillis":0.0,
+		"totalTokens":0
+	},
+	"jev":{
+		"requestCount":0,
+		"failureCount":0,
+		"knownTokens":0,
+		"usageComplete":true,
+		"responseMillis":0.0,
+		"totalTokens":0
+	},
+	"selectedCount":0,
+	"retainedCount":0,
+	"retentionRate":null
+}

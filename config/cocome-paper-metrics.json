@@ -1,0 +1,37 @@
+{
+  "profile": "formal",
+  "selector": "jev",
+  "metricVersion": "paper-ieee-eq5-21-v2-isolated-zero",
+  "outputDirectory": "../output/cocome-paper-metrics-new",
+  "calibrationSeeds": [
+    11
+  ],
+  "validationSeeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149
+  ],
+  "systems": [
+    {
+      "id": "CoCoME",
+      "input": "../cocome.remodel"
+    }
+  ],
+  "jev": {
+    "endpoint": "https://api.jevgo.cn/v1/systemone",
+    "model": "jev-1.14.0",
+    "timeoutMillis": 60000
+  },
+  "onlineControl": {
+    "mode": "jev",
+    "monitor": true,
+    "gainThreshold": 0.0002
+  }
+}

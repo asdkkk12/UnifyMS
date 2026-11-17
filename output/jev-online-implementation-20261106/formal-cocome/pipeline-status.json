@@ -1,0 +1,39 @@
+{
+  "case": "CoCoME",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/cocome.remodel",
+  "mode": "run",
+  "stages": [
+    {
+      "stage": "snapshot",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/logs/snapshot.log",
+      "status": "success",
+      "seconds": 0.33265458400000003
+    },
+    {
+      "stage": "calibrate",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/logs/calibrate.log",
+      "status": "success",
+      "seconds": 474.170552708
+    },
+    {
+      "stage": "select",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/logs/select.log",
+      "status": "success",
+      "seconds": 1.020486041999959
+    },
+    {
+      "stage": "compare-online",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/logs/compare-online.log",
+      "status": "success",
+      "seconds": 2398.92836175
+    },
+    {
+      "stage": "export-visualize-report",
+      "status": "success",
+      "seconds": 0.37725870800022676
+    }
+  ],
+  "status": "success",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/formal-cocome/analysis.md",
+  "elapsedSeconds": 2874.8305061250003
+}

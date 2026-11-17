@@ -1,0 +1,14 @@
+{
+	"input":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/java-online-taxi",
+	"inputHash":"45a8b1ff0bcbcd224e64f57300d85c8503523655a7c9a11832ec6cfa018a02ab",
+	"config":{
+		"crossP":0.25,
+		"crossoverProbability":0.5,
+		"evaluationBudget":1802000,
+		"generations":300,
+		"id":"C3",
+		"populationSize":2000,
+		"seed":11
+	},
+	"taskKey":"0a175357f50314e8d03a82b49b35d9bcbaccfcce488cc12501c4467fb885ae3b"
+}

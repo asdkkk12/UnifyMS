@@ -1,0 +1,39 @@
+{
+  "case": "Spring-cloud-shop",
+  "repository": "https://github.com/SiGuiyang/spring-cloud-shop",
+  "requested_ref": "HEAD",
+  "commit": "5d51d31bace7bec96c19574ec09acfbf8ed537be",
+  "download_method": "GitHub connected blob tool + GitHub REST blob API, pinned Git commit; every file verified by original Git blob SHA-1; no Git history",
+  "tree_sha": "53fc81b27ef939cfe6b22f8365fb0eed415a63b7",
+  "staging_directory": "Spring-cloud-shop-verified",
+  "file_count": 944,
+  "java_files": 771,
+  "pom_files": 54,
+  "source_bytes": 6172059,
+  "excluded_files": [
+    {
+      "path": "deploy/nacos.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cab706fef6539d6afdc2b090436923395d11bb97",
+      "size": 81526272,
+      "url": "https://api.github.com/repos/SiGuiyang/spring-cloud-shop/git/blobs/cab706fef6539d6afdc2b090436923395d11bb97",
+      "reason": "Third-party Nacos/Seata deployment binary distribution, not CASE source code"
+    },
+    {
+      "path": "deploy/seata.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ced1ada6bd755c831947e5208d8d30c23d0303f",
+      "size": 49069568,
+      "url": "https://api.github.com/repos/SiGuiyang/spring-cloud-shop/git/blobs/0ced1ada6bd755c831947e5208d8d30c23d0303f",
+      "reason": "Third-party Nacos/Seata deployment binary distribution, not CASE source code"
+    }
+  ],
+  "downloaded_at": "2026-11-03T20:58:37+08:00",
+  "destination": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/Spring-cloud-shop",
+  "paper": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMs论文/output/pdf/unifyms_ieee_format.pdf",
+  "paper_page": 11,
+  "format": "GitHub connected blob tool + GitHub REST blob API, pinned Git commit; every file verified by original Git blob SHA-1; no Git history",
+  "paper_commit_specified": false
+}

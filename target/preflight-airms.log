@@ -1,0 +1,87 @@
+		BelongedDeviceInfo : DeviceInfo Association
+DeviceInfo
+		BelongedEquipment : TerminalEquipment Association
+TerminalEquipment
+		BelongedRole : Role Association
+Role
+		BelongedDepartment : Department Association
+Department
+		ContainedUsers : User* ! Association
+User
+		BelongedUser : User Association // 鎶ヤ慨浜�
+User
+		BelongedDepartment : Department Association
+Department
+		AssoicatedTRE : TbRepairExtra Association
+TbRepairExtra
+		BelongedEFT : EquipmentFailureType Association // 鏁呴殰绫诲瀷
+EquipmentFailureType
+		BelongedTbRepair : TbRepair Association
+TbRepair
+		BelongedAssignDepart : Department Association // 鎵�灞為儴闂ㄧ紪鍙�
+Department
+		BelongedDistribution : User Association // 鎵�娲惧伐鐢ㄦ埛
+User
+		BelongedRelayDep : Department Association // 杞彂閮ㄩ棬    鏈虹數闃熴�佹殩閫氶槦銆佺數鍔涢槦銆佺患鍚堥槦銆佹苯杞︿慨鐞嗗巶
+Department
+		BelongedTbRepair : TbRepair Association
+TbRepair
+		BelongedDLG:DeviceLocationGroup Association // 璁惧浣嶇疆鍒嗙粍
+DeviceLocationGroup
+		BelongedEFT:EquipmentFailureType Association // 璁惧鏁呴殰绫诲瀷
+EquipmentFailureType
+		BelongedDepartment:Department Association // 璁惧鎵�灞為儴闂�
+Department
+		BelongedDepartment:Department Association // 璁惧鏁呴殰绫诲瀷鎵�灞為儴闂�
+Department
+acceptedAa acceptedAa
+acceptedAa scoring
+acceptedAa notAcceptAa
+acceptedAa submitRepair
+acceptedAa completedAa
+scoring acceptedAa
+scoring scoring
+scoring notAcceptAa
+scoring submitRepair
+scoring completedAa
+notAcceptAa acceptedAa
+notAcceptAa scoring
+notAcceptAa notAcceptAa
+notAcceptAa submitRepair
+notAcceptAa completedAa
+submitRepair acceptedAa
+submitRepair scoring
+submitRepair notAcceptAa
+submitRepair submitRepair
+submitRepair completedAa
+completedAa acceptedAa
+completedAa scoring
+completedAa notAcceptAa
+completedAa submitRepair
+completedAa completedAa
+notAcceptBa notAcceptBa
+notAcceptBa acceptedBa
+notAcceptBa completedBa
+acceptedBa notAcceptBa
+acceptedBa acceptedBa
+acceptedBa completedBa
+completedBa notAcceptBa
+completedBa acceptedBa
+completedBa completedBa
+receiveTb receiveTb
+receiveTb setOperationStatus
+receiveTb completeTb
+setOperationStatus receiveTb
+setOperationStatus setOperationStatus
+setOperationStatus completeTb
+completeTb receiveTb
+completeTb setOperationStatus
+completeTb completeTb
+approval approval
+approval arbitration
+arbitration approval
+arbitration arbitration
+userLogin userLogin
+userLogin workReportSubmit
+workReportSubmit userLogin
+workReportSubmit workReportSubmit

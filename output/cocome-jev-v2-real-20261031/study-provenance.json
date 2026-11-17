@@ -1,0 +1,27 @@
+{
+  "previousStudy": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-jev-real-20261031",
+  "selectionPolicyVersion": "five-metric-hv-v2",
+  "inputSha256": "b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+  "calibrationSeeds": [
+    11
+  ],
+  "formalSeed": 101,
+  "mode": "fresh six-profile calibration and fresh formal search, one real Choice call",
+  "previousSelectionSha256": "6828851ac29408e9918d646724bfed0b8a8302416323f287fb126a99b19fd6d6",
+  "previousReportSha256": "159cb23d8c00865f6d7f3d44e697a8924bac374ce5355b28b0229429d32b031f",
+  "completedAt": "2026-11-01T00:13:45+08:00",
+  "choice": "C3",
+  "selectionConfidence": 0.76,
+  "formalMetrics": [
+    2.5,
+    0.7668,
+    0.091,
+    0.675,
+    0.3997
+  ],
+  "formalHv": 0.8866373493124144,
+  "formalServiceCount": 4,
+  "transportFormat": "compact-calibration-v1",
+  "contextLimitRecovery": true,
+  "selectionImplementationHash": "279a63e10ff3dd920dd8ead004543adbbfa7a4f7aaded98017d450c7b16a8c1a"
+}

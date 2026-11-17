@@ -1,0 +1,21 @@
+{
+	"command":"select",
+	"profile":"formal",
+	"binding":"3502f0f687b627745b10fe064a70a7c2745876a2ed70347a30c2409b2202255a",
+	"systems":[
+		{
+			"system":"Spring",
+			"status":"success",
+			"elapsedMillis":832.326375
+		}
+	],
+	"events":[
+		{
+			"stage":"select",
+			"system":"Spring",
+			"status":"success",
+			"elapsedMillis":829.011833
+		}
+	],
+	"endToEndMillis":832.335083
+}

@@ -1,0 +1,28 @@
+{
+	"version":"nominal-10gen-llm-consistency-batch-v1",
+	"mode":"jev",
+	"contextHash":"56517532298c820f7a6b6299b90e9c63092c14ced2d75d0414c4098cb31fabe3",
+	"windowCount":9,
+	"candidateEvaluations":13,
+	"guidanceMillis":149682.259125,
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/trials/614ce69487ab0aea82228981ca3b1f5afb6f3a068a6d6f94034872c4cf55914e/guidance",
+	"llm":{
+		"requestCount":36,
+		"failureCount":0,
+		"knownTokens":93898,
+		"usageComplete":true,
+		"responseMillis":149597.33549700002,
+		"totalTokens":93898
+	},
+	"jev":{
+		"requestCount":0,
+		"failureCount":0,
+		"knownTokens":0,
+		"usageComplete":true,
+		"responseMillis":0.0,
+		"totalTokens":0
+	},
+	"selectedCount":0,
+	"retainedCount":0,
+	"retentionRate":null
+}

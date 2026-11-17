@@ -1,0 +1,22 @@
+{
+	"command":"select",
+	"profile":"formal",
+	"binding":"ae9621a73460692e153ff655f9909adac3b945586b3478395e2e643f2a91c73f",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"failed",
+			"error":"java.io.IOException: JEV selection failed; see /Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-jev-v2-real-20261031/experiment/CoCoME/selection-jev.json",
+			"elapsedMillis":2061.487583
+		}
+	],
+	"events":[
+		{
+			"stage":"select",
+			"system":"CoCoME",
+			"status":"failed",
+			"elapsedMillis":2058.889333
+		}
+	],
+	"endToEndMillis":2061.511375
+}

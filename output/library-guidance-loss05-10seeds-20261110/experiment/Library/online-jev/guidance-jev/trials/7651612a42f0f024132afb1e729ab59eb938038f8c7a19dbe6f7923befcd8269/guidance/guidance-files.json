@@ -1,0 +1,17 @@
+{
+	"current-model.dep":"ed43d4695c0ca8c6494c2cd3c61e9132b06803b33f6a0c878a5e33e2fb8f936d",
+	"dependency-snapshot.json":"d8c0cfddd09d90a013da232340f86378dc993d8ca25b41648098cfd3921ff980",
+	"guidance-analysis.md":"1b66e85d416278014c5904d7e9480ca9f1218474f139acb858cd43b53044e615",
+	"guidance-manifest.json":"500dd8bba9823ea92e235aeeca2206173299a9f3eddbe5fac79bcf8c9ff7f11f",
+	"guidance-summary.json":"dc5ba4a53c9f684c93674dde3078db6644a715ec04b4ea85e365c3f60733b4f3",
+	"guidance-windows.jsonl":"c632d82cc2fea1da8f00bf20a8cbdb4bc209bc14f2e29527508817e8ed9d57d1",
+	"window-0010.json":"f8b945247fbf2e9e59fd2123feb76ed49aec83f363580bd5bc709717a63660e8",
+	"window-0020.json":"d27c03ed720b8941342026665459538ad946f2b35dfd55b84873cb5984b5e21a",
+	"window-0030.json":"298b651e94350ab9b497dfeb2f723ebbc2bb9d4d73e84cf40b4e2d1b1ffe24c3",
+	"window-0040.json":"7483d3b007ec3c6c628136ea80991ac4e6ed3e41531fa91e0bac1066189a82e9",
+	"window-0050.json":"54e95a53edc7d6da6385853f81bfac9cff791dc2d685037065f320736e94e70d",
+	"window-0060.json":"dac9ce5f659047e2abfebdda72f2be69fd0220a2ccf5570ee21f0d3bede06c7b",
+	"window-0070.json":"733f96f1930044350218deeabcad3761dac70d82d928cddbce4ecbcc3b0c5741",
+	"window-0080.json":"50f9f712c361f476315dbfba67c218f95aac504e4b798cba1c547ff1363577a7",
+	"window-0090.json":"b7782b9ce2f9efb6eeffcda6ab0ac2992ecbc1e273a7b66ef627223e5d835b03"
+}

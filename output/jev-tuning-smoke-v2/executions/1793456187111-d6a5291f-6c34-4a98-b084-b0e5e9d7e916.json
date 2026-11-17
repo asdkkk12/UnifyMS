@@ -1,0 +1,21 @@
+{
+	"command":"import-results",
+	"profile":"smoke",
+	"binding":"363278efd99af1b2c23de3957041772969648ef03c0cf577d349f1095ac68257",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":253.068959
+		}
+	],
+	"events":[
+		{
+			"stage":"import-results",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":251.153
+		}
+	],
+	"endToEndMillis":253.083834
+}

@@ -1,0 +1,22 @@
+{
+	"status":"success",
+	"selector":"numeric",
+	"selectionPolicyVersion":"max-mean-hv-v1",
+	"choice":"C3",
+	"meanHv":0.20994197367634926,
+	"totalTokens":0,
+	"totalResponseMillis":0,
+	"evidenceHash":"f3cb48d65daaeee94d89c3dc4f6864c62e6ec780049afc79a3f827572af7dd76",
+	"binding":"2673f39eadf0885047fc24544a4439b4381f38c77ed4149a56c7dab62888e3f3",
+	"inputHash":"b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+	"config":{
+		"crossP":0.25,
+		"crossoverProbability":0.5,
+		"evaluationBudget":0,
+		"generations":21,
+		"id":"C3",
+		"populationSize":24,
+		"seed":11
+	},
+	"evaluationBudget":0
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dependency:Dependency xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dependency="http://www.example.org/dependency">
+  <boundary>
+    <user name="Administrator" modularity=""/>
+    <user name="Cashier" modularity="//@boundary.0/@modularity.2 //@boundary.0/@modularity.0 //@boundary.0/@modularity.1 "/>
+    <user name="StoreManager" modularity="//@boundary.0/@modularity.7 //@boundary.0/@modularity.8 //@boundary.0/@modularity.6 //@boundary.0/@modularity.3 //@boundary.0/@modularity.4 //@boundary.0/@modularity.5 //@boundary.0/@modularity.9 "/>
+    <modularity name="processSale" operation="//@boundary.0/@operation.0 //@boundary.0/@operation.1 //@boundary.0/@operation.2 //@boundary.0/@operation.3 //@boundary.0/@operation.4 "/>
+    <modularity name="openCashDesk" operation="//@boundary.0/@operation.5 "/>
+    <modularity name="closeCashDesk" operation="//@boundary.0/@operation.6 "/>
+    <modularity name="orderProducts" operation="//@boundary.0/@operation.7 //@boundary.0/@operation.8 //@boundary.0/@operation.9 //@boundary.0/@operation.10 //@boundary.0/@operation.11 "/>
+    <modularity name="receiveOrderedProduct" operation="//@boundary.0/@operation.12 "/>
+    <modularity name="showStockReports" operation="//@boundary.0/@operation.13 "/>
+    <modularity name="changePrice" operation="//@boundary.0/@operation.14 "/>
+    <modularity name="listSuppliers" operation="//@boundary.0/@operation.15 "/>
+    <modularity name="openStore" operation="//@boundary.0/@operation.16 "/>
+    <modularity name="closeStore" operation="//@boundary.0/@operation.17 "/>
+    <operation name="endSale" entity="//@boundary.0/@entity.5 "/>
+    <operation name="makeNewSale" entity="//@boundary.0/@entity.3 "/>
+    <operation name="makeCardPayment" entity="//@boundary.0/@entity.9 "/>
+    <operation name="enterItem" entity="//@boundary.0/@entity.6 //@boundary.0/@entity.5 "/>
+    <operation name="makeCashPayment" entity="//@boundary.0/@entity.8 "/>
+    <operation name="openCashDesk" entity="//@boundary.0/@entity.2 "/>
+    <operation name="closeCashDesk" entity="//@boundary.0/@entity.2 "/>
+    <operation name="chooseSupplier" entity="//@boundary.0/@entity.11 "/>
+    <operation name="makeNewOrder" entity="//@boundary.0/@entity.12 "/>
+    <operation name="placeOrder" entity="//@boundary.0/@entity.10 "/>
+    <operation name="orderItem" entity="//@boundary.0/@entity.6 //@boundary.0/@entity.10 "/>
+    <operation name="listAllOutOfStoreProducts" entity="//@boundary.0/@entity.6 "/>
+    <operation name="receiveOrderedProduct" entity="//@boundary.0/@entity.6 //@boundary.0/@entity.10 //@boundary.0/@entity.12 "/>
+    <operation name="showStockReports" entity="//@boundary.0/@entity.6 "/>
+    <operation name="changePrice" entity="//@boundary.0/@entity.6 "/>
+    <operation name="listSuppliers" entity="//@boundary.0/@entity.11 "/>
+    <operation name="openStore" entity="//@boundary.0/@entity.0 "/>
+    <operation name="closeStore" entity="//@boundary.0/@entity.0 "/>
+    <entity name="Store"/>
+    <entity name="ProductCatalog"/>
+    <entity name="CashDesk"/>
+    <entity name="Sale"/>
+    <entity name="Cashier"/>
+    <entity name="SalesLineItem"/>
+    <entity name="Item"/>
+    <entity name="Payment"/>
+    <entity name="CashPayment"/>
+    <entity name="CardPayment"/>
+    <entity name="OrderEntry"/>
+    <entity name="Supplier"/>
+    <entity name="OrderProduct"/>
+  </boundary>
+</dependency:Dependency>

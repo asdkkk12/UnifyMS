@@ -1,0 +1,45 @@
+{
+  "profile": "formal",
+  "outputDirectory": "../output/cocome-online-20261106/experiment",
+  "metricVersion": "legacy-ifn-average-v1",
+  "selector": "jev",
+  "calibrationSeeds": [
+    11
+  ],
+  "validationSeeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149
+  ],
+  "evaluationBudget": 0,
+  "systems": [
+    {
+      "id": "CoCoME",
+      "input": "../cocome.remodel"
+    }
+  ],
+  "jev": {
+    "endpoint": "https://api.jevgo.cn/v1/systemone",
+    "model": "jev-1.14.0",
+    "timeoutMillis": 60000
+  },
+  "onlineControl": {
+    "mode": "jev",
+    "monitor": false,
+    "intervalGenerations": 30,
+    "historyWindows": 3,
+    "step": 0.05,
+    "minProbability": 0.1,
+    "maxProbability": 0.9,
+    "noveltyThreshold": 0.2,
+    "gainThreshold": 0.0001,
+    "requestTimeoutMillis": 5000
+  }
+}

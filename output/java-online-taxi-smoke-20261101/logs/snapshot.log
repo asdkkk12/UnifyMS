@@ -1,0 +1,108 @@
+Car Car Car
+Car id ApiDriverPointRequest
+DicDistrict DicDistrict DicDistrict
+DriverUser DriverUser DriverUserExistsResponse
+DriverUser DriverUser DriverUser
+DriverUser DriverUser DriverUserWorkStatus
+DriverUser id ApiDriverPointRequest
+DriverUser networkCarIssueOrganization Car
+DriverUser networkCarIssueDate Car
+DriverUser getNetworkCarProofDate Car
+DriverUser networkCarProofOn Car
+DriverUser networkCarProofOff Car
+DriverUserWorkStatus DriverUserWorkStatus DriverUser
+DriverUserWorkStatus DriverUserWorkStatus DriverUserWorkStatus
+DriverUserWorkStatus id ApiDriverPointRequest
+DriverUserWorkStatus workStatus DriverUserWorkStatus
+DriverUserWorkStatus "DriverUserWorkStatus{" DriverUser
+DriverUserWorkStatus "DriverUserWorkStatus{" DriverUserWorkStatus
+DriverUserWorkStatus id ApiDriverPointRequest
+DriverUserWorkStatus workStatus DriverUserWorkStatus
+ResponseResult ResponseResult<T> ResponseResult
+ResponseResult code NumberCodeResponse
+ResponseResult T TokenResult
+ResponseResult T DicDistrict
+ResponseResult T DriverUserExistsResponse
+ResponseResult T ForecastPriceResponse
+ResponseResult T DirectionResponse
+ResponseResult T TokenResponse
+ResponseResult T DriverUserWorkStatus
+ResponseResult T ResponseResult
+ResponseResult T ForecastPriceDTO
+ResponseResult T PointRequest
+ResponseResult T ApiDriverPointRequest
+ResponseResult ResponseResult ResponseResult
+ResponseResult ResponseResult().setCode(CommonStatusEnum.SUCCESS.getCode()).setMessage(CommonStatusEnum.SUCCESS.getMessage()) ResponseResult
+ResponseResult ResponseResult ResponseResult
+ResponseResult ResponseResult().setCode(CommonStatusEnum.SUCCESS.getCode()).setMessage(CommonStatusEnum.SUCCESS.getMessage()).setData(data) ResponseResult
+ResponseResult ResponseResult ResponseResult
+ResponseResult ResponseResult().setCode(CommonStatusEnum.FAIL.getCode()).setMessage(CommonStatusEnum.FAIL.getMessage()).setData(data) ResponseResult
+ResponseResult code NumberCodeResponse
+ResponseResult ResponseResult ResponseResult
+ResponseResult ResponseResult().setCode(code).setMessage(message) ResponseResult
+ResponseResult code NumberCodeResponse
+ResponseResult ResponseResult ResponseResult
+ResponseResult ResponseResult().setCode(code).setMessage(message).setData(data) ResponseResult
+TokenResult TokenResult TokenResult
+ApiDriverPointRequest ApiDriverPointRequest PointRequest
+ApiDriverPointRequest ApiDriverPointRequest ApiDriverPointRequest
+ApiDriverPointRequest carId Car
+ForecastPriceDTO ForecastPriceDTO ForecastPriceDTO
+PointRequest PointRequest PointRequest
+PointRequest PointRequest ApiDriverPointRequest
+DirectionResponse DirectionResponse DirectionResponse
+DriverUserExistsResponse DriverUserExistsResponse DriverUserExistsResponse
+DriverUserExistsResponse DriverUserExistsResponse DriverUser
+DriverUserExistsResponse int PointRequest
+DriverUserExistsResponse int ApiDriverPointRequest
+ForecastPriceResponse ForecastPriceResponse ForecastPriceResponse
+ForecastPriceResponse price ForecastPriceResponse
+ForecastPriceResponse price ForecastPriceDTO
+NumberCodeResponse NumberCodeResponse NumberCodeResponse
+NumberCodeResponse numberCode NumberCodeResponse
+TokenResponse TokenResponse TokenResponse
+OrderInfo OrderInfo OrderInfo
+OrderInfo id ApiDriverPointRequest
+OrderInfo carId Car
+OrderInfo receiveOrderCarLongitude Car
+OrderInfo receiveOrderCarLatitude Car
+OrderInfo price ForecastPriceResponse
+OrderInfo price ForecastPriceDTO
+add add
+getUser getUser
+getUser loginOrRegisterUser
+loginOrRegisterUser getUser
+loginOrRegisterUser loginOrRegisterUser
+initDicDistrict initDicDistrict
+add add
+refreshToken refreshToken
+add add
+upload upload
+updateDriverUser updateDriverUser
+updateDriverUser addDriverUser
+addDriverUser updateDriverUser
+addDriverUser addDriverUser
+driving driving
+add add
+add aroundsearch
+add trsearch
+aroundsearch add
+aroundsearch aroundsearch
+aroundsearch trsearch
+trsearch add
+trsearch aroundsearch
+trsearch trsearch
+verifyCodeGet verifyCodeGet
+getCarById getCarById
+getCarById addCar
+addCar getCarById
+addCar addCar
+test test
+changeWorkStatus changeWorkStatus
+bind bind
+bind unbind
+unbind bind
+unbind unbind
+forecastPrice forecastPrice
+add add
+/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-smoke-20261101/model-snapshot.json

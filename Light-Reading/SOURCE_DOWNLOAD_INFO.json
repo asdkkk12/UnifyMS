@@ -1,0 +1,19 @@
+{
+  "case": "Light-Reading",
+  "repository": "https://github.com/Zealon159/light-reading-cloud",
+  "archive_url": "https://codeload.github.com/Zealon159/light-reading-cloud/zip/HEAD",
+  "requested_ref": "HEAD",
+  "commit": "8e797a3aa96bf35a3f066d02717af6b25d0416f1",
+  "archive_sha256": "08d526e09335dc73f831624be4a9e26ee5ad3a07d280323ce7f490bdb6c750ce",
+  "archive_bytes": 260539,
+  "file_count": 181,
+  "java_files": 132,
+  "pom_files": 9,
+  "archive_root": "light-reading-cloud-HEAD",
+  "downloaded_at": "2026-11-03T20:41:34+08:00",
+  "destination": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/Light-Reading",
+  "paper": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMs论文/output/pdf/unifyms_ieee_format.pdf",
+  "paper_page": 11,
+  "format": "GitHub source ZIP; no Git history",
+  "paper_commit_specified": false
+}

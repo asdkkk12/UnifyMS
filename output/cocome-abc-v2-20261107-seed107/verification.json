@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "design": "abc-ablation",
+  "sourceEvidencePreserved": true,
+  "bAndCShareInitialConfig": true,
+  "promptVersion": "novelty-gain-history-choice-v2",
+  "gainThreshold": 0.0002,
+  "bAndCIdenticalPopulations": false,
+  "rows": [
+    {
+      "group": "A",
+      "seed": 107,
+      "taskKey": "a3da98e3dfb9fb16c337fe0f1f554ff88b2da621a59676ef720bbb8e525cc679",
+      "evaluations": 1802000,
+      "auditVerified": true,
+      "modelCounts": {
+        "uc": 10,
+        "actor": 3,
+        "userinterface": 6,
+        "entity": 13,
+        "systeminterface": 10,
+        "services": 3,
+        "interfaceEdges": 5,
+        "serviceEdges": 4
+      }
+    },
+    {
+      "group": "B",
+      "seed": 107,
+      "taskKey": "2c394cc1de1bc3a354bf48861d3eefde3a29f152352004c72fc840bf504b6a95",
+      "evaluations": 1802000,
+      "auditVerified": true,
+      "modelCounts": {
+        "uc": 10,
+        "actor": 3,
+        "userinterface": 8,
+        "entity": 13,
+        "systeminterface": 14,
+        "services": 4,
+        "interfaceEdges": 7,
+        "serviceEdges": 4
+      }
+    },
+    {
+      "group": "C",
+      "seed": 107,
+      "taskKey": "12581f1e25d3fc9257820c7a3fc6b4978f339dced1733f990f8bd4c94e8cbe3f",
+      "evaluations": 1802000,
+      "auditVerified": true,
+      "modelCounts": {
+        "uc": 10,
+        "actor": 3,
+        "userinterface": 6,
+        "entity": 13,
+        "systeminterface": 8,
+        "services": 3,
+        "interfaceEdges": 4,
+        "serviceEdges": 3
+      }
+    }
+  ]
+}

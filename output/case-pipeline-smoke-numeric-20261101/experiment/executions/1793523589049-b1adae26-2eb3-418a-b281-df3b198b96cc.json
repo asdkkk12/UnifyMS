@@ -1,0 +1,35 @@
+{
+	"command":"validate",
+	"profile":"smoke",
+	"binding":"398b25c6dfbc6f5aaffe37877d72f3dd43fbcec00d78f3b50e9d416239f57e72",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":42.88625
+		}
+	],
+	"events":[
+		{
+			"stage":"validate",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":41.344083
+		},
+		{
+			"stage":"reuse",
+			"system":"CoCoME",
+			"config":"C0",
+			"seed":101,
+			"taskKey":"ae9f55fb3230b2bc1d63b4eaec909dd9f42f57d014c1676b194811c3a0404e21"
+		},
+		{
+			"stage":"reuse",
+			"system":"CoCoME",
+			"config":"C0",
+			"seed":101,
+			"taskKey":"ae9f55fb3230b2bc1d63b4eaec909dd9f42f57d014c1676b194811c3a0404e21"
+		}
+	],
+	"endToEndMillis":44.136625
+}

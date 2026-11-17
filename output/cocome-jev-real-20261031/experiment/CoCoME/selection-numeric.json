@@ -1,0 +1,21 @@
+{
+	"status":"success",
+	"selector":"numeric",
+	"choice":"C5",
+	"meanHv":0.8946546016637461,
+	"totalTokens":0,
+	"totalResponseMillis":0,
+	"evidenceHash":"636e635066b838aafc50a9cac5fdc1ea944f70f9c4568dd54c5295c24e0fe8e4",
+	"binding":"eef82f883b6f8eace5cb7f136ee5de32b4cb4e1b99b8ebd4ac436928f6510e53",
+	"inputHash":"b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+	"config":{
+		"crossP":0.25,
+		"crossoverProbability":0.9,
+		"evaluationBudget":0,
+		"generations":600,
+		"id":"C5",
+		"populationSize":1000,
+		"seed":11
+	},
+	"evaluationBudget":1802000
+}

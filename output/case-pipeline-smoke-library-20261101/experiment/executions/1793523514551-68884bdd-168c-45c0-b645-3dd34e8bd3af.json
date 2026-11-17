@@ -1,0 +1,21 @@
+{
+	"command":"calibrate",
+	"profile":"smoke",
+	"binding":"982d27beead672697062d5eb1d875c9ba55ba67c76e2af8e47d35b1ef9af3e58",
+	"systems":[
+		{
+			"system":"Library",
+			"status":"success",
+			"elapsedMillis":1855.456917
+		}
+	],
+	"events":[
+		{
+			"stage":"calibrate",
+			"system":"Library",
+			"status":"success",
+			"elapsedMillis":1853.88475
+		}
+	],
+	"endToEndMillis":1855.467833
+}

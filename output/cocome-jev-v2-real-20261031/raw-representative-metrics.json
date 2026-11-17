@@ -1,0 +1,26 @@
+{
+	"rawObjectives":[
+		-2.5,
+		0.7668269230769231,
+		0.0910493827160494,
+		0.675,
+		0.399726189075432
+	],
+	"rawMetrics":[
+		2.5,
+		0.7668269230769231,
+		0.0910493827160494,
+		0.675,
+		0.399726189075432
+	],
+	"searchObjectives":[
+		-2.5,
+		0.7668,
+		0.091,
+		0.675,
+		0.3997
+	],
+	"inputHash":"b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+	"taskKey":"7df4a523d43d93b4eee341685208adaf492af8e505e5ab9267042290ade8ca04",
+	"note":"Direct objective getValue recomputation. Legacy Chromosome.addObjectiveValue rounds search vectors to four decimal places; run HV uses those search vectors."
+}

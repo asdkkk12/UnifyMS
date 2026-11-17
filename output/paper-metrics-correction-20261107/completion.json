@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "metricVersion": "paper-ieee-eq5-21-v1",
+  "selectionEvidenceVersion": "five-metric-hv-paper-v3",
+  "sourcePdf": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMs论文/output/pdf/unifyms_ieee_format.pdf",
+  "sourcePdfSha256": "7b5ca42cdb257c7962345f6c15c5d1aa73d275e38919b24919277f4e9fd4ebf7",
+  "sourcePages": [
+    9,
+    10
+  ],
+  "sourceEquations": "5-21",
+  "verification": {
+    "javaTests": 50,
+    "javaFailures": 0,
+    "pythonTests": 24,
+    "smokePipeline": "passed",
+    "independentFixedPartitionRescore": "passed",
+    "validInputAudits": 4,
+    "atmInvalidInput": "explicitly rejected"
+  },
+  "scope": {
+    "formalGaRuns": 0,
+    "realJevCalls": 0,
+    "tinyBudgetSmoke": "executed",
+    "legacyExperimentsOverwritten": false
+  },
+  "fixedPartitionRescore": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/fixed-partition-rescore.json",
+  "smokeReport": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/cocome-smoke-final/analysis.md",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/analysis.md"
+}

@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"smoke",
+	"binding":"398b25c6dfbc6f5aaffe37877d72f3dd43fbcec00d78f3b50e9d416239f57e72",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":286.390833
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":284.358625
+		}
+	],
+	"endToEndMillis":286.40525
+}

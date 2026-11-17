@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "uc": 10,
+    "actor": 3,
+    "userinterface": 6,
+    "entity": 13,
+    "systeminterface": 8,
+    "services": 3,
+    "interfaceEdges": 4,
+    "serviceEdges": 3
+  },
+  "diagnostics": []
+}

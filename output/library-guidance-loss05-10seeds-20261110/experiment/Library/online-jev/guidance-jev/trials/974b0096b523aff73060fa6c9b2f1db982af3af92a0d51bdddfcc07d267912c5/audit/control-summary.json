@@ -1,0 +1,20 @@
+{
+	"mode":"jev",
+	"status":"success",
+	"policyVersion":"online-novelty-gain-history-v1",
+	"promptVersion":"novelty-gain-history-choice-v2",
+	"contextHash":"553288efe55f2d5c331376beaaca44faabae1317f01c483ed924a976345979a1",
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/library-guidance-loss05-10seeds-20261110/experiment/Library/online-jev/guidance-jev/trials/974b0096b523aff73060fa6c9b2f1db982af3af92a0d51bdddfcc07d267912c5/audit",
+	"observedGenerations":100,
+	"decisionCount":9,
+	"requestCount":9,
+	"fallbackCount":0,
+	"finalProbability":0.4,
+	"knownTokens":0,
+	"usageComplete":false,
+	"totalTokens":null,
+	"totalResponseMillis":5144.67125,
+	"monitoringMillis":17891.312080999993,
+	"controlMillis":5146.018336,
+	"auditMillis":37.418502
+}

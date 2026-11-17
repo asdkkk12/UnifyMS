@@ -1,0 +1,39 @@
+{
+  "case": "CoCoME",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/cocome.remodel",
+  "mode": "run",
+  "stages": [
+    {
+      "stage": "snapshot",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/entry-rule-smoke/logs/snapshot.log",
+      "status": "success",
+      "seconds": 0.19756375
+    },
+    {
+      "stage": "calibrate",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/entry-rule-smoke/logs/calibrate.log",
+      "status": "success",
+      "seconds": 2.128807
+    },
+    {
+      "stage": "select",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/entry-rule-smoke/logs/select.log",
+      "status": "success",
+      "seconds": 0.19089766600000013
+    },
+    {
+      "stage": "run-101",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/entry-rule-smoke/logs/run-101.log",
+      "status": "success",
+      "seconds": 0.5012417079999998
+    },
+    {
+      "stage": "export-visualize-report",
+      "status": "success",
+      "seconds": 0.011972915999999945
+    }
+  ],
+  "status": "success",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/entry-rule-smoke/analysis.md",
+  "elapsedSeconds": 3.0312356670000002
+}

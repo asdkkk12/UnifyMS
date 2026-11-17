@@ -1,0 +1,20 @@
+{
+	"mode":"jev",
+	"status":"success",
+	"policyVersion":"online-novelty-gain-history-v1",
+	"promptVersion":"novelty-gain-history-choice-v2",
+	"contextHash":"49d8a5722ff9dab2b3f6935d3d164890e89116363003e5770a3183e520fa8ed6",
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-real-smoke-20261110/experiment/CoCoME/online-jev/guidance-jev/trials/cdcb84d2c7134f8cf03ffb53fd656c5fba2575fe961fd17ea9ac07972dc21006/audit",
+	"observedGenerations":21,
+	"decisionCount":2,
+	"requestCount":2,
+	"fallbackCount":0,
+	"finalProbability":0.5,
+	"knownTokens":0,
+	"usageComplete":false,
+	"totalTokens":null,
+	"totalResponseMillis":797.8876250000001,
+	"monitoringMillis":23.348876,
+	"controlMillis":798.351042,
+	"auditMillis":10.732375999999999
+}

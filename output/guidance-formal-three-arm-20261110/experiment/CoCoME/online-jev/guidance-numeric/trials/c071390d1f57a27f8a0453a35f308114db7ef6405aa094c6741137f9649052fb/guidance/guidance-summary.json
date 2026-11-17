@@ -1,0 +1,28 @@
+{
+	"version":"nominal-10gen-llm-consistency-batch-v1",
+	"mode":"numeric",
+	"contextHash":"64c1f887691cbf6c61d15e6988255c793cdd720be8468ba6e9f895e28ac19061",
+	"windowCount":19,
+	"candidateEvaluations":53,
+	"guidanceMillis":383688.58916699997,
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-formal-three-arm-20261110/experiment/CoCoME/online-jev/guidance-numeric/trials/c071390d1f57a27f8a0453a35f308114db7ef6405aa094c6741137f9649052fb/guidance",
+	"llm":{
+		"requestCount":72,
+		"failureCount":0,
+		"knownTokens":404150,
+		"usageComplete":true,
+		"responseMillis":383342.03604300006,
+		"totalTokens":404150
+	},
+	"jev":{
+		"requestCount":0,
+		"failureCount":0,
+		"knownTokens":0,
+		"usageComplete":true,
+		"responseMillis":0.0,
+		"totalTokens":0
+	},
+	"selectedCount":0,
+	"retainedCount":0,
+	"retentionRate":null
+}

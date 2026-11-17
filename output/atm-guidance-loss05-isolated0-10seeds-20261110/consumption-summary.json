@@ -1,0 +1,51 @@
+{
+  "metricVersion": "paper-ieee-eq5-21-v2-isolated-zero",
+  "inputHash": "57de92c76df61ec66659f4d34949207f172a858f713820b1f8ddb38291900e10",
+  "sampleCount": 10,
+  "offlineJev": {
+    "requestCount": 1,
+    "totalTokens": null,
+    "knownTokens": 0
+  },
+  "llm": {
+    "requestCount": 360,
+    "failureCount": 0,
+    "totalTokens": 938925
+  },
+  "selectionJev": {
+    "requestCount": 0,
+    "failureCount": 0,
+    "totalTokens": 0
+  },
+  "probabilityJev": {
+    "requestCount": 90,
+    "fallbackCount": 0,
+    "totalTokens": null
+  },
+  "totalTokens": null,
+  "knownReturnedTokens": 938925,
+  "batchWallSeconds": 520.577886,
+  "stageSeconds": {
+    "build": 1.386052750000001,
+    "snapshot": 0.3161582079999974,
+    "calibrate": 4.974538750000001,
+    "select": 1.19549125,
+    "run-101-jev": 156.07697066600002,
+    "run-107-jev": 160.042233708,
+    "run-109-jev": 161.08066787500002,
+    "run-103-jev": 163.402632708,
+    "run-113-jev": 162.28689525,
+    "run-127-jev": 161.165682375,
+    "run-137-jev": 170.902237208,
+    "run-131-jev": 181.925350375,
+    "run-139-jev": 157.26745499999998,
+    "run-149-jev": 191.20216879199995,
+    "report": 0.1290761669999938,
+    "ten-run-summary": 0.15796404100001382
+  },
+  "formalWorkerSumSeconds": 1660.5194122100002,
+  "formalWorkerMeanSeconds": 166.05194122100002,
+  "calibrationPlusSelectionPlusFormalWorkerSumSeconds": 1666.6894422100002,
+  "wallScope": "Runner start through successful report and summary; includes build, snapshot, calibration, offline selection, 10 parallel runs, report/export; excludes later archive copy.",
+  "missingUsagePolicy": "Unknown totals are null, never zero or estimated from money."
+}

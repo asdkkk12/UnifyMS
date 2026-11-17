@@ -1,0 +1,15 @@
+{
+  "case": "Library",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/library.remodel",
+  "mode": "report",
+  "stages": [
+    {
+      "stage": "export-visualize-report",
+      "status": "failed",
+      "seconds": 0.007425666999999997
+    }
+  ],
+  "status": "failed",
+  "error": "Report requires a real JEV result with the current five-metric/HV rule",
+  "elapsedSeconds": 0.007508208000000002
+}

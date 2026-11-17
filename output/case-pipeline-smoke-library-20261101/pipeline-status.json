@@ -1,0 +1,40 @@
+{
+  "case": "Library",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/library.remodel",
+  "mode": "run",
+  "stages": [
+    {
+      "stage": "build",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/case-pipeline-smoke-library-20261101/logs/build.log",
+      "status": "success",
+      "seconds": 1.497174083
+    },
+    {
+      "stage": "calibrate",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/case-pipeline-smoke-library-20261101/logs/calibrate.log",
+      "status": "success",
+      "seconds": 2.176013083
+    },
+    {
+      "stage": "select",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/case-pipeline-smoke-library-20261101/logs/select.log",
+      "status": "success",
+      "seconds": 0.1846343749999999
+    },
+    {
+      "stage": "run-101",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/case-pipeline-smoke-library-20261101/logs/run-101.log",
+      "status": "success",
+      "seconds": 0.44813804200000007
+    },
+    {
+      "stage": "snapshot",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/case-pipeline-smoke-library-20261101/logs/snapshot.log",
+      "status": "success",
+      "seconds": 0.19376095799999948
+    }
+  ],
+  "status": "success",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/case-pipeline-smoke-library-20261101/analysis.md",
+  "elapsedSeconds": 4.5118305
+}

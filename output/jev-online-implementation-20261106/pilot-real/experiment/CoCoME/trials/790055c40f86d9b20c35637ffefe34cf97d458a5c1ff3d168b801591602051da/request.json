@@ -1,0 +1,14 @@
+{
+	"input":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/cocome.remodel",
+	"inputHash":"b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+	"config":{
+		"crossP":0.5,
+		"crossoverProbability":0.7,
+		"evaluationBudget":5880,
+		"generations":196,
+		"id":"C2",
+		"populationSize":10,
+		"seed":11
+	},
+	"taskKey":"790055c40f86d9b20c35637ffefe34cf97d458a5c1ff3d168b801591602051da"
+}

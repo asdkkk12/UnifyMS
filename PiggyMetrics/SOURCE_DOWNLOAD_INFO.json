@@ -1,0 +1,19 @@
+{
+  "case": "PiggyMetrics",
+  "repository": "https://github.com/spring2go/piggymetrics",
+  "archive_url": "https://codeload.github.com/spring2go/piggymetrics/zip/master",
+  "requested_ref": "master",
+  "commit": "23b3038de8ff17734b6e3a2b73a2413572fba22a",
+  "archive_sha256": "41368f8a3b8c1c0b828c2c8712acc159462dfd50494010e20cfbca3eeac2bb14",
+  "archive_bytes": 1788969,
+  "file_count": 187,
+  "java_files": 105,
+  "pom_files": 6,
+  "archive_root": "piggymetrics-master",
+  "downloaded_at": "2026-11-03T20:41:34+08:00",
+  "destination": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/PiggyMetrics",
+  "paper": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMs论文/output/pdf/unifyms_ieee_format.pdf",
+  "paper_page": 11,
+  "format": "GitHub source ZIP; no Git history",
+  "paper_commit_specified": false
+}

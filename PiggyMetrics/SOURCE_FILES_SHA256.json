@@ -1,0 +1,937 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "39cf5319e9ef079b30ac55f47fe5c692a7b2e501b2402265dd0fb9403eb4a65c",
+    "bytes": 269
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "d8d5d42d77dd315918d54fb1328b2d570a52b621d484408367ea3b0a86742509",
+    "bytes": 1070
+  },
+  {
+    "path": "README.md",
+    "sha256": "8f4fa1dd6bcf38a32b29b02ba65f9e9ec9b4d98c161ccb856b59367c94506e85",
+    "bytes": 10479
+  },
+  {
+    "path": "account-service/pom.xml",
+    "sha256": "e5cda02cb4f15b17b42523f8a6dd19680a4961b40b1199bb57994a6316ad9b46",
+    "bytes": 2649
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/cathelper/CatContext.java",
+    "sha256": "91b0d552c9af94313d251eb253ef1b55042668ebbbc335f3d373a530f19a92bb",
+    "bytes": 439
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/cathelper/CatHttpConstants.java",
+    "sha256": "63e798472f1acd2ac8e10357fc940f729d30c4f4b571d6f8eaf2e049270648fc",
+    "bytes": 310
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/cathelper/CatRestInterceptor.java",
+    "sha256": "2e8a9b45fc8f5049bbf2af902bafd8b747277701ba23248fa117b7bea14060c6",
+    "bytes": 1583
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/cathelper/CatServletFilter.java",
+    "sha256": "9d74d23ef2ac3300831d24e426e8abb60ae531ab3ece901921d4730baa48a4a3",
+    "bytes": 2352
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/AccountApplication.java",
+    "sha256": "2ba3a8a5421ff5f7b4cf194624c07743b09dc0f757376957384f532a2befabad",
+    "bytes": 700
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/CatAnnotation.java",
+    "sha256": "60066dca2f50e523a43057f2e996dd3d74dfd1a7fc3bdc5d76249aa280818d63",
+    "bytes": 305
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/CatAopService.java",
+    "sha256": "8988c47b2b735afffd10f1a3e2dcfd49c1f11093d5cdf44ae128d5be5c057b3d",
+    "bytes": 965
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/CatFilterConfigure.java",
+    "sha256": "9e27980fbe043cbcee972a41a31f74ea024bd63877da0180b9d59bd0e0b5bf42",
+    "bytes": 716
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/client/StatisticsServiceClient.java",
+    "sha256": "80c6cfe22c22787e95c9e2074b810e50e1895e60f4dc480014482f024efbe626",
+    "bytes": 827
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/client/StatisticsServiceClientFallback.java",
+    "sha256": "18accb491e21a687db97db9caffad0e613e3be0544ccf6e648f2ec0ebd9371ce",
+    "bytes": 592
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/client/UserServiceClient.java",
+    "sha256": "d8b0ea956722bdfbced2d3fcf1883b02058615d80ba06079370af5d5d23028ca",
+    "bytes": 666
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/controller/AccountController.java",
+    "sha256": "54a05f298aaf7eb4754df356474c448de3c5f32f80bfa67e4a07ce3fb7aa890a",
+    "bytes": 1256
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/controller/ErrorHandler.java",
+    "sha256": "a2a901ee2299e45deec93ac376c7a9faef9f00d31c70c80611d1aca58f059301",
+    "bytes": 765
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/domain/Account.java",
+    "sha256": "964a555e63abda387bbd5b15640a2e1ca6fdff57716ae3234320af111630d064",
+    "bytes": 1458
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/domain/Currency.java",
+    "sha256": "d490c18693485b948c3589d8eea179d7896781f8419f592c95a56e2ad73f5388",
+    "bytes": 151
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/domain/Item.java",
+    "sha256": "4a0155cc16d3c8692fd6f5dc0a0ac162d4105b5ea75f7254f39e9acf9d19c1aa",
+    "bytes": 1016
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/domain/Saving.java",
+    "sha256": "5f6012d7eefcd5ef799a96be5226a1a303b361f8b80c7374b7fa49bd31e3e442",
+    "bytes": 1042
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/domain/TimePeriod.java",
+    "sha256": "1a3d7659c850533417424c1f55a20ee0375243a40739171b3dc93878b63c2a62",
+    "bytes": 113
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/domain/User.java",
+    "sha256": "1ae11be20a6ed0a1952965047809f9dbaf2c9e22ac7a61962bb1436f743f848d",
+    "bytes": 561
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/repository/AccountRepository.java",
+    "sha256": "7fdd68aa113bd6b4f880e37d6a8533e9586cbff0ce32de07d6b133019ef0540d",
+    "bytes": 349
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/service/AccountService.java",
+    "sha256": "0c5e5c6baa2148fb9160251817388abf37beeb7f1349454e05e0960b2830ee11",
+    "bytes": 753
+  },
+  {
+    "path": "account-service/src/main/java/io/spring2go/piggymetrics/account/service/AccountServiceImpl.java",
+    "sha256": "3798a9d04c3620030e95429f9cbdf7f77a649060c8ce81a25fbd0f6c471b6f58",
+    "bytes": 2688
+  },
+  {
+    "path": "account-service/src/main/resources/META-INF/app.properties",
+    "sha256": "ceb51934ec9f9ee51d63bc02869ab735574f2d4652d2be17baeb9bc6c4d76471",
+    "bytes": 24
+  },
+  {
+    "path": "account-service/src/main/resources/application.properties",
+    "sha256": "341fb5787a1bc95cfd48db948fa94041377d0ab3d497ee013d3275a18d3d9f29",
+    "bytes": 269
+  },
+  {
+    "path": "account-service/src/test/java/io/spring2go/piggymetrics/account/AccountServiceApplicationTests.java",
+    "sha256": "de7e1dd86cff3759713898444f973af8eecf64d7fc9eb03725facfa2d0d52a44",
+    "bytes": 359
+  },
+  {
+    "path": "account-service/src/test/java/io/spring2go/piggymetrics/account/client/StatisticsServiceClientFallbackTest.java",
+    "sha256": "3b4e0127a4eb73225750e68d06bc24f831d70df54c8931297ec44a04b7ac7c98",
+    "bytes": 1140
+  },
+  {
+    "path": "account-service/src/test/java/io/spring2go/piggymetrics/account/controller/AccountControllerTest.java",
+    "sha256": "e34b955acb1fbf3825f829a25d74835ce203f77aaf8836c0aefbc2deb7ea3a93",
+    "bytes": 4647
+  },
+  {
+    "path": "account-service/src/test/java/io/spring2go/piggymetrics/account/repository/AccountRepositoryTest.java",
+    "sha256": "e37c15ce598137d0eae1bff66a8bfa4861a17abb7f351bca895de64a760237ad",
+    "bytes": 2435
+  },
+  {
+    "path": "account-service/src/test/java/io/spring2go/piggymetrics/account/service/AccountServiceTest.java",
+    "sha256": "7ad3bdf69b419f3fea9989005588cd9f366fadeed3c1e9c443bf97e7ab3ca8ff",
+    "bytes": 5121
+  },
+  {
+    "path": "account-service/src/test/resources/application.properties",
+    "sha256": "53071ac858237281f6481639e49c1e429926ca1b00183c4c5b7773cb6e4789fb",
+    "bytes": 97
+  },
+  {
+    "path": "config/account-service.properties",
+    "sha256": "5557be0fa80d15bc7a4b47ea947d80a0d7a3c5cec38488d952b818530260f147",
+    "bytes": 774
+  },
+  {
+    "path": "config/gateway.properties",
+    "sha256": "1dbbde1aeb33a8074820fbadf331102df83ab13f4eef68a38f1445eaa59a6c93",
+    "bytes": 1545
+  },
+  {
+    "path": "config/notification-service.properties",
+    "sha256": "07d801d8da3ff3a9d2f365d364dc8f39c0b14a388acc17b8f0b3dc08860c0176",
+    "bytes": 1565
+  },
+  {
+    "path": "config/registry.properties",
+    "sha256": "d192ffd320e193d9056e73be0ea9e99f10000fd7a938676dc913cc27332c5b96",
+    "bytes": 265
+  },
+  {
+    "path": "config/statistics-service.properties",
+    "sha256": "9aabf694e8b422e8d0d167ee22c800601b70f96ee09180fa2a7a3cced9aecd41",
+    "bytes": 755
+  },
+  {
+    "path": "gateway/pom.xml",
+    "sha256": "ee2e77d131bc13dc3744da43add3328fb6f0417307d9f955caa710a955d0245f",
+    "bytes": 1732
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/cathelper/CatContext.java",
+    "sha256": "91b0d552c9af94313d251eb253ef1b55042668ebbbc335f3d373a530f19a92bb",
+    "bytes": 439
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/cathelper/CatHttpConstants.java",
+    "sha256": "63e798472f1acd2ac8e10357fc940f729d30c4f4b571d6f8eaf2e049270648fc",
+    "bytes": 310
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/cathelper/CatRestInterceptor.java",
+    "sha256": "2e8a9b45fc8f5049bbf2af902bafd8b747277701ba23248fa117b7bea14060c6",
+    "bytes": 1583
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/cathelper/CatServletFilter.java",
+    "sha256": "9d74d23ef2ac3300831d24e426e8abb60ae531ab3ece901921d4730baa48a4a3",
+    "bytes": 2352
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/piggymetrics/gateway/CatFilterConfigure.java",
+    "sha256": "aa445f1502945a9f9a9fed002da869283f492d845d5cd2bccadb24d7c5978683",
+    "bytes": 716
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/piggymetrics/gateway/GatewayApplication.java",
+    "sha256": "ee7952bf11a8e38e515e71dd9fd1cdfbf33e27dcae92b81cbde7f0256f88b0d2",
+    "bytes": 1013
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/piggymetrics/gateway/filter/CatHeaderFilter.java",
+    "sha256": "352b9227e9d1b66f2626dbfe3145e301e7b9a6e683b755a109f5e90fbe6e87b7",
+    "bytes": 1290
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/piggymetrics/gateway/filter/ValidateTokenFilter.java",
+    "sha256": "0895c5845bcc2f2e7c63cb03222d558a7ba64472b76590f8cb38adc4bef0d89b",
+    "bytes": 3331
+  },
+  {
+    "path": "gateway/src/main/java/io/spring2go/piggymetrics/gateway/filter/ValidationConfig.java",
+    "sha256": "120ebfaaa213048dde47258b0b76622319b5f135ed4ae6a03bc27c3bcb3d276a",
+    "bytes": 1290
+  },
+  {
+    "path": "gateway/src/main/resources/META-INF/app.properties",
+    "sha256": "889e74c6a1d7048ca409bd61a1fdd07f50efa7693d913f2472bda380e5bf2fec",
+    "bytes": 16
+  },
+  {
+    "path": "gateway/src/main/resources/application.properties",
+    "sha256": "903f51cd22586267fb0a5e81cdc17c39b7cf9ca1282cab5dbbc9b59757dbc4da",
+    "bytes": 261
+  },
+  {
+    "path": "gateway/src/main/resources/static/attribution.html",
+    "sha256": "15db223f741c4655d2b1cc648ca007674fdad1809f31503596203d31cc9f1625",
+    "bytes": 1447
+  },
+  {
+    "path": "gateway/src/main/resources/static/css/animation.css",
+    "sha256": "51f9cccb53aedaedec5c30d5755403d19d57b5f799820d162b41238264087275",
+    "bytes": 12471
+  },
+  {
+    "path": "gateway/src/main/resources/static/css/launch.css",
+    "sha256": "41f3ca92d6582c79d50b69da53a1961169948b44c9b7bb203623a5cd41f70939",
+    "bytes": 20105
+  },
+  {
+    "path": "gateway/src/main/resources/static/css/style.css",
+    "sha256": "948a7f3445c3128d3dad1556de4ddab0717153b98d10e1c151b10e5345c58370",
+    "bytes": 56249
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-100/museo-100.eot",
+    "sha256": "3840f136ab5e2cc083490b64d5bcabbace509c031f4f9f0427434e13bf41af30",
+    "bytes": 36916
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-100/museo-100.svg",
+    "sha256": "fb3c2e8c1cce4e03b72a089a5ff05b16b069a02964bd00ff23250826c7bd8931",
+    "bytes": 232925
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-100/museo-100.ttf",
+    "sha256": "037d82018c4c33a15acb667f1f39c3242a8028389f07f65d840b11e18d6875bc",
+    "bytes": 118164
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-100/museo-100.woff",
+    "sha256": "b3fad7aa3d8c9891e53a54aa0f9474ceae047ab30f23b199a073bb45b2e55663",
+    "bytes": 41408
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-300/museo-300.eot",
+    "sha256": "e5db177c8de9b54448a2559657fe4ecb6e84d85600e671184eea2bf35286ae77",
+    "bytes": 37037
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-300/museo-300.svg",
+    "sha256": "8acd191d2f86c5324c90e334cb747a070b435011eb66876e1b2341610ade2d7d",
+    "bytes": 233546
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-300/museo-300.ttf",
+    "sha256": "dd5a6fe5ee405129a49f09a81a51eb5120902b7699e00e2f6003a51b0d99d704",
+    "bytes": 118228
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-300/museo-300.woff",
+    "sha256": "c4d2553a65d9fe35e4d9f7db3741c362864ce3d2dbf9c3082f1b88cf8f209449",
+    "bytes": 41460
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-500/museo-500.eot",
+    "sha256": "0bd7197f67743c0755646531f7018dd4274cfd6e2d43aa08d92f51fd92ce40df",
+    "bytes": 37329
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-500/museo-500.svg",
+    "sha256": "d13a4277c448f0f4a93cfc8b25ee5748d7c4ef0b434681431a5552ed43269185",
+    "bytes": 234154
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-500/museo-500.ttf",
+    "sha256": "c2fafba8d812e58e1575eec499be616f49a66d47302d181ff401f9abe9f1471e",
+    "bytes": 118284
+  },
+  {
+    "path": "gateway/src/main/resources/static/fonts/museo-500/museo-500.woff",
+    "sha256": "55e771122a609465d591e613f8c876e55caff093334cc32a5229cfd6a25cb728",
+    "bytes": 41824
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/1pagesprites.png",
+    "sha256": "c92c9fce5e818d2aae7f6d5b9505def4f465714044d33c2ce4bbd59a404bb559",
+    "bytes": 20082
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/1pagesprites@2x.png",
+    "sha256": "39635961f9f973d8ed028262877470976c8ee5522fa8780f4c66754ce5cc76ad",
+    "bytes": 44672
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/github.gif",
+    "sha256": "e64a384a1c5504e5ee320edec3a0c365a024514b85b5adfef0ebabfbc8e7f9ca",
+    "bytes": 2478
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/icons.png",
+    "sha256": "5b2817263b317ef269df2490367f98ed06f8895e01d276532dc26135c515e821",
+    "bytes": 19826
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/icons@2x.png",
+    "sha256": "554e9abec1cd01a8015bfdf903308b66965900b2594485a4d833a008f895cc9e",
+    "bytes": 39203
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/linesbackground.png",
+    "sha256": "7590688331cc066dae7fb93f1c8d1b3cc539e3d1d495de4147ed1ee8ca67554e",
+    "bytes": 1154
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/linesbackground@2x.png",
+    "sha256": "2d9e48e344523d57bdd1b8e628aecd65614d738757c22c14b2cf44f05877c679",
+    "bytes": 1366
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/logo.gif",
+    "sha256": "d214ff965264f1b97f8e0a576593cb505ac8e9aec9990a13b14b1fd69f53223c",
+    "bytes": 5913
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/logo@2x.gif",
+    "sha256": "bdad998975afbf6055c181caf89bebcba7c97cf022d532c4dc8cdd24ae18e442",
+    "bytes": 9427
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/logo_large.gif",
+    "sha256": "45ce1b0cbb4b318b9aed4b99cdf89ae1c9e2d77efd8e25e999fdeec45bd5a8fe",
+    "bytes": 6603
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/logo_large@2x.gif",
+    "sha256": "f48dbddf8b37dbbc2617d32fb58a55233d3357b229356bfdf0ed74a27bd4af94",
+    "bytes": 12069
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/logotext.gif",
+    "sha256": "a51253219d50e602629a3cab85a5f040b0a68b4f1222bb0c36b3d6f40adb3ff7",
+    "bytes": 2545
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/logotext@2x.gif",
+    "sha256": "2b2e72e95ff625835d33330b36ca6919d7febd2cc8aeeb2168bdd7d8552c259f",
+    "bytes": 5577
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/logotext_large.gif",
+    "sha256": "c45a1d63b43a566ebb146c8d002caf159b2fa4061bdcc75cda2e8c3ad26885dc",
+    "bytes": 4503
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/logotext_large@2x.gif",
+    "sha256": "98ed4290dc6630f5725366b577426128c122804217720ef62299ac8f1f216996",
+    "bytes": 6571
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/overview.png",
+    "sha256": "8610d7dec0c8aa38347ee6b214547b82bce3328f9bcceb085f488e59b34075ea",
+    "bytes": 109039
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/piggy.gif",
+    "sha256": "4aeaab646ad115eeab83edd2c22bd5097214e36c8b821510c93cf40356458050",
+    "bytes": 5766
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/piggy@2x.gif",
+    "sha256": "17b9514aca2f0b896a62c695286fb3ad0050aabcba527979a59f09e4421a349e",
+    "bytes": 9365
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/piggy_large.gif",
+    "sha256": "95643b381c7eb8b8630eb0d20f9c28735b023ccd8fb7991a0e1f8f7af96cac3c",
+    "bytes": 5237
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/piggy_large@2x.gif",
+    "sha256": "26c2457dfebf082af424603b192f7e4c048ec4d53e920d1b2ecddbd274007202",
+    "bytes": 11278
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/preloader.gif",
+    "sha256": "7256a92af03cd38da2f70d560fad2fe76d9d7dcc26e8b5550e3bbf9cb794cd9d",
+    "bytes": 3265
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/sprites.png",
+    "sha256": "d4e6ddeb571814994f2b1cdfa876e4c5ab2aa7f51d823c4de2a84bc038148857",
+    "bytes": 17437
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/sprites@2x.png",
+    "sha256": "2890c01dfc268363b09825c0dcf6b6e90ca9ea14e01b36c0819113f5771e14c6",
+    "bytes": 36686
+  },
+  {
+    "path": "gateway/src/main/resources/static/images/userpic.jpg",
+    "sha256": "cdf744f10460e0d8643bbd7af91fd10cc36eb050753db7e29c41b4afc44b6fa9",
+    "bytes": 27060
+  },
+  {
+    "path": "gateway/src/main/resources/static/index.html",
+    "sha256": "e670b758c5361e8dc51fbc988b849a817380b675f4366c828fde8f2607839e06",
+    "bytes": 32164
+  },
+  {
+    "path": "gateway/src/main/resources/static/js/dashboard.js",
+    "sha256": "b705b1fee9d2677056c2ac8d7ed8f01421ba17366ed8e1eafcfddb46682def40",
+    "bytes": 26394
+  },
+  {
+    "path": "gateway/src/main/resources/static/js/launch.js",
+    "sha256": "eff45a6016a3bbcdf6dbf808e9fe5b93f27c6b40b0cca2e370cafcd5d39df6da",
+    "bytes": 2083
+  },
+  {
+    "path": "gateway/src/main/resources/static/js/lib/extrascripts.js",
+    "sha256": "90e81843dcb14dd7268073d7eca312057a53f43a58d9f9f9133e9b9d7d928978",
+    "bytes": 60295
+  },
+  {
+    "path": "gateway/src/main/resources/static/js/lib/jquery.min.js",
+    "sha256": "04bebecfb9f7ce92cf947ce283fccf067cf6870f65af3456dd22b6c102447c83",
+    "bytes": 93434
+  },
+  {
+    "path": "gateway/src/main/resources/static/js/lib/touchscreens.js",
+    "sha256": "c650d4c0ad871d86010378b9973d45b7b596f0cbcfa6017e0d08976a51b73625",
+    "bytes": 18606
+  },
+  {
+    "path": "gateway/src/main/resources/static/js/login.js",
+    "sha256": "fd8823b52612617dc0f8e5fcefb7810fe41a62794ef9dee596f3a4b8fad4a61a",
+    "bytes": 5854
+  },
+  {
+    "path": "gateway/src/main/resources/static/js/main.js",
+    "sha256": "460eb6d21aa12a98cb2d7c7717b244d13b72de359b73222a39c78a63a810ed47",
+    "bytes": 32994
+  },
+  {
+    "path": "images/apicall.png",
+    "sha256": "308f0fe3cc3dfa9055fa6226647ae0fa3d0a2a7b286a17dae6fc7ea4fe55b8ba",
+    "bytes": 98262
+  },
+  {
+    "path": "images/biz_arch.png",
+    "sha256": "dee30dc369354743b5f06287ea7bfd3e6890db62f3f3a8ce6a32d789c460608c",
+    "bytes": 108763
+  },
+  {
+    "path": "images/custom_arch.png",
+    "sha256": "7d8a7fc058972416ebe858a7cd9c4517a8764e67ab3442ecea7b84bb1eff6b32",
+    "bytes": 117521
+  },
+  {
+    "path": "images/piggymetrics.png",
+    "sha256": "d531c9f85201c25690934efd8f77bdab17372fab3652d84c0a4563700ad9f4a0",
+    "bytes": 132022
+  },
+  {
+    "path": "images/reglogin.png",
+    "sha256": "bb67bd638ad41bdd5d2fb86fc0e0560128745cd7b3fe3d008f2d918fbc912fe9",
+    "bytes": 114106
+  },
+  {
+    "path": "images/tech_arch.png",
+    "sha256": "a3e0a5f9ea855289f1f2907d126eafc7f7ff011bfca11cf5f3934f5146529712",
+    "bytes": 202478
+  },
+  {
+    "path": "mongodb/seed.js",
+    "sha256": "7507780946a997de62740843f373f1bb88eeee394bfb916847ba210867f19edf",
+    "bytes": 1942
+  },
+  {
+    "path": "notification-service/pom.xml",
+    "sha256": "c8dc0d8506a543dbab9b4ed07432becb0faf2cce722b444cc93837885e9614ad",
+    "bytes": 2650
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/cathelper/CatContext.java",
+    "sha256": "91b0d552c9af94313d251eb253ef1b55042668ebbbc335f3d373a530f19a92bb",
+    "bytes": 439
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/cathelper/CatHttpConstants.java",
+    "sha256": "63e798472f1acd2ac8e10357fc940f729d30c4f4b571d6f8eaf2e049270648fc",
+    "bytes": 310
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/cathelper/CatRestInterceptor.java",
+    "sha256": "2e8a9b45fc8f5049bbf2af902bafd8b747277701ba23248fa117b7bea14060c6",
+    "bytes": 1583
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/cathelper/CatServletFilter.java",
+    "sha256": "9d74d23ef2ac3300831d24e426e8abb60ae531ab3ece901921d4730baa48a4a3",
+    "bytes": 2352
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/CatAnnotation.java",
+    "sha256": "0ee392693e37d411f21743c6d758168fa6ca0af4593f4686bfe4d88e55f16d12",
+    "bytes": 310
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/CatAopService.java",
+    "sha256": "7874fac3074add56737e4ffccc548e7c4168c08aa5d8ec3519a1aff3875a7a48",
+    "bytes": 970
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/CatFilterConfigure.java",
+    "sha256": "fee34c59a5c7c3a7af0329febb29fd109acc89a80c8a899271aac6b4b26e6746",
+    "bytes": 720
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/NotificationServiceApplication.java",
+    "sha256": "01de3347ac4d41a9bdfdc650025c6b17b85866ff8f64098ead9f55b111a204be",
+    "bytes": 1350
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/client/AccountServiceClient.java",
+    "sha256": "a3e3289e6f2fbd75794089d15df42107a4545a697d7e0b32f8d21955a18ff52a",
+    "bytes": 702
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/controller/RecipientController.java",
+    "sha256": "5e5a1984a4f4eb346acc17eab04ca551e0dca041b1e4052497469c99fa5fafd0",
+    "bytes": 1239
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/domain/Frequency.java",
+    "sha256": "87ceca690d4ea972c59a3bfdefa930d08c972b9c0e383206c7034225c9e36ccc",
+    "bytes": 459
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/domain/NotificationSettings.java",
+    "sha256": "bbfaf967b9554d0da9a726bfba8a754783dfa209db6d27695e5f297c76145492",
+    "bytes": 681
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/domain/NotificationType.java",
+    "sha256": "1c536a1d0d97b675a6ecdf1e4819239f17fe609781d0ead4dcd6e39f1baa60e7",
+    "bytes": 613
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/domain/Recipient.java",
+    "sha256": "00e2eff481dfae545ca7c03eea89403c3180d19046dcc3ac7f4e9af0f5cba809",
+    "bytes": 1243
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/repository/RecipientRepository.java",
+    "sha256": "0e0d8b708bd286346ac3a8adc51c5a7a491cb9391b972f22ad72509118304158",
+    "bytes": 1117
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/repository/converter/FrequencyReaderConverter.java",
+    "sha256": "117c6b6cc5236f0c28d2221e950c020d5f8a7b9d99bd5fb80eb47a386b8c5a55",
+    "bytes": 431
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/repository/converter/FrequencyWriterConverter.java",
+    "sha256": "4349284f704c41a46e2a2d79dc38c7bf77106e5440b26553e9aa60076550610e",
+    "bytes": 431
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/service/EmailService.java",
+    "sha256": "692d5266ed10e2f37d3864436908f85ea5379e982be9086b564dfcaf5ae8a47e",
+    "bytes": 410
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/service/EmailServiceImpl.java",
+    "sha256": "e759ba54e349fae623db64259e89f655b5970e32bf28a5f036f1c043b384ef6f",
+    "bytes": 1944
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/service/NotificationService.java",
+    "sha256": "55d7a761cd72e6c262dec2b1fea44fc2eb23159b15bc276d2f86429aa768d035",
+    "bytes": 166
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/service/NotificationServiceImpl.java",
+    "sha256": "d9f7bee2b96ca8582afbfbd8195a33c961311ebebceef1a15439359cd6a8fb59",
+    "bytes": 2228
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/service/RecipientService.java",
+    "sha256": "42e77c9b001c1a46cabb877657e111ae931f5ad8ad2fe2bd371da451ddb36303",
+    "bytes": 1010
+  },
+  {
+    "path": "notification-service/src/main/java/io/spring2go/piggymetrics/notification/service/RecipientServiceImpl.java",
+    "sha256": "89fe8b4bf0d822ec80f1f8a086c599dfe0d11c83adec76ed1947a066ded08776",
+    "bytes": 2003
+  },
+  {
+    "path": "notification-service/src/main/resources/META-INF/app.properties",
+    "sha256": "f8f91c795f552070a52ca6da6391be9e57f548ffc081c478fdfccf9500f615a7",
+    "bytes": 29
+  },
+  {
+    "path": "notification-service/src/main/resources/application.properties",
+    "sha256": "a9e0079ca53015216cd6a7e4b6cb87b88c37c6ad0407a25499d642c928df5244",
+    "bytes": 274
+  },
+  {
+    "path": "notification-service/src/test/java/io/spring2go/piggymetrics/notification/NotificationServiceApplicationTests.java",
+    "sha256": "dc6ba3146ed134ace3629f0fe23eea45fdcda4b17041e481a8efc465ba65f20a",
+    "bytes": 368
+  },
+  {
+    "path": "notification-service/src/test/java/io/spring2go/piggymetrics/notification/controller/RecipientControllerTest.java",
+    "sha256": "af7244622f13fa0a633b66a1e134c0e6f82614dcab9360590e51c810314ad9a0",
+    "bytes": 3289
+  },
+  {
+    "path": "notification-service/src/test/java/io/spring2go/piggymetrics/notification/repository/RecipientRepositoryTest.java",
+    "sha256": "45ab42f946787d0478435085d34f6eb00797a94f69734c4e3a91ee4a3a601f53",
+    "bytes": 5444
+  },
+  {
+    "path": "notification-service/src/test/java/io/spring2go/piggymetrics/notification/service/EmailServiceImplTest.java",
+    "sha256": "6428fcb292786ae3ed699cfd1519bd87d0b12e29b668b803d4eb1cea60518339",
+    "bytes": 2692
+  },
+  {
+    "path": "notification-service/src/test/java/io/spring2go/piggymetrics/notification/service/NotificationServiceImplTest.java",
+    "sha256": "10bdc0eb6b8ae7dbb244131c848f3e2c34ff264e019d851410861617c2aa3fdd",
+    "bytes": 2881
+  },
+  {
+    "path": "notification-service/src/test/java/io/spring2go/piggymetrics/notification/service/RecipientServiceImplTest.java",
+    "sha256": "02ff669f4914713130850f52fbf9acd3e609f6f2b17037dd2f7779759667b959",
+    "bytes": 3745
+  },
+  {
+    "path": "notification-service/src/test/resources/application.properties",
+    "sha256": "85720d30b2485679503c02b3a8a9f85bd7a7aa85ec297d9e351c346f3bcbcd3a",
+    "bytes": 933
+  },
+  {
+    "path": "pom.xml",
+    "sha256": "6315b8b12d2bcdbfe0c63d2404376d6dbe38fd03dde3cc12fe47201e1ec047c3",
+    "bytes": 2707
+  },
+  {
+    "path": "registry/pom.xml",
+    "sha256": "5d3201e88b99f98104074f90018d63f4e472e03e0c431e552e86bf40aedaab48",
+    "bytes": 1279
+  },
+  {
+    "path": "registry/src/main/java/io/spring2go/cathelper/CatContext.java",
+    "sha256": "91b0d552c9af94313d251eb253ef1b55042668ebbbc335f3d373a530f19a92bb",
+    "bytes": 439
+  },
+  {
+    "path": "registry/src/main/java/io/spring2go/cathelper/CatHttpConstants.java",
+    "sha256": "63e798472f1acd2ac8e10357fc940f729d30c4f4b571d6f8eaf2e049270648fc",
+    "bytes": 310
+  },
+  {
+    "path": "registry/src/main/java/io/spring2go/cathelper/CatRestInterceptor.java",
+    "sha256": "2e8a9b45fc8f5049bbf2af902bafd8b747277701ba23248fa117b7bea14060c6",
+    "bytes": 1583
+  },
+  {
+    "path": "registry/src/main/java/io/spring2go/cathelper/CatServletFilter.java",
+    "sha256": "9d74d23ef2ac3300831d24e426e8abb60ae531ab3ece901921d4730baa48a4a3",
+    "bytes": 2352
+  },
+  {
+    "path": "registry/src/main/java/io/spring2go/piggymetrics/registry/CatFilterConfigure.java",
+    "sha256": "080154638326884ce5406dc055accd5bbf9ad949ea073779d418f73eb585f887",
+    "bytes": 717
+  },
+  {
+    "path": "registry/src/main/java/io/spring2go/piggymetrics/registry/RegistryApplication.java",
+    "sha256": "3376e438fd73725898006c5573f0cac185d8f6c078871b82822dee7c6ae7ee8b",
+    "bytes": 518
+  },
+  {
+    "path": "registry/src/main/resources/META-INF/app.properties",
+    "sha256": "1f26ecf45954fe0781891124d40f7a3ededad8a505e6e6bea7ed676eaafb3d22",
+    "bytes": 17
+  },
+  {
+    "path": "registry/src/main/resources/application.properties",
+    "sha256": "4b428a67c44b3b6de3b2a43597a61da2dd9cf8a62bcc85ce6f35d737f0110514",
+    "bytes": 262
+  },
+  {
+    "path": "statistics-service/pom.xml",
+    "sha256": "8235555c3953aae4b93a48c081bf5b5fbfa5dac6ce0e7e8c051ad65a9f360446",
+    "bytes": 2646
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/cathelper/CatContext.java",
+    "sha256": "91b0d552c9af94313d251eb253ef1b55042668ebbbc335f3d373a530f19a92bb",
+    "bytes": 439
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/cathelper/CatHttpConstants.java",
+    "sha256": "63e798472f1acd2ac8e10357fc940f729d30c4f4b571d6f8eaf2e049270648fc",
+    "bytes": 310
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/cathelper/CatRestInterceptor.java",
+    "sha256": "2e8a9b45fc8f5049bbf2af902bafd8b747277701ba23248fa117b7bea14060c6",
+    "bytes": 1583
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/cathelper/CatServletFilter.java",
+    "sha256": "9d74d23ef2ac3300831d24e426e8abb60ae531ab3ece901921d4730baa48a4a3",
+    "bytes": 2352
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/CatAnnotation.java",
+    "sha256": "b7eab4e63635d5ee952743776d8f02cda7da39b7cc8247fbb492b7e1d076c820",
+    "bytes": 308
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/CatAopService.java",
+    "sha256": "b276751d8688ec5290dc75bf4df68103f0fcd131a8a488c5adee9042e397317f",
+    "bytes": 968
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/CatFilterConfigure.java",
+    "sha256": "6309eed0dca23ff3d3c2f19e1ca2b2cd58c962582e9e955988735f822d4fd798",
+    "bytes": 719
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/StatisticsApplication.java",
+    "sha256": "8bbab5c2db6508fbf56d1a865953d19c317f65f1f3659f2bad175ecc4a584c26",
+    "bytes": 1249
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/client/ExchangeRatesClient.java",
+    "sha256": "acd612abcf9cc4d01950ccf307c589dacaee9eab61875e0784b06c5e6c695de3",
+    "bytes": 799
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/client/ExchangeRatesClientFallback.java",
+    "sha256": "2694ec7cc5bd1a9a71e42015dd3355cf9414fc639551d3605ab316528a233350",
+    "bytes": 637
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/controller/StatisticsController.java",
+    "sha256": "c742218ec471575408a46cf01c24b26f3cf720866946814babc30cd334e5f706",
+    "bytes": 1231
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/Account.java",
+    "sha256": "aef16b5f4497c2fa8dfff72b49f42f8e08e4cd73f344b0fbf8bc657f77cbf5d0",
+    "bytes": 913
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/Currency.java",
+    "sha256": "40e70c93cb185a283a306fddc2265393560c334cbc66029693e2dbac474dc109",
+    "bytes": 150
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/ExchangeRatesContainer.java",
+    "sha256": "3e5e0cb5905ddec1d277875faf748900d4ff730286e1ba051cda5953e110e627",
+    "bytes": 921
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/Item.java",
+    "sha256": "6b33b28d745b891a545c16031c258cc0a242816c7782d933f4839f5c7b1c8ab2",
+    "bytes": 880
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/Saving.java",
+    "sha256": "e003077126351f820e85a11896a3e334a51dbf511f85593ee43aaa5b5fb04436",
+    "bytes": 1045
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/TimePeriod.java",
+    "sha256": "8c87032c279fa2b6bc1fd143ca898b910a290159834ca28c63c533347ae0a609",
+    "bytes": 411
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/timeseries/DataPoint.java",
+    "sha256": "de594e05960eab8420ce34ad718ead2f13ee273ad76b09d5e12cfa6f0f5affd0",
+    "bytes": 1400
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/timeseries/DataPointId.java",
+    "sha256": "23157a35c5f1ce1471f2fd48d8768ac683e983ee433a6d20f5f6299aa01e7fcd",
+    "bytes": 600
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/timeseries/ItemMetric.java",
+    "sha256": "bb873cd4686f7c93dadfbfd65c2669993eaeefe24c1b4ba6d83dc9aca00453f0",
+    "bytes": 976
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/domain/timeseries/StatisticMetric.java",
+    "sha256": "be7d7547b07458f8d79a0bdd5695e13ed5337abdb170c0700d4dbff58018a218",
+    "bytes": 147
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/repository/DataPointRepository.java",
+    "sha256": "554eaabe4965c4f7986949717f363de38c44b4a1239bf532773353ba1bc89024",
+    "bytes": 567
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/repository/converter/DataPointIdReaderConverter.java",
+    "sha256": "9ca8b567fa1ce3ee73cf70ef851e91ebecc71d5e18be99dc8359490a4419ec24",
+    "bytes": 603
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/repository/converter/DataPointIdWriterConverter.java",
+    "sha256": "a6d82f9420464b2980dddd111069f08a915666d9b579005a6367c16e765df9ca",
+    "bytes": 658
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/service/ExchangeRatesService.java",
+    "sha256": "6ad9f436aa8eab74af01eceb9a1a694b8cb3134bf23b5d469e970a70719d728b",
+    "bytes": 693
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/service/ExchangeRatesServiceImpl.java",
+    "sha256": "7941ef13de9e760e469b43218f8a02e662d3a8e3d3f8f84bd258aeb749ddb620",
+    "bytes": 2237
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/service/StatisticsService.java",
+    "sha256": "f39f7ef47c84258338574e8da9cc5d6a9fb8769eb4a59b5f51aa9e48b86cf31e",
+    "bytes": 730
+  },
+  {
+    "path": "statistics-service/src/main/java/io/spring2go/piggymetrics/statistics/service/StatisticsServiceImpl.java",
+    "sha256": "69467df2b0d11a1a95bcae79da7ce0cebcec57d8342df5a94ab386be1a3b1422",
+    "bytes": 3629
+  },
+  {
+    "path": "statistics-service/src/main/resources/META-INF/app.properties",
+    "sha256": "0334e6e2b3e754cb12eaeb481cfe8617553a87897f03063ae300f693b03b723c",
+    "bytes": 27
+  },
+  {
+    "path": "statistics-service/src/main/resources/application.properties",
+    "sha256": "56988529c2562ce8d47428f5112c8ee9900ce89e77bb5a4f8679d97eaa5176ff",
+    "bytes": 272
+  },
+  {
+    "path": "statistics-service/src/test/java/io/spring2go/piggymetrics/statistics/StatisticsServiceApplicationTests.java",
+    "sha256": "250b192c101148cca0638e0c6b9a7364a684f5f995aa7bc1dd9a1f5985314b33",
+    "bytes": 364
+  },
+  {
+    "path": "statistics-service/src/test/java/io/spring2go/piggymetrics/statistics/client/ExchangeRatesClientTest.java",
+    "sha256": "d3f6daa19fa8b92566214822bd511acac065976e0ca27dce1dec6d533d27fc54",
+    "bytes": 1580
+  },
+  {
+    "path": "statistics-service/src/test/java/io/spring2go/piggymetrics/statistics/controller/StatisticsControllerTest.java",
+    "sha256": "798f30ffea61a8c5be8e589808e56b1387a114153f271f5420b446727fafa4a7",
+    "bytes": 4398
+  },
+  {
+    "path": "statistics-service/src/test/java/io/spring2go/piggymetrics/statistics/repository/DataPointRepositoryTest.java",
+    "sha256": "ba6726188e1c05a7a30a660fad70402dbbd3e3e4ba44516f196547c5f4df1498",
+    "bytes": 2958
+  },
+  {
+    "path": "statistics-service/src/test/java/io/spring2go/piggymetrics/statistics/service/ExchangeRatesServiceImplTest.java",
+    "sha256": "b389b794304f21ffbb2176070e61c9620636bb1db43e188cf3fba0616b2ea1c3",
+    "bytes": 2866
+  },
+  {
+    "path": "statistics-service/src/test/java/io/spring2go/piggymetrics/statistics/service/StatisticsServiceImplTest.java",
+    "sha256": "7b99a2fc141e4af9ea49b31c1314950098e0c1997e9201a99753c0722539c78a",
+    "bytes": 5726
+  },
+  {
+    "path": "statistics-service/src/test/resources/application.properties",
+    "sha256": "df007e955bb5d3a770aad4682c2b336441a4c4f8d4dc6636281858cda0e8115b",
+    "bytes": 222
+  }
+]

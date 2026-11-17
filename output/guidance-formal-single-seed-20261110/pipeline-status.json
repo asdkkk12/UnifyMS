@@ -1,0 +1,15 @@
+{
+  "case": "CoCoME",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/cocome.remodel",
+  "mode": "report",
+  "stages": [
+    {
+      "stage": "export-visualize-report",
+      "status": "success",
+      "seconds": 0.067773166
+    }
+  ],
+  "status": "success",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-formal-single-seed-20261110/analysis.md",
+  "elapsedSeconds": 0.067844917
+}

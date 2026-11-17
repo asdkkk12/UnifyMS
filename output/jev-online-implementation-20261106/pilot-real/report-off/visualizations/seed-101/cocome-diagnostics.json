@@ -1,0 +1,14 @@
+{
+  "inputHash": "62635ffeba570365d24ef399f2f3b3a968dfe5130037627cc7f2f84dcc224906",
+  "counts": {
+    "uc": 10,
+    "actor": 3,
+    "userinterface": 14,
+    "entity": 13,
+    "systeminterface": 25,
+    "services": 7,
+    "interfaceEdges": 16,
+    "serviceEdges": 11
+  },
+  "diagnostics": []
+}

@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "arms": [
+    "off",
+    "jev"
+  ],
+  "seeds": [
+    101
+  ],
+  "freshTaskKeys": true,
+  "frozenEvidencePreserved": true,
+  "staticPopulationMatchesHistorical": true,
+  "evaluationsPerArm": 1802000,
+  "jevRequestCount": 9,
+  "jevFallbackCount": 0,
+  "hv": {
+    "off": 0.8866373493124144,
+    "jev": 0.8831779870554616
+  },
+  "metrics": {
+    "off": [
+      2.5,
+      0.7668,
+      0.091,
+      0.675,
+      0.3997
+    ],
+    "jev": [
+      3.0,
+      0.7818,
+      0.0818,
+      0.625,
+      0.5326
+    ]
+  },
+  "exportedModelCounts": {
+    "usecases": 10,
+    "entities": 13
+  }
+}

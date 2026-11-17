@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"formal",
+	"binding":"3502f0f687b627745b10fe064a70a7c2745876a2ed70347a30c2409b2202255a",
+	"systems":[
+		{
+			"system":"Spring",
+			"status":"success",
+			"elapsedMillis":485580.473583
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"Spring",
+			"status":"success",
+			"elapsedMillis":485575.226375
+		}
+	],
+	"endToEndMillis":485580.485708
+}

@@ -1,0 +1,5 @@
+CoCoME: run (smoke)
+CoCoME: Cannot invoke "Object.getClass()" because "value" is null
+Exception in thread "main" java.lang.IllegalStateException: Some systems failed; see /Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/pilot-real/experiment/executions/1793970142020-9816eebc-d110-45ec-b86c-ecc2a74aa69d.json
+	at tuning.TuningCli.execute(TuningCli.java:68)
+	at tuning.TuningCli.main(TuningCli.java:39)

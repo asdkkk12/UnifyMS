@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmi:XMI xmlns:req="http://www.example.org/req" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <req:RequirementModel inputHash="45a8b1ff0bcbcd224e64f57300d85c8503523655a7c9a11832ec6cfa018a02ab" runHash="d380597755e150e3821975433936cf4c2a3ccd6ceabc9161843293fddb5f528c" snapshotHash="d1508fa21e8bbc6aaa174a7eec638b42a994d9a787e70b720d39a721f4f21686" taskKey="96591a21d31e54be92a3c7a85c8f8ec60ca989997461442f62feb46a1c757866" configId="C3" seed="101" exportVersion="merm-export-v1" sourceKind="java-directory-legacy">
+    <UseCaseModel name="java-online-taxi">
+      <usecasecontext name="Microservice 0" serviceId="0">
+        <uc name="addCar" javaControllerSources="api-boss/src/main/java/com/jayden/apiboss/controller/CarController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java" />
+        <uc name="bind" javaControllerSources="api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java" />
+        <uc name="unbind" javaControllerSources="api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java" />
+        <uc name="upload" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/PointController.java service-map/src/main/java/com/jayden/servicemap/controller/PointController.java" />
+        <uc name="testAuth" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/TestController.java" />
+        <uc name="updateUser" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/UserController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java" />
+        <uc name="verifyCode" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java" />
+        <uc name="forecastPrice" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/ForecastPriceController.java service-price/src/main/java/com/jayden/serviceprice/controller/ForecastPriceController.java" />
+        <uc name="add" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/OrderController.java service-map/src/main/java/com/jayden/servicemap/controller/ServiceController.java service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java service-map/src/main/java/com/jayden/servicemap/controller/TrackController.java service-order/src/main/java/com/jayden/serviceorder/controller/OrderInfoController.java" />
+        <uc name="noauthTest" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java" />
+        <uc name="test" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java service-order/src/main/java/com/jayden/serviceorder/controller/TestController.java" />
+        <uc name="refreshToken" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/TokenController.java" />
+        <uc name="getUser" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/UserController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java" />
+        <uc name="verifyCodeGet" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java service-verifycode/src/main/java/com/jayden/serviceverifycode/controller/VerifyCodeController.java" />
+        <uc name="getCarById" javaControllerSources="service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java" />
+        <uc name="addUser" javaControllerSources="service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java" />
+        <uc name="DriverUserExistsResponse" javaControllerSources="service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java" />
+        <uc name="aroundsearch" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java" />
+        <uc name="loginOrRegisterUser" javaControllerSources="service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java" />
+      </usecasecontext>
+      <usecasecontext name="Microservice 1" serviceId="1">
+        <uc name="updateDriverUser" javaControllerSources="api-boss/src/main/java/com/jayden/apiboss/controller/DriverUserController.java" />
+        <uc name="addDriverUser" javaControllerSources="api-boss/src/main/java/com/jayden/apiboss/controller/DriverUserController.java" />
+      </usecasecontext>
+      <usecasecontext name="Microservice 2" serviceId="2">
+        <uc name="testNoAuth" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/TestController.java" />
+        <uc name="verifyCodeCheck" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java" />
+        <uc name="testGetUser" javaControllerSources="service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java" />
+      </usecasecontext>
+      <usecasecontext name="Microservice 3" serviceId="3">
+        <uc name="authTest" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java" />
+      </usecasecontext>
+      <usecasecontext name="Microservice 4" serviceId="4">
+        <uc name="changeWorkStatus" javaControllerSources="service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverUserWorkStatusController.java" />
+      </usecasecontext>
+      <usecasecontext name="Microservice 5" serviceId="5">
+        <uc name="initDicDistrict" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/DicDistrictController.java" />
+      </usecasecontext>
+      <usecasecontext name="Microservice 6" serviceId="6">
+        <uc name="driving" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/DirectionController.java" />
+      </usecasecontext>
+      <usecasecontext name="Microservice 7" serviceId="7">
+        <uc name="trsearch" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java" />
+      </usecasecontext>
+      <actor name="Car" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.0 /0/@UseCaseModel/@usecasecontext.0/@uc.14" javaControllerSources="api-boss/src/main/java/com/jayden/apiboss/controller/CarController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java" />
+      <actor name="DicDistrict" uc="/0/@UseCaseModel/@usecasecontext.5/@uc.0" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/DicDistrictController.java" />
+      <actor name="Direction" uc="/0/@UseCaseModel/@usecasecontext.6/@uc.0" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/DirectionController.java" />
+      <actor name="DriverCarBindingRelationship" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.1 /0/@UseCaseModel/@usecasecontext.0/@uc.2" javaControllerSources="api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java" />
+      <actor name="DriverUser" uc="/0/@UseCaseModel/@usecasecontext.1/@uc.1 /0/@UseCaseModel/@usecasecontext.1/@uc.0" javaControllerSources="api-boss/src/main/java/com/jayden/apiboss/controller/DriverUserController.java" />
+      <actor name="DriverUserWorkStatus" uc="/0/@UseCaseModel/@usecasecontext.4/@uc.0" javaControllerSources="service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverUserWorkStatusController.java" />
+      <actor name="ForecastPrice" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.7" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/ForecastPriceController.java service-price/src/main/java/com/jayden/serviceprice/controller/ForecastPriceController.java" />
+      <actor name="Order" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.8" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/OrderController.java" />
+      <actor name="OrderInfo" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.8" javaControllerSources="service-order/src/main/java/com/jayden/serviceorder/controller/OrderInfoController.java" />
+      <actor name="Point" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.3" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/PointController.java service-map/src/main/java/com/jayden/servicemap/controller/PointController.java" />
+      <actor name="Service" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.8" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/ServiceController.java" />
+      <actor name="Terminal" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.8 /0/@UseCaseModel/@usecasecontext.0/@uc.17 /0/@UseCaseModel/@usecasecontext.7/@uc.0" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java" />
+      <actor name="Test" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.10" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/TestController.java api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java service-order/src/main/java/com/jayden/serviceorder/controller/TestController.java" />
+      <actor name="Token" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.11" javaControllerSources="api-passenger/src/main/java/com/jayden/apipassenger/controller/TokenController.java" />
+      <actor name="Track" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.8" javaControllerSources="service-map/src/main/java/com/jayden/servicemap/controller/TrackController.java" />
+      <actor name="User" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.12 /0/@UseCaseModel/@usecasecontext.0/@uc.18" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/UserController.java api-passenger/src/main/java/com/jayden/apipassenger/controller/UserController.java service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java" />
+      <actor name="VerifyCode" uc="/0/@UseCaseModel/@usecasecontext.0/@uc.13" javaControllerSources="api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java service-verifycode/src/main/java/com/jayden/serviceverifycode/controller/VerifyCodeController.java" />
+    </UseCaseModel>
+    <DomainModel name="java-online-taxi">
+      <entitycontext name="EntityContext0" serviceId="0" systeminterface="/0/@DomainModel/@systeminterface.0 /0/@DomainModel/@systeminterface.1 /0/@DomainModel/@systeminterface.2 /0/@DomainModel/@systeminterface.3 /0/@DomainModel/@systeminterface.11 /0/@DomainModel/@systeminterface.12 /0/@DomainModel/@systeminterface.13 /0/@DomainModel/@systeminterface.14 /0/@DomainModel/@systeminterface.15 /0/@DomainModel/@systeminterface.16 /0/@DomainModel/@systeminterface.17">
+        <userinterface name="UserInterface">
+          <operation name="BeanUtils.copyProperties()" />
+          <operation name="JwtUtils.checkToken()" />
+          <operation name="apiDriverPointRequest.getCarId()" />
+          <operation name="car.getTid()" />
+          <operation name="car.getTrid()" />
+          <operation name="car.setGmtCreate()" />
+          <operation name="carById.getData()" />
+          <operation name="forecastPriceDTO.setDepLatitude()" />
+          <operation name="forecastPriceDTO.setDepLongitude()" />
+          <operation name="forecastPriceDTO.setDestLatitude()" />
+          <operation name="forecastPriceDTO.setDestLongitude()" />
+          <operation name="numberCodeResponse.getNumberCode()" />
+          <operation name="numberCodeResult.getData()" />
+          <operation name="orderInfoMapper.insert()" />
+          <operation name="pointRequest.setPoints()" />
+          <operation name="pointRequest.setTid()" />
+          <operation name="pointRequest.setTrid()" />
+          <operation name="responseResult.getData()" />
+          <operation name="serviceDriverUserClient.addCar()" />
+          <operation name="serviceDriverUserClient.addDriverUser()" />
+          <operation name="serviceDriverUserClient.checkDriver()" />
+          <operation name="serviceDriverUserClient.getCarById()" />
+          <operation name="serviceDriverUserClient.updateDriverUser()" />
+          <operation name="servicePriceClient.forecast()" />
+          <operation name="tokenResponse.setAccessToken()" />
+          <operation name="tokenResponse.setRefreshToken()" />
+          <operation name="tokenResult.getIdentity()" />
+          <operation name="tokenResult.getPhone()" />
+        </userinterface>
+        <userinterface name="InterSystemInterface">
+          <operation name="findResponseResultbyID()" />
+          <operation name="findDriverUserbyID()" />
+          <operation name="findPointRequestbyID()" />
+          <operation name="findDriverUserWorkStatusbyID()" />
+        </userinterface>
+        <entity name="ResponseResult" javaSource="internal-common/src/main/java/com/jayden/internalcommon/dto/ResponseResult.java" javaQualifiedName="com.jayden.internalcommon.dto.ResponseResult">
+          <attributes name="code">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="message">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="data">
+            <type xsi:type="req:JavaTypeCS" name="T" />
+          </attributes>
+          <reference name="legacyLexical_ResponseResult" entity="/0/@DomainModel/@entitycontext.0/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ApiDriverPointRequest" entity="/0/@DomainModel/@entitycontext.5/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_PointRequest" entity="/0/@DomainModel/@entitycontext.0/@entity.2" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DriverUserExistsResponse" entity="/0/@DomainModel/@entitycontext.0/@entity.3" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_NumberCodeResponse" entity="/0/@DomainModel/@entitycontext.2/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_TokenResponse" entity="/0/@DomainModel/@entitycontext.2/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ForecastPriceDTO" entity="/0/@DomainModel/@entitycontext.0/@entity.4" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ForecastPriceResponse" entity="/0/@DomainModel/@entitycontext.0/@entity.5" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_TokenResult" entity="/0/@DomainModel/@entitycontext.1/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DriverUserWorkStatus" entity="/0/@DomainModel/@entitycontext.0/@entity.6" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DicDistrict" entity="/0/@DomainModel/@entitycontext.6/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DirectionResponse" entity="/0/@DomainModel/@entitycontext.5/@entity.2" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="DriverUser" javaSource="internal-common/src/main/java/com/jayden/internalcommon/dto/DriverUser.java" javaQualifiedName="com.jayden.internalcommon.dto.DriverUser">
+          <attributes name="id">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="address">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="driverName">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="driverPhone">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="driverGender">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="driverBirthday">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="driverNation">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="driverContactAddress">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="licenseId">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="getDriverLicenseDate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="driverLicenseOn">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="driverLicenseOff">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="taxiDriver">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="certificateNo">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="networkCarIssueOrganization">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="networkCarIssueDate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="getNetworkCarProofDate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="networkCarProofOn">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="networkCarProofOff">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="registerDate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="commercialType">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="contractCompany">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="contractOn">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="contractOff">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="state">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="gmtCreate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="gmtModified">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <reference name="legacyLexical_Car" entity="/0/@DomainModel/@entitycontext.5/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DriverUser" entity="/0/@DomainModel/@entitycontext.0/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ApiDriverPointRequest" entity="/0/@DomainModel/@entitycontext.5/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DriverUserExistsResponse" entity="/0/@DomainModel/@entitycontext.0/@entity.3" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DriverUserWorkStatus" entity="/0/@DomainModel/@entitycontext.0/@entity.6" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="PointRequest" javaSource="internal-common/src/main/java/com/jayden/internalcommon/request/PointRequest.java" javaQualifiedName="com.jayden.internalcommon.request.PointRequest">
+          <attributes name="tid">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="trid">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="points">
+            <type xsi:type="req:JavaTypeCS" name="PointDTO[]" />
+          </attributes>
+          <reference name="legacyLexical_ApiDriverPointRequest" entity="/0/@DomainModel/@entitycontext.5/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_PointRequest" entity="/0/@DomainModel/@entitycontext.0/@entity.2" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="DriverUserExistsResponse" javaSource="internal-common/src/main/java/com/jayden/internalcommon/response/DriverUserExistsResponse.java" javaQualifiedName="com.jayden.internalcommon.response.DriverUserExistsResponse">
+          <attributes name="driverPhone">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="ifExists">
+            <type xsi:type="req:JavaTypeCS" name="int" />
+          </attributes>
+          <reference name="legacyLexical_DriverUser" entity="/0/@DomainModel/@entitycontext.0/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ApiDriverPointRequest" entity="/0/@DomainModel/@entitycontext.5/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_PointRequest" entity="/0/@DomainModel/@entitycontext.0/@entity.2" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DriverUserExistsResponse" entity="/0/@DomainModel/@entitycontext.0/@entity.3" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="ForecastPriceDTO" javaSource="internal-common/src/main/java/com/jayden/internalcommon/request/ForecastPriceDTO.java" javaQualifiedName="com.jayden.internalcommon.request.ForecastPriceDTO">
+          <attributes name="depLongitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="depLatitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="destLongitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="destLatitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="cityCode">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="vehicleType">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <reference name="legacyLexical_ForecastPriceDTO" entity="/0/@DomainModel/@entitycontext.0/@entity.4" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="ForecastPriceResponse" javaSource="internal-common/src/main/java/com/jayden/internalcommon/response/ForecastPriceResponse.java" javaQualifiedName="com.jayden.internalcommon.response.ForecastPriceResponse">
+          <attributes name="price">
+            <type xsi:type="req:JavaTypeCS" name="double" />
+          </attributes>
+          <attributes name="cityCode">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="vehicleType">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="fareType">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="fareVersion">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <reference name="legacyLexical_ForecastPriceDTO" entity="/0/@DomainModel/@entitycontext.0/@entity.4" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ForecastPriceResponse" entity="/0/@DomainModel/@entitycontext.0/@entity.5" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="DriverUserWorkStatus" javaSource="internal-common/src/main/java/com/jayden/internalcommon/dto/DriverUserWorkStatus.java" javaQualifiedName="com.jayden.internalcommon.dto.DriverUserWorkStatus">
+          <attributes name="id">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="driverId">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="workStatus">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="gmtCreate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="gmtModified">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <reference name="legacyLexical_DriverUser" entity="/0/@DomainModel/@entitycontext.0/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ApiDriverPointRequest" entity="/0/@DomainModel/@entitycontext.5/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_DriverUserWorkStatus" entity="/0/@DomainModel/@entitycontext.0/@entity.6" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="OrderInfo" javaSource="service-order/src/main/java/com/jayden/serviceorder/entity/OrderInfo.java" javaQualifiedName="com.jayden.serviceorder.entity.OrderInfo">
+          <attributes name="id">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="passengerId">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="passengerPhone">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="driverId">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="driverPhone">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="carId">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="vehicleType">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="address">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="orderTime">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="departTime">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="departure">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="depLongitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="depLatitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="destination">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="destLongitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="destLatitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="encrypt">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="fareType">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="fareVersion">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="receiveOrderCarLongitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="receiveOrderCarLatitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="receiveOrderTime">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="licenseId">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="vehicleNo">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="toPickUpPassengerTime">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="toPickUpPassengerLongitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="toPickUpPassengerLatitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="toPickUpPassengerAddress">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="driverArrivedDepartureTime">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="pickUpPassengerTime">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="pickUpPassengerLongitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="pickUpPassengerLatitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="passengerGetoffTime">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="passengerGetoffLongitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="passengerGetoffLatitude">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="cancelTime">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="cancelOperator">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="cancelTypeCode">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="driveMile">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="driveTime">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="orderStatus">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="price">
+            <type xsi:type="req:JavaTypeCS" name="Double" />
+          </attributes>
+          <attributes name="gmtCreate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="gmtModified">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <reference name="legacyLexical_Car" entity="/0/@DomainModel/@entitycontext.5/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ApiDriverPointRequest" entity="/0/@DomainModel/@entitycontext.5/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ForecastPriceDTO" entity="/0/@DomainModel/@entitycontext.0/@entity.4" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ForecastPriceResponse" entity="/0/@DomainModel/@entitycontext.0/@entity.5" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_OrderInfo" entity="/0/@DomainModel/@entitycontext.0/@entity.7" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+      </entitycontext>
+      <entitycontext name="EntityContext1" serviceId="1" systeminterface="/0/@DomainModel/@systeminterface.4 /0/@DomainModel/@systeminterface.18 /0/@DomainModel/@systeminterface.19">
+        <userinterface name="UserInterface">
+          <operation name="serviceDriverUserClient.addDriverUser()" />
+          <operation name="serviceDriverUserClient.updateDriverUser()" />
+        </userinterface>
+        <userinterface name="InterSystemInterface">
+          <operation name="findTokenResultbyID()" />
+        </userinterface>
+        <entity name="TokenResult" javaSource="internal-common/src/main/java/com/jayden/internalcommon/dto/TokenResult.java" javaQualifiedName="com.jayden.internalcommon.dto.TokenResult">
+          <attributes name="phone">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="identity">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <reference name="legacyLexical_TokenResult" entity="/0/@DomainModel/@entitycontext.1/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+      </entitycontext>
+      <entitycontext name="EntityContext2" serviceId="2" systeminterface="/0/@DomainModel/@systeminterface.5 /0/@DomainModel/@systeminterface.6">
+        <userinterface name="UserInterface">
+          <operation name="tokenResponse.setAccessToken()" />
+          <operation name="tokenResponse.setRefreshToken()" />
+        </userinterface>
+        <userinterface name="InterSystemInterface">
+          <operation name="findNumberCodeResponsebyID()" />
+          <operation name="findTokenResponsebyID()" />
+        </userinterface>
+        <entity name="NumberCodeResponse" javaSource="internal-common/src/main/java/com/jayden/internalcommon/response/NumberCodeResponse.java" javaQualifiedName="com.jayden.internalcommon.response.NumberCodeResponse">
+          <attributes name="numberCode">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <reference name="legacyLexical_NumberCodeResponse" entity="/0/@DomainModel/@entitycontext.2/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="TokenResponse" javaSource="internal-common/src/main/java/com/jayden/internalcommon/response/TokenResponse.java" javaQualifiedName="com.jayden.internalcommon.response.TokenResponse">
+          <attributes name="accessToken">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="refreshToken">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <reference name="legacyLexical_TokenResponse" entity="/0/@DomainModel/@entitycontext.2/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+      </entitycontext>
+      <entitycontext name="EntityContext3" serviceId="3">
+        <userinterface name="UserInterface" />
+        <userinterface name="InterSystemInterface" />
+      </entitycontext>
+      <entitycontext name="EntityContext4" serviceId="4" systeminterface="/0/@DomainModel/@systeminterface.20">
+        <userinterface name="UserInterface">
+          <operation name="driverUserWorkStatus.setWorkStatus()" />
+          <operation name="driverUserWorkStatusMapper.selectByMap()" />
+          <operation name="driverUserWorkStatusMapper.updateById()" />
+          <operation name="driverUserWorkStatuses.get()" />
+        </userinterface>
+        <userinterface name="InterSystemInterface" />
+      </entitycontext>
+      <entitycontext name="EntityContext5" serviceId="5" systeminterface="/0/@DomainModel/@systeminterface.7 /0/@DomainModel/@systeminterface.8 /0/@DomainModel/@systeminterface.9 /0/@DomainModel/@systeminterface.21 /0/@DomainModel/@systeminterface.22">
+        <userinterface name="UserInterface">
+          <operation name="mapDicDistrictClient.dicDistrict()" />
+        </userinterface>
+        <userinterface name="InterSystemInterface">
+          <operation name="findCarbyID()" />
+          <operation name="findApiDriverPointRequestbyID()" />
+          <operation name="findDirectionResponsebyID()" />
+        </userinterface>
+        <entity name="Car" javaSource="internal-common/src/main/java/com/jayden/internalcommon/dto/Car.java" javaQualifiedName="com.jayden.internalcommon.dto.Car">
+          <attributes name="id">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="address">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="vehicleNo">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="plateColor">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="seats">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="brand">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="model">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="vehicleType">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="ownerName">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="vehicleColor">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="engineId">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="vin">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="certifyDateA">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="fueType">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="engineDisplace">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="transAgency">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="transArea">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="transDateStart">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="transDateEnd">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="certifyDateB">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="fixState">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="nextFixDate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="checkState">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="feePrintId">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="gpsBrand">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="gpsModel">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="gpsInstallDate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="registerDate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDate" />
+          </attributes>
+          <attributes name="commercialType">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="fareType">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="state">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="tid">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="trid">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="trname">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="gmtCreate">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <attributes name="gmtModified">
+            <type xsi:type="req:JavaTypeCS" name="LocalDateTime" />
+          </attributes>
+          <reference name="legacyLexical_Car" entity="/0/@DomainModel/@entitycontext.5/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ApiDriverPointRequest" entity="/0/@DomainModel/@entitycontext.5/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="ApiDriverPointRequest" javaSource="internal-common/src/main/java/com/jayden/internalcommon/request/ApiDriverPointRequest.java" javaQualifiedName="com.jayden.internalcommon.request.ApiDriverPointRequest">
+          <attributes name="carId">
+            <type xsi:type="req:JavaTypeCS" name="Long" />
+          </attributes>
+          <attributes name="points">
+            <type xsi:type="req:JavaTypeCS" name="PointDTO[]" />
+          </attributes>
+          <reference name="legacyLexical_Car" entity="/0/@DomainModel/@entitycontext.5/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_ApiDriverPointRequest" entity="/0/@DomainModel/@entitycontext.5/@entity.1" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+          <reference name="legacyLexical_PointRequest" entity="/0/@DomainModel/@entitycontext.0/@entity.2" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+        <entity name="DirectionResponse" javaSource="internal-common/src/main/java/com/jayden/internalcommon/response/DirectionResponse.java" javaQualifiedName="com.jayden.internalcommon.response.DirectionResponse">
+          <attributes name="distance">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <attributes name="duration">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <reference name="legacyLexical_DirectionResponse" entity="/0/@DomainModel/@entitycontext.5/@entity.2" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+      </entitycontext>
+      <entitycontext name="EntityContext6" serviceId="6" systeminterface="/0/@DomainModel/@systeminterface.10 /0/@DomainModel/@systeminterface.23">
+        <userinterface name="UserInterface">
+          <operation name="mapDirectionClient.direction()" />
+        </userinterface>
+        <userinterface name="InterSystemInterface">
+          <operation name="findDicDistrictbyID()" />
+        </userinterface>
+        <entity name="DicDistrict" javaSource="internal-common/src/main/java/com/jayden/internalcommon/dto/DicDistrict.java" javaQualifiedName="com.jayden.internalcommon.dto.DicDistrict">
+          <attributes name="addressCode">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="addressName">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="parentAddressCode">
+            <type xsi:type="req:JavaTypeCS" name="String" />
+          </attributes>
+          <attributes name="level">
+            <type xsi:type="req:JavaTypeCS" name="Integer" />
+          </attributes>
+          <reference name="legacyLexical_DicDistrict" entity="/0/@DomainModel/@entitycontext.6/@entity.0" type="Association" ismultiple="false" isReverseAssoication="false" isComposition="false" isAggregation="false" evidenceKind="legacy-lexical-matrix" />
+        </entity>
+      </entitycontext>
+      <entitycontext name="EntityContext7" serviceId="7">
+        <userinterface name="UserInterface" />
+        <userinterface name="InterSystemInterface" />
+      </entitycontext>
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofResponseResult" entitycontext="/0/@DomainModel/@entitycontext.0" receiveinterface="/0/@DomainModel/@systeminterface.18" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofDriverUser" entitycontext="/0/@DomainModel/@entitycontext.0" receiveinterface="/0/@DomainModel/@systeminterface.19" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofPointRequest" entitycontext="/0/@DomainModel/@entitycontext.0" receiveinterface="/0/@DomainModel/@systeminterface.21" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofDriverUserWorkStatus" entitycontext="/0/@DomainModel/@entitycontext.0" receiveinterface="/0/@DomainModel/@systeminterface.20" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofTokenResult" entitycontext="/0/@DomainModel/@entitycontext.1" receiveinterface="/0/@DomainModel/@systeminterface.15" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofNumberCodeResponse" entitycontext="/0/@DomainModel/@entitycontext.2" receiveinterface="/0/@DomainModel/@systeminterface.13" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofTokenResponse" entitycontext="/0/@DomainModel/@entitycontext.2" receiveinterface="/0/@DomainModel/@systeminterface.14" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofCar" entitycontext="/0/@DomainModel/@entitycontext.5" receiveinterface="/0/@DomainModel/@systeminterface.11" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofApiDriverPointRequest" entitycontext="/0/@DomainModel/@entitycontext.5" receiveinterface="/0/@DomainModel/@systeminterface.12" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofDirectionResponse" entitycontext="/0/@DomainModel/@entitycontext.5" receiveinterface="/0/@DomainModel/@systeminterface.17 /0/@DomainModel/@systeminterface.23" />
+      <systeminterface xsi:type="req:ProvideInterface" name="ProvideEntityofDicDistrict" entitycontext="/0/@DomainModel/@entitycontext.6" receiveinterface="/0/@DomainModel/@systeminterface.16 /0/@DomainModel/@systeminterface.22" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofCar" entitycontext="/0/@DomainModel/@entitycontext.0" provideinterface="/0/@DomainModel/@systeminterface.7" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofApiDriverPointRequest" entitycontext="/0/@DomainModel/@entitycontext.0" provideinterface="/0/@DomainModel/@systeminterface.8" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofNumberCodeResponse" entitycontext="/0/@DomainModel/@entitycontext.0" provideinterface="/0/@DomainModel/@systeminterface.5" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofTokenResponse" entitycontext="/0/@DomainModel/@entitycontext.0" provideinterface="/0/@DomainModel/@systeminterface.6" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofTokenResult" entitycontext="/0/@DomainModel/@entitycontext.0" provideinterface="/0/@DomainModel/@systeminterface.4" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofDicDistrict" entitycontext="/0/@DomainModel/@entitycontext.0" provideinterface="/0/@DomainModel/@systeminterface.10" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofDirectionResponse" entitycontext="/0/@DomainModel/@entitycontext.0" provideinterface="/0/@DomainModel/@systeminterface.9" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofResponseResult" entitycontext="/0/@DomainModel/@entitycontext.1" provideinterface="/0/@DomainModel/@systeminterface.0" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofDriverUser" entitycontext="/0/@DomainModel/@entitycontext.1" provideinterface="/0/@DomainModel/@systeminterface.1" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofDriverUserWorkStatus" entitycontext="/0/@DomainModel/@entitycontext.4" provideinterface="/0/@DomainModel/@systeminterface.3" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofPointRequest" entitycontext="/0/@DomainModel/@entitycontext.5" provideinterface="/0/@DomainModel/@systeminterface.2" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofDicDistrict" entitycontext="/0/@DomainModel/@entitycontext.5" provideinterface="/0/@DomainModel/@systeminterface.10" />
+      <systeminterface xsi:type="req:ReceiveInterface" name="ReceiveEntityofDirectionResponse" entitycontext="/0/@DomainModel/@entitycontext.6" provideinterface="/0/@DomainModel/@systeminterface.9" />
+    </DomainModel>
+  </req:RequirementModel>
+</xmi:XMI>

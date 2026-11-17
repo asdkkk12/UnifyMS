@@ -1,0 +1,19 @@
+server:
+  port: 8085
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/service-map?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+  application:
+    name: service-map
+
+# 自定义的 key：value
+amap:
+  key: 76a1af7566371b2f89c4f8f11e4a957b
+  #服务id，服务名称：moss
+  sid: 891857

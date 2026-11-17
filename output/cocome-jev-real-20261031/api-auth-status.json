@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "endpoint": "https://api.typesafe.ai/v1/models",
+      "status": 401,
+      "role": "initial default endpoint, superseded by user-specified endpoint"
+    },
+    {
+      "endpoint": "https://api.jevgo.cn/v1/models",
+      "status": 200,
+      "role": "user-specified service"
+    },
+    {
+      "endpoint": "https://api.jevgo.cn/v1/systemone",
+      "status": 200,
+      "actualModel": "jev-1.14.0",
+      "role": "version resolution probe"
+    }
+  ],
+  "credentialStored": false
+}

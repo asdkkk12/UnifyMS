@@ -1,0 +1,28 @@
+{
+  "case": "JavaOnlineTaxi",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/java-online-taxi",
+  "mode": "run",
+  "stages": [
+    {
+      "stage": "snapshot",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-jev-real-20261101/logs/snapshot.log",
+      "status": "success",
+      "seconds": 0.48295587500000003
+    },
+    {
+      "stage": "calibrate",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-jev-real-20261101/logs/calibrate.log",
+      "status": "success",
+      "seconds": 890.988204416
+    },
+    {
+      "stage": "select",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-jev-real-20261101/logs/select.log",
+      "status": "failed",
+      "seconds": 0.7939358339999671
+    }
+  ],
+  "status": "failed",
+  "error": "select failed; see /Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-jev-real-20261101/logs/select.log",
+  "elapsedSeconds": 892.266052292
+}

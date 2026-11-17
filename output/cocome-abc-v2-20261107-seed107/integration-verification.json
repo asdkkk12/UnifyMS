@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "promptVersionVerified": true,
+  "actualThreshold": 0.0002,
+  "sharedStaticPrefixGenerations": 60,
+  "actualChoicesRespected": true,
+  "choiceCounts": {
+    "KEEP": 3,
+    "INCREASE": 0,
+    "DECREASE": 6
+  },
+  "hvDifferences": {
+    "B-A": 0.08942601697029262,
+    "C-B": -0.006390038320538527
+  },
+  "freshModelsVerified": true
+}

@@ -1,0 +1,14 @@
+{
+	"input":"/Users/yuanyaowu/Desktop/输出/Spring/input/Spring.remodel",
+	"inputHash":"11b712b6f27c990ddb86be946ceb57f0e1dd4b4cbc2787089db4df647bacfa02",
+	"config":{
+		"crossP":0.5,
+		"crossoverProbability":0.7,
+		"evaluationBudget":0,
+		"generations":150,
+		"id":"C1",
+		"populationSize":150,
+		"seed":11
+	},
+	"taskKey":"9a0042b3e20c5eb17605b6b7b1f831e14028d88d01879846f0dba074e029f332"
+}

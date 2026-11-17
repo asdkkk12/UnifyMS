@@ -1,0 +1,15 @@
+{
+  "policyId": "meaningful-gain-v2-0.0002",
+  "promptVersion": "novelty-gain-history-choice-v2",
+  "onlineControl": {
+    "gainThreshold": 0.0002
+  },
+  "sourceCompatibility": {
+    "relativePath": "tuning/OnlineJevClient.java",
+    "originalFile": "../output/jev-policy-v2-20261107/OnlineJevClient-v1.java",
+    "originalSha256": "83c56bbf8699836d35cd02836897799693d72e2dffb8dbef8f077fea3684d04d",
+    "oldImplementationHash": "ce0d5778a360a63f98d66bcf326f05574431026833732ff09771e58ec09b3449",
+    "newImplementationHash": "92c685ce2a7111e9e86b04652fe93aa9e5e770e2d8cfcf9ef4ea54c7403b3ba7",
+    "replacementSha256": "14d75ea742853c6e46eb73dcfc348e0010b071fd15f32b19f6c4ce43c214201b"
+  }
+}

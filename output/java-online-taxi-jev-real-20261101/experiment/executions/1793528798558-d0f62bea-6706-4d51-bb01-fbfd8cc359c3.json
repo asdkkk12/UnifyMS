@@ -1,0 +1,26 @@
+{
+	"command":"select",
+	"profile":"formal",
+	"binding":"59987d5c85fe71d1b7652a9f61f338dac4a88bdc471a5460f7dbdcf9165ed600",
+	"systems":[
+		{
+			"system":"JavaOnlineTaxi",
+			"status":"success",
+			"elapsedMillis":962.761625
+		}
+	],
+	"events":[
+		{
+			"stage":"select",
+			"system":"JavaOnlineTaxi",
+			"status":"success",
+			"elapsedMillis":913.995291
+		},
+		{
+			"stage":"reuse-selection",
+			"selector":"numeric",
+			"file":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-jev-real-20261101/experiment/JavaOnlineTaxi/selection-numeric.json"
+		}
+	],
+	"endToEndMillis":962.77275
+}

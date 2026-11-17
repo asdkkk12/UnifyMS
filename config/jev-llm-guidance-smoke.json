@@ -1,0 +1,96 @@
+{
+  "profile": "smoke",
+  "configurationVersion": "nominal-six-10gen-v1",
+  "metricVersion": "paper-ieee-eq5-21-v2-isolated-zero",
+  "outputDirectory": "../output/jev-llm-guidance-smoke-new",
+  "selector": "jev",
+  "evaluationBudget": 0,
+  "calibrationSeeds": [
+    11
+  ],
+  "validationSeeds": [
+    101
+  ],
+  "systems": [
+    {
+      "id": "CoCoME",
+      "input": "../cocome.remodel"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C0",
+      "populationSize": 24,
+      "generations": 21,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C1",
+      "populationSize": 12,
+      "generations": 21,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C2",
+      "populationSize": 12,
+      "generations": 21,
+      "crossoverProbability": 0.7,
+      "crossP": 0.5
+    },
+    {
+      "id": "C3",
+      "populationSize": 24,
+      "generations": 21,
+      "crossoverProbability": 0.5,
+      "crossP": 0.25
+    },
+    {
+      "id": "C4",
+      "populationSize": 24,
+      "generations": 21,
+      "crossoverProbability": 0.9,
+      "crossP": 0.75
+    },
+    {
+      "id": "C5",
+      "populationSize": 12,
+      "generations": 21,
+      "crossoverProbability": 0.9,
+      "crossP": 0.25
+    }
+  ],
+  "jev": {
+    "endpoint": "https://api.jevgo.cn/v1/systemone",
+    "model": "jev-1.14.0",
+    "timeoutMillis": 60000
+  },
+  "onlineControl": {
+    "mode": "jev",
+    "intervalGenerations": 10,
+    "historyWindows": 3,
+    "step": 0.05,
+    "minProbability": 0.1,
+    "maxProbability": 0.9,
+    "noveltyThreshold": 0.2,
+    "gainThreshold": 0.0002,
+    "requestTimeoutMillis": 5000
+  },
+  "guidance": {
+    "version": "small-model-batch-guidance-v1",
+    "mode": "jev",
+    "intervalGenerations": 10,
+    "maxTasks": 4,
+    "candidatesPerTask": 2,
+    "maxSelected": 3,
+    "lossTolerance": 0.5,
+    "generator": {
+      "baseUrl": "https://api.chatfire.cn/v1",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "apiKeyEnv": "CHATFIRE_API_KEY",
+      "temperature": 0.3,
+      "timeoutMillis": 60000
+    }
+  }
+}

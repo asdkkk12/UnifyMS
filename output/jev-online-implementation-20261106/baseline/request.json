@@ -1,0 +1,14 @@
+{
+  "input": "/Users/yuanyaowu/Desktop/\u5b9e\u9a8c\u5ba4\u6750\u6599/UnifyMs/UnifyMS\u4ee3\u7801/cocome.remodel",
+  "inputHash": "b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+  "taskKey": "pre-change-regression",
+  "config": {
+    "id": "C3",
+    "populationSize": 30,
+    "generations": 65,
+    "crossoverProbability": 0.5,
+    "crossP": 0.25,
+    "seed": 101,
+    "evaluationBudget": 0
+  }
+}

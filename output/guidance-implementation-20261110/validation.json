@@ -1,0 +1,18 @@
+{
+  "javaTests": 65,
+  "javaFailures": 0,
+  "pythonTests": 26,
+  "pythonFailures": 0,
+  "measuredImplementationHash": "e90f8ceaf13da3dbfeeabe7ee4e37d54c652d2a04ddc0c57ae533f804b2bb36a",
+  "finalImplementationHash": "7923d166f4fe697814e5f95eadb2810b4ff6c80a5e08f563e797729537451390",
+  "formalPairedSeeds": [
+    101
+  ],
+  "formalReport": "/Users/yuanyaowu/Desktop/\u5b9e\u9a8c\u5ba4\u6750\u6599/UnifyMs/UnifyMS\u4ee3\u7801/output/guidance-formal-single-seed-20261110/analysis.md",
+  "liveConnectivity": "/Users/yuanyaowu/Desktop/\u5b9e\u9a8c\u5ba4\u6750\u6599/UnifyMs/UnifyMS\u4ee3\u7801/output/guidance-connectivity-20261110-v2/connectivity-summary.json",
+  "notes": [
+    "Formal validation covers seed 101 only, not ten completed seeds.",
+    "After measurement, configuration guards, explicit Choice directions, forced-group filtering and configurable K bounds were hardened. Core metrics/HV/representative rules are unchanged. Preserve the original measured identity.",
+    "Human risk annotation and a ten-seed effectiveness evaluation are not complete."
+  ]
+}

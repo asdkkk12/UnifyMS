@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"formal",
+	"binding":"cdcb4712d06fc0ab1fbec3fc0822bc4c7afc26bd4fd14164da64a60fb4ea7f75",
+	"systems":[
+		{
+			"system":"JavaOnlineTaxi",
+			"status":"success",
+			"elapsedMillis":547282.650958
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"JavaOnlineTaxi",
+			"status":"success",
+			"elapsedMillis":547279.461792
+		}
+	],
+	"endToEndMillis":547282.727291
+}

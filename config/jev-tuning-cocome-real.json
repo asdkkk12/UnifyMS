@@ -1,0 +1,33 @@
+{
+  "profile": "formal",
+  "outputDirectory": "../output/cocome-jev-real-20261031/experiment",
+  "metricVersion": "legacy-ifn-average-v1",
+  "selector": "jev",
+  "calibrationSeeds": [
+    11
+  ],
+  "validationSeeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149
+  ],
+  "evaluationBudget": 0,
+  "systems": [
+    {
+      "id": "CoCoME",
+      "input": "../cocome.remodel"
+    }
+  ],
+  "jev": {
+    "endpoint": "https://api.jevgo.cn/v1/systemone",
+    "model": "jev-1.14.0",
+    "timeoutMillis": 60000
+  }
+}

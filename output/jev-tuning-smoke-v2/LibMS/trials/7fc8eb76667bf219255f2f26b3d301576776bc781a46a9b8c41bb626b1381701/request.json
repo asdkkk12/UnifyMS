@@ -1,0 +1,14 @@
+{
+	"input":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/library.remodel",
+	"inputHash":"2f46f25515e81daff152fa32ce0f572c6f27f726243e970040236e3d20034b79",
+	"config":{
+		"crossP":0.75,
+		"crossoverProbability":0.9,
+		"evaluationBudget":240,
+		"generations":3,
+		"id":"C4",
+		"populationSize":24,
+		"seed":11
+	},
+	"taskKey":"7fc8eb76667bf219255f2f26b3d301576776bc781a46a9b8c41bb626b1381701"
+}

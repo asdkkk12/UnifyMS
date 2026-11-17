@@ -1,0 +1,12 @@
+{
+  "mode": "off",
+  "monitor": false,
+  "intervalGenerations": 30,
+  "historyWindows": 3,
+  "step": 0.05,
+  "minProbability": 0.1,
+  "maxProbability": 0.9,
+  "noveltyThreshold": 0.2,
+  "gainThreshold": 0.0001,
+  "requestTimeoutMillis": 5000
+}

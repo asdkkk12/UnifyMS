@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"formal",
+	"binding":"2ee2c53faaa88452011fff978c84a821f4d247c221b784da3002682096a8ea14",
+	"systems":[
+		{
+			"system":"LightReading",
+			"status":"success",
+			"elapsedMillis":280076.482
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"LightReading",
+			"status":"success",
+			"elapsedMillis":280075.052833
+		}
+	],
+	"endToEndMillis":280076.48975
+}

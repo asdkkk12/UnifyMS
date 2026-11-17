@@ -1,0 +1,240 @@
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+{"status":"success","protocolVersion":"atm-frozen-three-ablation-v1","metricVersion":"paper-ieee-eq5-21-v2-isolated-zero","historicalImplementationHash":"eb83a86665780e0531cb5f9413714e2a93472a5458c9974c92f1da65be62a9f5","compatibilityImplementationHash":"667e90d7f920cd8168b9698a99c54126a525ed2588ab694f3a27a25920bc4bcf","calibrations":[{"configuration":"C0","populationRows":200,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":423.103959},{"configuration":"C1","populationRows":150,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":261.821208},{"configuration":"C2","populationRows":100,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":202.640834},{"configuration":"C3","populationRows":200,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":240.33625},{"configuration":"C4","populationRows":200,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":284.563125},{"configuration":"C5","populationRows":100,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":191.800583}],"recomputedPopulationRows":950,"matchedGenerationTasks":360,"matchedChoiceRequests":0,"matchedProbabilityRequests":90,"validationMillis":1937.978875}
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+		BelongedUser : User Association
+User
+		OwnedCard : BankCard* ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+{"status":"success","protocolVersion":"atm-frozen-three-ablation-v1","metricVersion":"paper-ieee-eq5-21-v2-isolated-zero","historicalImplementationHash":"eb83a86665780e0531cb5f9413714e2a93472a5458c9974c92f1da65be62a9f5","compatibilityImplementationHash":"667e90d7f920cd8168b9698a99c54126a525ed2588ab694f3a27a25920bc4bcf","calibrations":[{"configuration":"C0","populationRows":200,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":434.602959},{"configuration":"C1","populationRows":150,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":264.153583},{"configuration":"C2","populationRows":100,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":203.137625},{"configuration":"C3","populationRows":200,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":246.672875},{"configuration":"C4","populationRows":200,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":288.468458},{"configuration":"C5","populationRows":100,"hv":0.24125731312371923,"searchMatched":true,"searchMillis":194.830625}],"recomputedPopulationRows":950,"matchedGenerationTasks":360,"matchedChoiceRequests":0,"matchedProbabilityRequests":90,"validationMillis":2021.600125}

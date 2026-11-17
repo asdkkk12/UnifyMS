@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "case": "JavaOnlineTaxi",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/java-online-taxi",
+  "selector": "jev",
+  "choice": "C3",
+  "numericChoice": "C3",
+  "seed": 101,
+  "representativeMetrics": [
+    3.0,
+    0.6363,
+    0.1149,
+    0.5996,
+    0.3766
+  ],
+  "hv": 0.8372197985480323,
+  "serviceCount": 8,
+  "calibrationSha256": "628d23da77865c48f1f1ca467514a23910562b76cc6fc9dcb75b44bf341bec0c",
+  "calibrationUnchanged": true,
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-jev-real-20261101/analysis.md",
+  "totalCallAttempts": 3,
+  "httpResponseCount": 1,
+  "totalClientCallMillis": 702.717708,
+  "totalTokens": null,
+  "recoveryStatus": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-jev-real-20261101/recovery-status.json",
+  "initialPipelineStatus": "failed-dns-preserved"
+}

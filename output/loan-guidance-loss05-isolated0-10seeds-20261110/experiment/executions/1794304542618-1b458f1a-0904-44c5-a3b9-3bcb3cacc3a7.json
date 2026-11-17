@@ -1,0 +1,21 @@
+{
+	"command":"calibrate",
+	"profile":"formal",
+	"binding":"f9b5caddb09f41ebf93e6eda902c7ee4463b7925989c37be7a3d443d80cd3cef",
+	"systems":[
+		{
+			"system":"Loan",
+			"status":"success",
+			"elapsedMillis":7702.4305
+		}
+	],
+	"events":[
+		{
+			"stage":"calibrate",
+			"system":"Loan",
+			"status":"success",
+			"elapsedMillis":7698.269625
+		}
+	],
+	"endToEndMillis":7702.44175
+}

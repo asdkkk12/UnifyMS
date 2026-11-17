@@ -1,0 +1,412 @@
+{
+  "status": "success",
+  "started": "2026-11-13T22:31:39.234419+08:00",
+  "arms": [
+    "without-offline",
+    "without-probability",
+    "without-guidance"
+  ],
+  "seeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149
+  ],
+  "full": "pending",
+  "runs": [
+    {
+      "arm": "without-offline",
+      "seed": 101,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-101/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 109,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-109/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 107,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-107/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 103,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-103/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 113,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-113/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 127,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-127/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 137,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-137/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 131,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-131/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 139,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-139/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 103,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-103/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-offline",
+      "seed": 149,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-offline/seed-149/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 101,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-101/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 107,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-107/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 109,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-109/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 113,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-113/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 127,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-127/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 131,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-131/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 101,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-101/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 103,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-103/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 137,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-137/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 107,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-107/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 109,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-109/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 113,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-113/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 127,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-127/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 131,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-131/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 139,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-139/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 137,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-137/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-guidance",
+      "seed": 149,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-guidance/seed-149/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 139,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-139/run.json",
+      "hv": 0.24125731312371923
+    },
+    {
+      "arm": "without-probability",
+      "seed": 149,
+      "status": "success",
+      "result": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-ablation-20261113/arms/without-probability/seed-149/run.json",
+      "hv": 0.24125731312371923
+    }
+  ],
+  "stages": [
+    {
+      "name": "build",
+      "status": "success",
+      "seconds": 2.729311125
+    },
+    {
+      "name": "compatibility",
+      "status": "success",
+      "seconds": 2.2882869580000005
+    },
+    {
+      "name": "build",
+      "status": "success",
+      "seconds": 1.119642333
+    },
+    {
+      "name": "compatibility",
+      "status": "success",
+      "seconds": 2.361931125
+    },
+    {
+      "name": "without-offline-101",
+      "status": "success",
+      "seconds": 214.505387958
+    },
+    {
+      "name": "without-offline-109",
+      "status": "success",
+      "seconds": 229.986542583
+    },
+    {
+      "name": "without-offline-107",
+      "status": "success",
+      "seconds": 237.981689166
+    },
+    {
+      "name": "without-offline-103",
+      "status": "success",
+      "seconds": 248.53376187500004
+    },
+    {
+      "name": "without-offline-113",
+      "status": "success",
+      "seconds": 190.019577834
+    },
+    {
+      "name": "without-offline-127",
+      "status": "success",
+      "seconds": 203.773362917
+    },
+    {
+      "name": "without-offline-137",
+      "status": "success",
+      "seconds": 202.54654575
+    },
+    {
+      "name": "without-offline-131",
+      "status": "success",
+      "seconds": 220.69851979099997
+    },
+    {
+      "name": "without-offline-139",
+      "status": "success",
+      "seconds": 230.94178012499998
+    },
+    {
+      "name": "without-probability-103",
+      "status": "success",
+      "seconds": 197.498236625
+    },
+    {
+      "name": "without-offline-149",
+      "status": "success",
+      "seconds": 229.97045987499996
+    },
+    {
+      "name": "without-probability-101",
+      "status": "success",
+      "seconds": 220.66494412500003
+    },
+    {
+      "name": "without-probability-107",
+      "status": "success",
+      "seconds": 191.334786
+    },
+    {
+      "name": "without-probability-109",
+      "status": "success",
+      "seconds": 189.871190125
+    },
+    {
+      "name": "without-probability-113",
+      "status": "success",
+      "seconds": 196.35508745799996
+    },
+    {
+      "name": "without-probability-127",
+      "status": "success",
+      "seconds": 197.857824208
+    },
+    {
+      "name": "without-probability-131",
+      "status": "success",
+      "seconds": 219.6111609169999
+    },
+    {
+      "name": "without-guidance-101",
+      "status": "success",
+      "seconds": 7.331009457999926
+    },
+    {
+      "name": "without-guidance-103",
+      "status": "success",
+      "seconds": 4.6087925419999465
+    },
+    {
+      "name": "without-probability-137",
+      "status": "success",
+      "seconds": 215.77144362500007
+    },
+    {
+      "name": "without-guidance-107",
+      "status": "success",
+      "seconds": 4.527208790999794
+    },
+    {
+      "name": "without-guidance-109",
+      "status": "success",
+      "seconds": 5.112565375000031
+    },
+    {
+      "name": "without-guidance-113",
+      "status": "success",
+      "seconds": 5.170996625000043
+    },
+    {
+      "name": "without-guidance-127",
+      "status": "success",
+      "seconds": 5.075078917000155
+    },
+    {
+      "name": "without-guidance-131",
+      "status": "success",
+      "seconds": 4.314875750000056
+    },
+    {
+      "name": "without-guidance-139",
+      "status": "success",
+      "seconds": 6.390789832999872
+    },
+    {
+      "name": "without-guidance-137",
+      "status": "success",
+      "seconds": 8.648974582999926
+    },
+    {
+      "name": "without-guidance-149",
+      "status": "success",
+      "seconds": 4.581374374999996
+    },
+    {
+      "name": "without-probability-139",
+      "status": "success",
+      "seconds": 235.21894966700006
+    },
+    {
+      "name": "without-probability-149",
+      "status": "success",
+      "seconds": 232.5669590000001
+    },
+    {
+      "name": "report",
+      "status": "success",
+      "seconds": 0.4770054580001215
+    }
+  ],
+  "finished": "2026-11-13T22:57:17.734803+08:00"
+}

@@ -1,0 +1,21 @@
+{
+	"command":"calibrate",
+	"profile":"formal",
+	"binding":"ae9621a73460692e153ff655f9909adac3b945586b3478395e2e643f2a91c73f",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":466514.78225
+		}
+	],
+	"events":[
+		{
+			"stage":"calibrate",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":466512.649875
+		}
+	],
+	"endToEndMillis":466514.984375
+}

@@ -1,0 +1,20 @@
+{
+	"mode":"rule",
+	"status":"success",
+	"policyVersion":"online-novelty-gain-history-v1",
+	"promptVersion":"novelty-gain-history-choice-v1",
+	"contextHash":"8f374e7927b212bd8fcaad2eb801be953fed0e2f2b0b3135f7c370d5ec420578",
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/jev-online-implementation-20261106/pilot-real/experiment/CoCoME/online-rule/trials/5bea5a9967f2dbed23551a01ac3160efbd89b059c1d9bbb079e149195922b8d5/audit",
+	"observedGenerations":130,
+	"decisionCount":4,
+	"requestCount":0,
+	"fallbackCount":0,
+	"finalProbability":0.7,
+	"knownTokens":0,
+	"usageComplete":true,
+	"totalTokens":0,
+	"totalResponseMillis":0.0,
+	"monitoringMillis":37.06204200000001,
+	"controlMillis":0.0,
+	"auditMillis":12.689509000000001
+}

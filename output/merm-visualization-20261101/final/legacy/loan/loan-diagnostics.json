@@ -1,0 +1,27 @@
+{
+  "inputHash": "03204187e8e9eab8854e8a83bed409c01fc5231d38d69afb8fd39ccc486cb7c6",
+  "counts": {
+    "uc": 10,
+    "actor": 5,
+    "systeminterface": 13,
+    "userinterface": 6,
+    "entity": 8,
+    "services": 3,
+    "interfaceEdges": 5,
+    "serviceEdges": 5
+  },
+  "diagnostics": [
+    {
+      "code": "missing-xmi-namespace",
+      "message": "Added the XMI namespace in memory; input was not modified.",
+      "source": "",
+      "severity": "warning"
+    },
+    {
+      "code": "legacy-service-mapping",
+      "message": "Contexts matched by the legacy numeric naming convention.",
+      "source": "",
+      "severity": "warning"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "running",
+  "started": "2026-11-10T23:40:18.491706+08:00",
+  "seeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149
+  ],
+  "arms": [
+    "jev"
+  ],
+  "lossTolerance": 0.5,
+  "workers": 4,
+  "stages": [
+    {
+      "name": "build",
+      "status": "success",
+      "seconds": 1.5732235419999998,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/spring-guidance-loss05-isolated0-10seeds-20261110-compact-v2/logs/build.log"
+    },
+    {
+      "name": "snapshot",
+      "status": "success",
+      "seconds": 1.3294791670000001,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/spring-guidance-loss05-isolated0-10seeds-20261110-compact-v2/logs/snapshot.log"
+    },
+    {
+      "name": "calibrate",
+      "status": "success",
+      "seconds": 34.743178542,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/spring-guidance-loss05-isolated0-10seeds-20261110-compact-v2/logs/calibrate.log"
+    },
+    {
+      "name": "select",
+      "status": "success",
+      "seconds": 2.163362124999999,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/spring-guidance-loss05-isolated0-10seeds-20261110-compact-v2/logs/select.log"
+    },
+    {
+      "name": "run-107-jev",
+      "status": "failed",
+      "seconds": 132.21929045899998,
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/spring-guidance-loss05-isolated0-10seeds-20261110-compact-v2/logs/run-107-jev.log"
+    }
+  ],
+  "runs": []
+}

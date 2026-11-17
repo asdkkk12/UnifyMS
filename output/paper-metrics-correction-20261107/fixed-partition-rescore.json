@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "metricVersion": "paper-ieee-eq5-21-v1",
+  "metricOrder": [
+    "IFN",
+    "CHD",
+    "CMQ",
+    "Instability",
+    "UCM"
+  ],
+  "inputHash": "b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+  "kind": "fixed-partition-rescore-not-a-new-search",
+  "gaRuns": 0,
+  "jevCalls": 0,
+  "hv": null,
+  "hvReason": "Old normalization/front/selection cannot be reused after objective corrections; fresh calibration and search are required",
+  "rows": [
+    {
+      "group": "A",
+      "sourceRun": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-abc-v2-20261107-seed107/experiment/CoCoME/group-A/run-A-107.json",
+      "sourceRunSha256": "4d4505cfe1ddbe8c1662d46dd7fa69d77369f52e6bc420f24258d2914094e047",
+      "serviceCount": 3,
+      "chromosome": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "oldMetrics": [
+        3.3333,
+        0.7067,
+        0.1,
+        0.5222,
+        0.5897
+      ],
+      "newMetrics": [
+        3.3333,
+        0.3705,
+        -0.1308,
+        0.5222,
+        0.2877
+      ],
+      "independentUnroundedMetrics": [
+        3.3333333333333335,
+        0.3704648526077097,
+        -0.13078901397515524,
+        0.5222222222222223,
+        0.2877256795992655
+      ]
+    },
+    {
+      "group": "B",
+      "sourceRun": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-abc-v2-20261107-seed107/experiment/CoCoME/group-B/run-B-107.json",
+      "sourceRunSha256": "0066df33f71c5a678fef26809ce88830a29dce83a350b5d32f4fe1754e9a0206",
+      "serviceCount": 4,
+      "chromosome": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        2,
+        3,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "oldMetrics": [
+        3.5,
+        0.7668,
+        0.0768,
+        0.6964,
+        0.4564
+      ],
+      "newMetrics": [
+        3.5,
+        0.2655,
+        -0.1184,
+        0.6964,
+        0.1637
+      ],
+      "independentUnroundedMetrics": [
+        3.5,
+        0.2655325443786982,
+        -0.11835813492063485,
+        0.6964285714285714,
+        0.1637486026006846
+      ]
+    },
+    {
+      "group": "C",
+      "sourceRun": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-abc-v2-20261107-seed107/experiment/CoCoME/group-C/run-C-107.json",
+      "sourceRunSha256": "a4047411018eef45eeb5609ae7da4728f9c3d786358b66903226fb99c15b00e1",
+      "serviceCount": 3,
+      "chromosome": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "oldMetrics": [
+        2.6667,
+        0.7013,
+        0.1333,
+        0.6389,
+        0.4609
+      ],
+      "newMetrics": [
+        2.6667,
+        0.199,
+        -0.1308,
+        0.6389,
+        0.2331
+      ],
+      "independentUnroundedMetrics": [
+        2.6666666666666665,
+        0.19901234567901235,
+        -0.13078901397515524,
+        0.6388888888888888,
+        0.23313246331541193
+      ]
+    }
+  ]
+}

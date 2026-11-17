@@ -1,0 +1,20 @@
+{
+	"mode":"jev",
+	"status":"success",
+	"policyVersion":"online-novelty-gain-history-v1",
+	"promptVersion":"novelty-gain-history-choice-v2",
+	"contextHash":"dd80cc36234c726d6eedc795485962ccdd4fce94baa02c10978757f3e99aed96",
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/atm-guidance-loss05-isolated0-10seeds-20261110/experiment/ATM/online-jev/guidance-jev/trials/70453861583232213b28426d4c940d0f538b8a724a60dfdb7444315dd34e789c/audit",
+	"observedGenerations":100,
+	"decisionCount":9,
+	"requestCount":9,
+	"fallbackCount":0,
+	"finalProbability":0.2999999999999999,
+	"knownTokens":0,
+	"usageComplete":false,
+	"totalTokens":null,
+	"totalResponseMillis":7818.109291999999,
+	"monitoringMillis":56.95241600000002,
+	"controlMillis":7819.021331999999,
+	"auditMillis":53.896291999999995
+}

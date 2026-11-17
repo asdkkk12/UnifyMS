@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"formal",
+	"binding":"eef82f883b6f8eace5cb7f136ee5de32b4cb4e1b99b8ebd4ac436928f6510e53",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":73250.236709
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":73248.785667
+		}
+	],
+	"endToEndMillis":73250.251167
+}

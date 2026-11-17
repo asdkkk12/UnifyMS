@@ -1,0 +1,21 @@
+{
+	"status":"success",
+	"selector":"numeric",
+	"choice":"C0",
+	"meanHv":0.3003665176463752,
+	"totalTokens":0,
+	"totalResponseMillis":0,
+	"evidenceHash":"d07aad42bceb6a61ff3c0cd9b612fd96f9590fa83ba3f8faddcab7065cfdf521",
+	"binding":"bb1a3461620fe63b227d3071ddd9fce35af69396b0551c2cf48c706d3b293b12",
+	"inputHash":"b0d36476c404b6692ddd7ceb82089cde7388e2804d26b2580cdf89e06e075f1c",
+	"config":{
+		"crossP":0.5,
+		"crossoverProbability":0.7,
+		"evaluationBudget":0,
+		"generations":3,
+		"id":"C0",
+		"populationSize":24,
+		"seed":11
+	},
+	"evaluationBudget":240
+}

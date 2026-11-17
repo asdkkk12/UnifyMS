@@ -1,0 +1,45 @@
+{
+  "case": "CoCoME",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/cocome.remodel",
+  "mode": "run",
+  "stages": [
+    {
+      "stage": "build",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/cocome-smoke/logs/build.log",
+      "status": "success",
+      "seconds": 1.746837792
+    },
+    {
+      "stage": "snapshot",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/cocome-smoke/logs/snapshot.log",
+      "status": "success",
+      "seconds": 0.35663341599999976
+    },
+    {
+      "stage": "calibrate",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/cocome-smoke/logs/calibrate.log",
+      "status": "success",
+      "seconds": 2.0745478330000005
+    },
+    {
+      "stage": "select",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/cocome-smoke/logs/select.log",
+      "status": "success",
+      "seconds": 0.1942054999999998
+    },
+    {
+      "stage": "run-103",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/cocome-smoke/logs/run-103.log",
+      "status": "success",
+      "seconds": 0.4892027920000004
+    },
+    {
+      "stage": "export-visualize-report",
+      "status": "success",
+      "seconds": 0.011578040999999928
+    }
+  ],
+  "status": "success",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/paper-metrics-correction-20261107/cocome-smoke/analysis.md",
+  "elapsedSeconds": 4.873977459
+}

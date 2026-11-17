@@ -1,0 +1,21 @@
+{
+	"command":"select",
+	"profile":"formal",
+	"binding":"5ee671320ba5bd3af162d335bffad21b0e9c1c930fc911055145ec7cc6424203",
+	"systems":[
+		{
+			"system":"PiggyMetrics",
+			"status":"success",
+			"elapsedMillis":759.813541
+		}
+	],
+	"events":[
+		{
+			"stage":"select",
+			"system":"PiggyMetrics",
+			"status":"success",
+			"elapsedMillis":758.659417
+		}
+	],
+	"endToEndMillis":759.823667
+}

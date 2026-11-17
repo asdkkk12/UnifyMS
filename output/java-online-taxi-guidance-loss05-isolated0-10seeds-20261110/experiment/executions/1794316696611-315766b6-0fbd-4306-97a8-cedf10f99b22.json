@@ -1,0 +1,21 @@
+{
+	"command":"calibrate",
+	"profile":"formal",
+	"binding":"cdcb4712d06fc0ab1fbec3fc0822bc4c7afc26bd4fd14164da64a60fb4ea7f75",
+	"systems":[
+		{
+			"system":"JavaOnlineTaxi",
+			"status":"success",
+			"elapsedMillis":10378.991042
+		}
+	],
+	"events":[
+		{
+			"stage":"calibrate",
+			"system":"JavaOnlineTaxi",
+			"status":"success",
+			"elapsedMillis":10376.337125
+		}
+	],
+	"endToEndMillis":10379.004292
+}

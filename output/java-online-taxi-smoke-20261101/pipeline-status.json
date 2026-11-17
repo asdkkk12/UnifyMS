@@ -1,0 +1,45 @@
+{
+  "case": "JavaOnlineTaxi",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/java-online-taxi",
+  "mode": "run",
+  "stages": [
+    {
+      "stage": "build",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-smoke-20261101/logs/build.log",
+      "status": "success",
+      "seconds": 2.509372875
+    },
+    {
+      "stage": "snapshot",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-smoke-20261101/logs/snapshot.log",
+      "status": "success",
+      "seconds": 0.5122462080000001
+    },
+    {
+      "stage": "calibrate",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-smoke-20261101/logs/calibrate.log",
+      "status": "success",
+      "seconds": 2.164716833
+    },
+    {
+      "stage": "select",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-smoke-20261101/logs/select.log",
+      "status": "success",
+      "seconds": 0.20123120800000027
+    },
+    {
+      "stage": "run-101",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-smoke-20261101/logs/run-101.log",
+      "status": "success",
+      "seconds": 0.5377217920000001
+    },
+    {
+      "stage": "export-visualize-report",
+      "status": "success",
+      "seconds": 0.09087687500000019
+    }
+  ],
+  "status": "success",
+  "report": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-smoke-20261101/analysis.md",
+  "elapsedSeconds": 6.01715775
+}

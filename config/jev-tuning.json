@@ -1,0 +1,20 @@
+{
+  "profile": "formal",
+  "outputDirectory": "../output/jev-tuning-formal-v1",
+  "metricVersion": "legacy-ifn-average-v1",
+  "selector": "mock",
+  "calibrationSeeds": [11],
+  "validationSeeds": [101, 103, 107, 109, 113, 127, 131, 137, 139, 149],
+  "evaluationBudget": 0,
+  "systems": [
+    {"id": "CoCoME", "input": "../cocome.remodel"},
+    {"id": "LibMS", "input": "../library.remodel"},
+    {"id": "LoanPS", "input": "../loan.remodel"},
+    {"id": "AirMS", "input": "../airms.remodel"}
+  ],
+  "jev": {
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "model": null,
+    "timeoutMillis": 60000
+  }
+}

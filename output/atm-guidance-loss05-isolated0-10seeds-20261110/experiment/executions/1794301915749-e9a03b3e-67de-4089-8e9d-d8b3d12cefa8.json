@@ -1,0 +1,21 @@
+{
+	"command":"calibrate",
+	"profile":"formal",
+	"binding":"36674e91086d6e10de8742497664cfed572ab932f62a58b8e97ffce7a72722cb",
+	"systems":[
+		{
+			"system":"ATM",
+			"status":"success",
+			"elapsedMillis":4788.357833
+		}
+	],
+	"events":[
+		{
+			"stage":"calibrate",
+			"system":"ATM",
+			"status":"success",
+			"elapsedMillis":4785.605958
+		}
+	],
+	"endToEndMillis":4788.37225
+}

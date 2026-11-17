@@ -1,0 +1,21 @@
+{
+	"command":"compare-guidance",
+	"profile":"smoke",
+	"binding":"2673f39eadf0885047fc24544a4439b4381f38c77ed4149a56c7dab62888e3f3",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":6116.713458
+		}
+	],
+	"events":[
+		{
+			"stage":"compare-guidance",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":6113.661291
+		}
+	],
+	"endToEndMillis":6116.727084
+}

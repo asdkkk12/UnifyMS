@@ -1,0 +1,21 @@
+{
+	"command":"select",
+	"profile":"smoke",
+	"binding":"0f5956b7097c767418d14e0a8d3cd3dd58b44e5385a60e670e58719f6bcac2b5",
+	"systems":[
+		{
+			"system":"JavaOnlineTaxi",
+			"status":"success",
+			"elapsedMillis":37.49
+		}
+	],
+	"events":[
+		{
+			"stage":"select",
+			"system":"JavaOnlineTaxi",
+			"status":"success",
+			"elapsedMillis":18.832458
+		}
+	],
+	"endToEndMillis":37.503042
+}

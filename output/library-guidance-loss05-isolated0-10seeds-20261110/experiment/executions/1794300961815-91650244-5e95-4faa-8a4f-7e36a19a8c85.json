@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"formal",
+	"binding":"894bceba2a4ec667119a995d54826effde485ccafaa727cc0250c73917e4fbd1",
+	"systems":[
+		{
+			"system":"Library",
+			"status":"success",
+			"elapsedMillis":190808.075708
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"Library",
+			"status":"success",
+			"elapsedMillis":190805.973541
+		}
+	],
+	"endToEndMillis":190808.083208
+}

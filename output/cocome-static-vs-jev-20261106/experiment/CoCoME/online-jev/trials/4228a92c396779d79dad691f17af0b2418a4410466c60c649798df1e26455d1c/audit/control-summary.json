@@ -1,0 +1,20 @@
+{
+	"mode":"jev",
+	"status":"success",
+	"policyVersion":"online-novelty-gain-history-v1",
+	"promptVersion":"novelty-gain-history-choice-v1",
+	"contextHash":"c6f04d5be6e4393667e90a07ba766438f87170e535b897a0064da0bde7831d5c",
+	"auditDirectory":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-static-vs-jev-20261106/experiment/CoCoME/online-jev/trials/4228a92c396779d79dad691f17af0b2418a4410466c60c649798df1e26455d1c/audit",
+	"observedGenerations":300,
+	"decisionCount":9,
+	"requestCount":9,
+	"fallbackCount":0,
+	"finalProbability":0.45,
+	"knownTokens":0,
+	"usageComplete":false,
+	"totalTokens":null,
+	"totalResponseMillis":5960.04221,
+	"monitoringMillis":648972.3084119998,
+	"controlMillis":5961.986042,
+	"auditMillis":138.862496
+}

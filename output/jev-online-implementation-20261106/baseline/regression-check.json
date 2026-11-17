@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "compared": [
+    "population",
+    "front",
+    "evaluations",
+    "completedGenerations",
+    "validRate",
+    "validUniqueCount",
+    "nonDominatedCount"
+  ],
+  "evaluations": 5880,
+  "generations": 65
+}

@@ -1,0 +1,696 @@
+{
+  "javaFileCount": 126,
+  "moduleJavaFiles": {
+    "api-boss": 8,
+    "api-driver": 13,
+    "api-passenger": 18,
+    "internal-common": 32,
+    "service-driver-user": 16,
+    "service-map": 20,
+    "service-order": 7,
+    "service-passenger-user": 4,
+    "service-price": 5,
+    "service-verifycode": 3
+  },
+  "controllers": [
+    {
+      "sourceFile": "api-boss/src/main/java/com/jayden/apiboss/controller/CarController.java",
+      "class": "com.jayden.apiboss.controller.CarController",
+      "actor": "Car",
+      "declaredMethods": [
+        "addCar"
+      ],
+      "legacyNames": [
+        "addCar"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java",
+      "class": "com.jayden.apiboss.controller.DriverCarBindingRelationshipController",
+      "actor": "DriverCarBindingRelationship",
+      "declaredMethods": [
+        "bind",
+        "unbind"
+      ],
+      "legacyNames": [
+        "bind",
+        "unbind"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-boss/src/main/java/com/jayden/apiboss/controller/DriverUserController.java",
+      "class": "com.jayden.apiboss.controller.DriverUserController",
+      "actor": "DriverUser",
+      "declaredMethods": [
+        "addDriverUser",
+        "updateDriverUser"
+      ],
+      "legacyNames": [
+        "addDriverUser",
+        "updateDriverUser"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-driver/src/main/java/com/jayden/apidriver/controller/PointController.java",
+      "class": "com.jayden.apidriver.controller.PointController",
+      "actor": "Point",
+      "declaredMethods": [
+        "upload"
+      ],
+      "legacyNames": [
+        "upload"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-driver/src/main/java/com/jayden/apidriver/controller/TestController.java",
+      "class": "com.jayden.apidriver.controller.TestController",
+      "actor": "Test",
+      "declaredMethods": [
+        "testAuth",
+        "testNoAuth"
+      ],
+      "legacyNames": [
+        "testAuth",
+        "testNoAuth"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-driver/src/main/java/com/jayden/apidriver/controller/UserController.java",
+      "class": "com.jayden.apidriver.controller.UserController",
+      "actor": "User",
+      "declaredMethods": [
+        "updateUser"
+      ],
+      "legacyNames": [
+        "updateUser"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java",
+      "class": "com.jayden.apidriver.controller.VerifyCodeController",
+      "actor": "VerifyCode",
+      "declaredMethods": [
+        "verifyCode",
+        "verifyCodeCheck"
+      ],
+      "legacyNames": [
+        "verifyCode",
+        "verifyCodeCheck"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-passenger/src/main/java/com/jayden/apipassenger/controller/ForecastPriceController.java",
+      "class": "com.jayden.apipassenger.controller.ForecastPriceController",
+      "actor": "ForecastPrice",
+      "declaredMethods": [
+        "forecastPrice"
+      ],
+      "legacyNames": [
+        "forecastPrice"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-passenger/src/main/java/com/jayden/apipassenger/controller/OrderController.java",
+      "class": "com.jayden.apipassenger.controller.OrderController",
+      "actor": "Order",
+      "declaredMethods": [
+        "add"
+      ],
+      "legacyNames": [
+        "add"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java",
+      "class": "com.jayden.apipassenger.controller.TestController",
+      "actor": "Test",
+      "declaredMethods": [
+        "authTest",
+        "noauthTest",
+        "test"
+      ],
+      "legacyNames": [
+        "authTest",
+        "noauthTest",
+        "test"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-passenger/src/main/java/com/jayden/apipassenger/controller/TokenController.java",
+      "class": "com.jayden.apipassenger.controller.TokenController",
+      "actor": "Token",
+      "declaredMethods": [
+        "refreshToken"
+      ],
+      "legacyNames": [
+        "refreshToken"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-passenger/src/main/java/com/jayden/apipassenger/controller/UserController.java",
+      "class": "com.jayden.apipassenger.controller.UserController",
+      "actor": "User",
+      "declaredMethods": [
+        "getUser"
+      ],
+      "legacyNames": [
+        "getUser"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java",
+      "class": "com.jayden.apipassenger.controller.VerifyCodeController",
+      "actor": "VerifyCode",
+      "declaredMethods": [
+        "verifyCodeCheck",
+        "verifyCodeGet"
+      ],
+      "legacyNames": [
+        "verifyCodeCheck",
+        "verifyCodeGet"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java",
+      "class": "com.jayden.servicedriveruser.controller.CarController",
+      "actor": "Car",
+      "declaredMethods": [
+        "addCar",
+        "getCarById"
+      ],
+      "legacyNames": [
+        "addCar",
+        "getCarById"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java",
+      "class": "com.jayden.servicedriveruser.controller.DriverCarBindingRelationshipController",
+      "actor": "DriverCarBindingRelationship",
+      "declaredMethods": [
+        "bind",
+        "unbind"
+      ],
+      "legacyNames": [
+        "bind",
+        "unbind"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverUserWorkStatusController.java",
+      "class": "com.jayden.servicedriveruser.controller.DriverUserWorkStatusController",
+      "actor": "DriverUserWorkStatus",
+      "declaredMethods": [
+        "changeWorkStatus"
+      ],
+      "legacyNames": [
+        "changeWorkStatus"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java",
+      "class": "com.jayden.servicedriveruser.controller.TestController",
+      "actor": "Test",
+      "declaredMethods": [
+        "test",
+        "testGetUser"
+      ],
+      "legacyNames": [
+        "test",
+        "testGetUser"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java",
+      "class": "com.jayden.servicedriveruser.controller.UserController",
+      "actor": "User",
+      "declaredMethods": [
+        "addUser",
+        "getUser",
+        "updateUser"
+      ],
+      "legacyNames": [
+        "DriverUserExistsResponse",
+        "addUser",
+        "getUser",
+        "updateUser"
+      ],
+      "nonDeclarationNames": [
+        "DriverUserExistsResponse"
+      ]
+    },
+    {
+      "sourceFile": "service-map/src/main/java/com/jayden/servicemap/controller/DicDistrictController.java",
+      "class": "com.jayden.servicemap.controller.DicDistrictController",
+      "actor": "DicDistrict",
+      "declaredMethods": [
+        "initDicDistrict"
+      ],
+      "legacyNames": [
+        "initDicDistrict"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-map/src/main/java/com/jayden/servicemap/controller/DirectionController.java",
+      "class": "com.jayden.servicemap.controller.DirectionController",
+      "actor": "Direction",
+      "declaredMethods": [
+        "driving"
+      ],
+      "legacyNames": [
+        "driving"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-map/src/main/java/com/jayden/servicemap/controller/PointController.java",
+      "class": "com.jayden.servicemap.controller.PointController",
+      "actor": "Point",
+      "declaredMethods": [
+        "upload"
+      ],
+      "legacyNames": [
+        "upload"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-map/src/main/java/com/jayden/servicemap/controller/ServiceController.java",
+      "class": "com.jayden.servicemap.controller.ServiceController",
+      "actor": "Service",
+      "declaredMethods": [
+        "add"
+      ],
+      "legacyNames": [
+        "add"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java",
+      "class": "com.jayden.servicemap.controller.TerminalController",
+      "actor": "Terminal",
+      "declaredMethods": [
+        "add",
+        "aroundsearch",
+        "trsearch"
+      ],
+      "legacyNames": [
+        "add",
+        "aroundsearch",
+        "trsearch"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-map/src/main/java/com/jayden/servicemap/controller/TrackController.java",
+      "class": "com.jayden.servicemap.controller.TrackController",
+      "actor": "Track",
+      "declaredMethods": [
+        "add"
+      ],
+      "legacyNames": [
+        "add"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-order/src/main/java/com/jayden/serviceorder/controller/OrderInfoController.java",
+      "class": "com.jayden.serviceorder.controller.OrderInfoController",
+      "actor": "OrderInfo",
+      "declaredMethods": [
+        "add"
+      ],
+      "legacyNames": [
+        "add"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-order/src/main/java/com/jayden/serviceorder/controller/TestController.java",
+      "class": "com.jayden.serviceorder.controller.TestController",
+      "actor": "Test",
+      "declaredMethods": [
+        "test"
+      ],
+      "legacyNames": [
+        "test"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java",
+      "class": "com.jayden.servicepassengeruser.controller.UserController",
+      "actor": "User",
+      "declaredMethods": [
+        "getUser",
+        "loginOrRegisterUser"
+      ],
+      "legacyNames": [
+        "getUser",
+        "loginOrRegisterUser"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-price/src/main/java/com/jayden/serviceprice/controller/ForecastPriceController.java",
+      "class": "com.jayden.serviceprice.controller.ForecastPriceController",
+      "actor": "ForecastPrice",
+      "declaredMethods": [
+        "forecastPrice"
+      ],
+      "legacyNames": [
+        "forecastPrice"
+      ],
+      "nonDeclarationNames": []
+    },
+    {
+      "sourceFile": "service-verifycode/src/main/java/com/jayden/serviceverifycode/controller/VerifyCodeController.java",
+      "class": "com.jayden.serviceverifycode.controller.VerifyCodeController",
+      "actor": "VerifyCode",
+      "declaredMethods": [
+        "verifyCodeGet"
+      ],
+      "legacyNames": [
+        "verifyCodeGet"
+      ],
+      "nonDeclarationNames": []
+    }
+  ],
+  "methodSources": {
+    "DriverUserExistsResponse": [
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java"
+    ],
+    "add": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/OrderController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/ServiceController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/TrackController.java",
+      "service-order/src/main/java/com/jayden/serviceorder/controller/OrderInfoController.java"
+    ],
+    "addCar": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/CarController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java"
+    ],
+    "addDriverUser": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverUserController.java"
+    ],
+    "addUser": [
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java"
+    ],
+    "aroundsearch": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java"
+    ],
+    "authTest": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java"
+    ],
+    "bind": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java"
+    ],
+    "changeWorkStatus": [
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverUserWorkStatusController.java"
+    ],
+    "driving": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/DirectionController.java"
+    ],
+    "forecastPrice": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/ForecastPriceController.java",
+      "service-price/src/main/java/com/jayden/serviceprice/controller/ForecastPriceController.java"
+    ],
+    "getCarById": [
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java"
+    ],
+    "getUser": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/UserController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java",
+      "service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java"
+    ],
+    "initDicDistrict": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/DicDistrictController.java"
+    ],
+    "loginOrRegisterUser": [
+      "service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java"
+    ],
+    "noauthTest": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java"
+    ],
+    "refreshToken": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/TokenController.java"
+    ],
+    "test": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java",
+      "service-order/src/main/java/com/jayden/serviceorder/controller/TestController.java"
+    ],
+    "testAuth": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/TestController.java"
+    ],
+    "testGetUser": [
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java"
+    ],
+    "testNoAuth": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/TestController.java"
+    ],
+    "trsearch": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java"
+    ],
+    "unbind": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java"
+    ],
+    "updateDriverUser": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverUserController.java"
+    ],
+    "updateUser": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/UserController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java"
+    ],
+    "upload": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/PointController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/PointController.java"
+    ],
+    "verifyCode": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java"
+    ],
+    "verifyCodeCheck": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java",
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java"
+    ],
+    "verifyCodeGet": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java",
+      "service-verifycode/src/main/java/com/jayden/serviceverifycode/controller/VerifyCodeController.java"
+    ]
+  },
+  "methodNameCollisions": {
+    "add": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/OrderController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/ServiceController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/TrackController.java",
+      "service-order/src/main/java/com/jayden/serviceorder/controller/OrderInfoController.java"
+    ],
+    "addCar": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/CarController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java"
+    ],
+    "bind": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java"
+    ],
+    "forecastPrice": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/ForecastPriceController.java",
+      "service-price/src/main/java/com/jayden/serviceprice/controller/ForecastPriceController.java"
+    ],
+    "getUser": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/UserController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java",
+      "service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java"
+    ],
+    "test": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java",
+      "service-order/src/main/java/com/jayden/serviceorder/controller/TestController.java"
+    ],
+    "unbind": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java"
+    ],
+    "updateUser": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/UserController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java"
+    ],
+    "upload": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/PointController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/PointController.java"
+    ],
+    "verifyCodeCheck": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java",
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java"
+    ],
+    "verifyCodeGet": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java",
+      "service-verifycode/src/main/java/com/jayden/serviceverifycode/controller/VerifyCodeController.java"
+    ]
+  },
+  "actorSources": {
+    "Car": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/CarController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java"
+    ],
+    "DicDistrict": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/DicDistrictController.java"
+    ],
+    "Direction": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/DirectionController.java"
+    ],
+    "DriverCarBindingRelationship": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java"
+    ],
+    "DriverUser": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverUserController.java"
+    ],
+    "DriverUserWorkStatus": [
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverUserWorkStatusController.java"
+    ],
+    "ForecastPrice": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/ForecastPriceController.java",
+      "service-price/src/main/java/com/jayden/serviceprice/controller/ForecastPriceController.java"
+    ],
+    "Order": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/OrderController.java"
+    ],
+    "OrderInfo": [
+      "service-order/src/main/java/com/jayden/serviceorder/controller/OrderInfoController.java"
+    ],
+    "Point": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/PointController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/PointController.java"
+    ],
+    "Service": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/ServiceController.java"
+    ],
+    "Terminal": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/TerminalController.java"
+    ],
+    "Test": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/TestController.java",
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java",
+      "service-order/src/main/java/com/jayden/serviceorder/controller/TestController.java"
+    ],
+    "Token": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/TokenController.java"
+    ],
+    "Track": [
+      "service-map/src/main/java/com/jayden/servicemap/controller/TrackController.java"
+    ],
+    "User": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/UserController.java",
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/UserController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java",
+      "service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java"
+    ],
+    "VerifyCode": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java",
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java",
+      "service-verifycode/src/main/java/com/jayden/serviceverifycode/controller/VerifyCodeController.java"
+    ]
+  },
+  "actorNameCollisions": {
+    "Car": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/CarController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/CarController.java"
+    ],
+    "DriverCarBindingRelationship": [
+      "api-boss/src/main/java/com/jayden/apiboss/controller/DriverCarBindingRelationshipController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/DriverCarBindingRelationshipController.java"
+    ],
+    "ForecastPrice": [
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/ForecastPriceController.java",
+      "service-price/src/main/java/com/jayden/serviceprice/controller/ForecastPriceController.java"
+    ],
+    "Point": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/PointController.java",
+      "service-map/src/main/java/com/jayden/servicemap/controller/PointController.java"
+    ],
+    "Test": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/TestController.java",
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/TestController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/TestController.java",
+      "service-order/src/main/java/com/jayden/serviceorder/controller/TestController.java"
+    ],
+    "User": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/UserController.java",
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/UserController.java",
+      "service-driver-user/src/main/java/com/jayden/servicedriveruser/controller/UserController.java",
+      "service-passenger-user/src/main/java/com/jayden/servicepassengeruser/controller/UserController.java"
+    ],
+    "VerifyCode": [
+      "api-driver/src/main/java/com/jayden/apidriver/controller/VerifyCodeController.java",
+      "api-passenger/src/main/java/com/jayden/apipassenger/controller/VerifyCodeController.java",
+      "service-verifycode/src/main/java/com/jayden/serviceverifycode/controller/VerifyCodeController.java"
+    ]
+  },
+  "detectedEntityCandidates": [
+    "ApiDriverPointRequest",
+    "Car",
+    "DicDistrict",
+    "DirectionResponse",
+    "DriverCarBindingRelationship",
+    "DriverUser",
+    "DriverUserExistsResponse",
+    "DriverUserWorkStatus",
+    "ForecastPriceDTO",
+    "ForecastPriceResponse",
+    "NumberCodeResponse",
+    "OrderInfo",
+    "OrderRequest",
+    "PassengerUser",
+    "PointDTO",
+    "PointRequest",
+    "PriceRule",
+    "ResponseResult",
+    "ServiceResponse",
+    "TerminalResponse",
+    "TokenResponse",
+    "TokenResult",
+    "TrackResponse",
+    "TrsearchResponse",
+    "User",
+    "VerifyCodeDTO"
+  ],
+  "unselectedEntityCandidates": [
+    "DriverCarBindingRelationship",
+    "OrderRequest",
+    "PassengerUser",
+    "PointDTO",
+    "PriceRule",
+    "ServiceResponse",
+    "TerminalResponse",
+    "TrackResponse",
+    "TrsearchResponse",
+    "User",
+    "VerifyCodeDTO"
+  ],
+  "semantics": "Legacy controller method names and simple class names define the search model; AST only supplies declared fields and diagnostic evidence. The entity relation matrix remains the legacy lexical matrix, including diagonal terms."
+}

@@ -1,0 +1,21 @@
+{
+	"command":"calibrate",
+	"profile":"smoke",
+	"binding":"2c002be71ffc9abe72d80a3a3724f5a6a176fbf35d0726d591f44702238f133f",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":2967.570833
+		}
+	],
+	"events":[
+		{
+			"stage":"calibrate",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":2965.744084
+		}
+	],
+	"endToEndMillis":2967.5855
+}

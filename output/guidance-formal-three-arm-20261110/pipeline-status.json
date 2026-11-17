@@ -1,0 +1,47 @@
+{
+  "case": "CoCoME",
+  "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/cocome.remodel",
+  "mode": "run",
+  "stages": [
+    {
+      "stage": "snapshot",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-formal-three-arm-20261110/logs/snapshot.log",
+      "status": "success",
+      "seconds": 0.34238708300000004
+    },
+    {
+      "stage": "calibrate",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-formal-three-arm-20261110/logs/calibrate.log",
+      "status": "success",
+      "seconds": 7.815109124999999
+    },
+    {
+      "stage": "select",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-formal-three-arm-20261110/logs/select.log",
+      "status": "success",
+      "seconds": 0.9838813329999994
+    },
+    {
+      "stage": "compare-guidance",
+      "log": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-formal-three-arm-20261110/logs/compare-guidance.log",
+      "status": "stopped_after_acceptance_subset"
+    }
+  ],
+  "status": "acceptance_subset_completed",
+  "completedPairedSeeds": [
+    101
+  ],
+  "plannedSeeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149
+  ],
+  "note": "Completed formal seed 101 in all three arms; remaining planned seeds stopped intentionally. Completed-subset report is in guidance-formal-single-seed-20261110. This is not a completed ten-seed experiment."
+}

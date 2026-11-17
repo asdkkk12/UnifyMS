@@ -1,0 +1,25 @@
+{
+  "reason": "Previous DNS failure; original calibration preserved",
+  "sourceCalibrationSha256": "628d23da77865c48f1f1ca467514a23910562b76cc6fc9dcb75b44bf341bec0c",
+  "stages": [
+    {
+      "stage": "select-network-retry",
+      "status": "success",
+      "seconds": 1.3049107080000013,
+      "log": "/Users/yuanyaowu/Desktop/\u5b9e\u9a8c\u5ba4\u6750\u6599/UnifyMs/UnifyMS\u4ee3\u7801/output/java-online-taxi-jev-real-20261101/logs/select-network-retry.log"
+    },
+    {
+      "stage": "run-101-recovery",
+      "status": "success",
+      "seconds": 179.804174792,
+      "log": "/Users/yuanyaowu/Desktop/\u5b9e\u9a8c\u5ba4\u6750\u6599/UnifyMs/UnifyMS\u4ee3\u7801/output/java-online-taxi-jev-real-20261101/logs/run-101-recovery.log"
+    },
+    {
+      "stage": "report-recovery",
+      "status": "success",
+      "seconds": 0.43448662500000523,
+      "log": "/Users/yuanyaowu/Desktop/\u5b9e\u9a8c\u5ba4\u6750\u6599/UnifyMs/UnifyMS\u4ee3\u7801/output/java-online-taxi-jev-real-20261101/logs/report-recovery.log"
+    }
+  ],
+  "status": "success"
+}

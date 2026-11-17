@@ -1,0 +1,21 @@
+{
+	"command":"run",
+	"profile":"smoke",
+	"binding":"982d27beead672697062d5eb1d875c9ba55ba67c76e2af8e47d35b1ef9af3e58",
+	"systems":[
+		{
+			"system":"Library",
+			"status":"success",
+			"elapsedMillis":285.156583
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"Library",
+			"status":"success",
+			"elapsedMillis":283.852292
+		}
+	],
+	"endToEndMillis":285.167041
+}

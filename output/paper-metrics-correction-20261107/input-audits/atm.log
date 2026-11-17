@@ -1,0 +1,25 @@
+		BelongedUser : User Association
+User
+//		Has : Transcation* Association
+Transcation
+		OwnedCard : BankCard* ! Association
+BankCard
+//		InvolvedCard : BankCard ! Association
+BankCard
+manageBankCard manageBankCard
+manageBankCard manageUser
+manageUser manageBankCard
+manageUser manageUser
+depositFunds depositFunds
+depositFunds withdrawCash
+depositFunds checkBalance
+withdrawCash depositFunds
+withdrawCash withdrawCash
+withdrawCash checkBalance
+checkBalance depositFunds
+checkBalance withdrawCash
+checkBalance checkBalance
+Exception in thread "main" java.lang.IllegalArgumentException: Entity attributes not extracted: Transcation
+	at tuning.MetricMetadata.load(MetricMetadata.java:69)
+	at tuning.ModelLoader.load(ModelLoader.java:35)
+	at tuning.MermSnapshot.main(MermSnapshot.java:16)

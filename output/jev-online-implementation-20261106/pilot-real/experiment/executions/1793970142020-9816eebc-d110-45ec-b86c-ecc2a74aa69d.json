@@ -1,0 +1,29 @@
+{
+	"command":"run",
+	"profile":"smoke",
+	"binding":"2dee86651abd7e8ea48f2091080a5c5c3a4abb1adf2ff2bf563af682ea907e53",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"failed",
+			"error":"java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"value\" is null",
+			"elapsedMillis":37.1385
+		}
+	],
+	"events":[
+		{
+			"stage":"run",
+			"system":"CoCoME",
+			"status":"failed",
+			"elapsedMillis":35.464625
+		},
+		{
+			"stage":"reuse",
+			"system":"CoCoME",
+			"config":"C1",
+			"seed":101,
+			"taskKey":"6e8f133d0f1d9b6e424e9844538f2f957aa1089a02767c14acd6b96b370becee"
+		}
+	],
+	"endToEndMillis":37.153541
+}

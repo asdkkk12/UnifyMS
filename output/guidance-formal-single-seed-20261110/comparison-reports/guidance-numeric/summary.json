@@ -1,0 +1,29 @@
+{
+  "samples": 1,
+  "seeds": [
+    101
+  ],
+  "initialChoice": "C5",
+  "controlMode": "jev",
+  "guidanceMode": "numeric",
+  "means": {
+    "IFN": 1.0,
+    "CHD": 0.2965,
+    "CMQ": 0.1239,
+    "Instability": 0.5,
+    "UCM": 0.2629
+  },
+  "sampleStandardDeviations": {
+    "IFN": null,
+    "CHD": null,
+    "CMQ": null,
+    "Instability": null,
+    "UCM": null
+  },
+  "meanHv": 0.4827704624136119,
+  "meanServiceCount": 2,
+  "meanSearchSeconds": 407.836989708,
+  "runFiles": [
+    "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/guidance-formal-three-arm-20261110/experiment/CoCoME/online-jev/guidance-numeric/run-jev-101.json"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "profile": "formal",
+  "selector": "jev",
+  "metricVersion": "legacy-ifn-average-v1",
+  "outputDirectory": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/java-online-taxi-jev-real-20261101/experiment",
+  "calibrationSeeds": [
+    11
+  ],
+  "validationSeeds": [
+    101
+  ],
+  "evaluationBudget": 0,
+  "systems": [
+    {
+      "id": "JavaOnlineTaxi",
+      "input": "/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/java-online-taxi"
+    }
+  ],
+  "jev": {
+    "endpoint": "https://api.jevgo.cn/v1/systemone",
+    "model": "jev-1.14.0",
+    "timeoutMillis": 60000
+  }
+}

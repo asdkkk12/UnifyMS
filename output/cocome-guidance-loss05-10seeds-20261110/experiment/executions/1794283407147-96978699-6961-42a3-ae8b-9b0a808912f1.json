@@ -1,0 +1,31 @@
+{
+	"command":"select",
+	"profile":"formal",
+	"binding":"ad3726dd82ab1e943b9a41224e55810c21656f8c9f7f4ba1de2691f047f3ea50",
+	"systems":[
+		{
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":54.981
+		}
+	],
+	"events":[
+		{
+			"stage":"select",
+			"system":"CoCoME",
+			"status":"success",
+			"elapsedMillis":52.75475
+		},
+		{
+			"stage":"reuse-selection",
+			"selector":"numeric",
+			"file":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-guidance-loss05-10seeds-20261110/experiment/CoCoME/selection-numeric.json"
+		},
+		{
+			"stage":"reuse-selection",
+			"selector":"jev",
+			"file":"/Users/yuanyaowu/Desktop/实验室材料/UnifyMs/UnifyMS代码/output/cocome-guidance-loss05-10seeds-20261110/experiment/CoCoME/selection-jev.json"
+		}
+	],
+	"endToEndMillis":54.990084
+}

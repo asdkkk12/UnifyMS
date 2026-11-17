@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dependency:Dependency xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dependency="http://www.example.org/dependency">
+  <boundary name="light-reading-cloud">
+    <user name="light-reading-cloud" modularity="//@boundary.0/@modularity.1 //@boundary.0/@modularity.3 //@boundary.0/@modularity.5 //@boundary.0/@modularity.7 //@boundary.0/@modularity.4 //@boundary.0/@modularity.6 //@boundary.0/@modularity.0 //@boundary.0/@modularity.8 //@boundary.0/@modularity.9 //@boundary.0/@modularity.2 "/>
+    <modularity name="LikeSeeController" operation="//@boundary.0/@operation.0 //@boundary.0/@operation.1 "/>
+    <operation name="getBookLikesCount" entity="//@boundary.0/@entity.14 //@boundary.0/@entity.15 "/>
+    <operation name="RequestMapping"/>
+    <modularity name="UserBookshelfController" operation="//@boundary.0/@operation.2 "/>
+    <operation name="RequestMapping"/>
+    <modularity name="UserController" operation="//@boundary.0/@operation.3 //@boundary.0/@operation.4 //@boundary.0/@operation.5 "/>
+    <operation name="login" entity="//@boundary.0/@entity.22 //@boundary.0/@entity.23 //@boundary.0/@entity.24 //@boundary.0/@entity.25 //@boundary.0/@entity.26 "/>
+    <operation name="RequestMapping"/>
+    <operation name="register" entity="//@boundary.0/@entity.22 "/>
+    <modularity name="BookChapterController" operation="//@boundary.0/@operation.6 //@boundary.0/@operation.7 //@boundary.0/@operation.8 //@boundary.0/@operation.9 "/>
+    <operation name="getBookChapterList" entity="//@boundary.0/@entity.0 //@boundary.0/@entity.1 //@boundary.0/@entity.2 //@boundary.0/@entity.3 "/>
+    <operation name="getChapter" entity="//@boundary.0/@entity.3 "/>
+    <operation name="readChapter" entity="//@boundary.0/@entity.4 //@boundary.0/@entity.0 //@boundary.0/@entity.5 //@boundary.0/@entity.3 //@boundary.0/@entity.6 //@boundary.0/@entity.7 "/>
+    <operation name="RequestMapping"/>
+    <modularity name="BookController" operation="//@boundary.0/@operation.10 //@boundary.0/@operation.11 //@boundary.0/@operation.12 "/>
+    <operation name="getBookDetails" entity="//@boundary.0/@entity.13 //@boundary.0/@entity.0 "/>
+    <operation name="RequestMapping"/>
+    <operation name="getBookById" entity="//@boundary.0/@entity.0 "/>
+    <modularity name="CategoryController" operation="//@boundary.0/@operation.13 "/>
+    <operation name="RequestMapping"/>
+    <modularity name="FallbackController" operation="//@boundary.0/@operation.14 "/>
+    <operation name="fallback"/>
+    <modularity name="IndexBooklistItemController" operation="//@boundary.0/@operation.15 //@boundary.0/@operation.16 "/>
+    <operation name="getBooklistPagingBooks" entity="//@boundary.0/@entity.8 //@boundary.0/@entity.9 //@boundary.0/@entity.10 "/>
+    <operation name="getBooklistExchange" entity="//@boundary.0/@entity.11 //@boundary.0/@entity.12 "/>
+    <modularity name="IndexPageConfigController" operation="//@boundary.0/@operation.17 "/>
+    <operation name="getIndexPageByType" entity="//@boundary.0/@entity.16 //@boundary.0/@entity.17 //@boundary.0/@entity.18 "/>
+    <modularity name="SearchController" operation="//@boundary.0/@operation.18 //@boundary.0/@operation.19 "/>
+    <operation name="getSearchResultBooks" entity="//@boundary.0/@entity.19 //@boundary.0/@entity.20 "/>
+    <operation name="getHotSearchWordList" entity="//@boundary.0/@entity.21 "/>
+    <entity name="Book"/>
+    <entity name="BookChapterListVO"/>
+    <entity name="BookChapterList"/>
+    <entity name="BookChapter"/>
+    <entity name="BookPreviousAndNextChapterNode"/>
+    <entity name="BookChapterVO"/>
+    <entity name="BookChapterReadVO"/>
+    <entity name="BookChapterRead"/>
+    <entity name="BooklistBook"/>
+    <entity name="IndexBooklistItem"/>
+    <entity name="BooklistBookVO"/>
+    <entity name="IndexBooklistVO"/>
+    <entity name="IndexBooklist"/>
+    <entity name="BookVO"/>
+    <entity name="Integer"/>
+    <entity name="LikeSee"/>
+    <entity name="IndexPageVO"/>
+    <entity name="IndexPageConfig"/>
+    <entity name="IndexPage"/>
+    <entity name="SearchBookResult"/>
+    <entity name="RequestQuery"/>
+    <entity name="HotSearchWord"/>
+    <entity name="User"/>
+    <entity name="AuthVO"/>
+    <entity name="UserVO"/>
+    <entity name="Auth"/>
+    <entity name="UserBO"/>
+  </boundary>
+</dependency:Dependency>

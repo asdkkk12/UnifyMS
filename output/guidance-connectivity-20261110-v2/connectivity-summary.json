@@ -1,0 +1,9 @@
+{
+	"purpose":"Connectivity only, not a quality/effectiveness experiment",
+	"llmStatus":"success",
+	"llmError":null,
+	"llmTokens":5261,
+	"jevStatus":"success",
+	"jevError":null,
+	"jevTokens":null
+}
